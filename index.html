@@ -17,7 +17,7 @@ input[type=search]{width:100%;min-height:44px;padding:9px 11px;border-radius:8px
 .bar button[aria-pressed=true]{background:var(--acc);color:#2b2208;border-color:var(--acc)}
 button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--tea);outline-offset:2px}
 header :focus-visible{outline-color:var(--acc)}
-#sheet:focus{outline:none}
+#sheet:focus,#fp:focus{outline:none}
 main{padding:6px 14px}
 .stt{padding:6px 0 0;font-size:13px}.stt .nt{margin:2px 0 0}
 .stt button{border:0;background:none;color:var(--tea);font:inherit;font-size:13px;text-decoration:underline;min-height:44px;padding:0 6px}
@@ -36,10 +36,10 @@ main{padding:6px 14px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .empty{color:var(--mut);padding:30px 0;text-align:center}
 .err{padding:26px 0;text-align:center}.err p{margin:0 0 6px}.err button{min-height:44px;padding:8px 18px;border-radius:10px;border:1.5px solid var(--ink);background:none;color:var(--ink);font:inherit}
-#sheet{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--card);border-radius:16px 16px 0 0;box-shadow:0 -6px 24px #12303a40;max-height:62vh;overflow:auto;padding:14px 16px calc(16px + env(safe-area-inset-bottom));transform:translateY(105%);visibility:hidden;transition:transform .22s,visibility 0s .22s}
-#sheet.o{transform:none;visibility:visible;transition:transform .22s,visibility 0s}@media(prefers-reduced-motion:reduce){#sheet,#sheet.o{transition:none}}
-#sheet h3{margin:0 48px 2px 0;font-size:17px}.meta{color:var(--mut);font-size:13px;margin-bottom:8px}
-#sx{position:absolute;right:4px;top:2px;width:44px;height:44px;border:0;background:none;font-size:24px;color:var(--mut)}
+#sheet,#fp{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--card);border-radius:16px 16px 0 0;box-shadow:0 -6px 24px #12303a40;max-height:62vh;overflow:auto;padding:14px 16px calc(16px + env(safe-area-inset-bottom));transform:translateY(105%);visibility:hidden;transition:transform .22s,visibility 0s .22s}
+#sheet.o,#fp.o{transform:none;visibility:visible;transition:transform .22s,visibility 0s}@media(prefers-reduced-motion:reduce){#sheet,#sheet.o,#fp,#fp.o{transition:none}}
+#sheet h3,#fp h3{margin:0 48px 2px 0;font-size:17px}.meta{color:var(--mut);font-size:13px;margin-bottom:8px}
+#sx,#fx{position:absolute;right:4px;top:2px;width:44px;height:44px;border:0;background:none;font-size:24px;color:var(--mut)}
 .pill{display:inline-block;border-radius:6px;padding:2px 8px;font-size:12px;margin:0 6px 6px 0;background:#DCE7E9}
 .pill.w{background:#F8E3B4}.pill.b{background:#F2D0C6;color:var(--bad)}.pill.g{background:#CBE8DF}
 .row{display:flex;gap:6px;margin:10px 0}.row button{flex:1;min-height:44px;padding:9px 4px;border-radius:8px;border:1.5px solid var(--ink);background:none;font:inherit;color:var(--ink)}
@@ -51,40 +51,110 @@ details.dn{margin:2px 0 6px}details.dn summary{min-height:44px;display:flex;alig
 #rc{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 2px}#rc button{min-height:44px;border:1.5px solid var(--ink);background:none;color:var(--ink);padding:6px 11px;border-radius:10px;font:inherit;font-size:13px;text-align:left}#rc button[aria-pressed=true]{background:var(--ink);color:#fff}
 .tg{font-size:12px;color:var(--mut);margin:4px 0 6px}.st{position:relative;margin:0;padding:12px 0 6px 18px;border-left:2px solid var(--line)}.st::before{content:"";position:absolute;left:-7px;top:15px;width:12px;height:12px;border-radius:3px;background:var(--acc);border:2px solid var(--ink)}
 .st h2{font-size:14px;margin:0 0 6px}.ob{font-size:12px;background:#DCE7E9;border-radius:6px;padding:1px 7px;margin-left:6px;font-weight:400}.nt{font-size:13px;color:var(--mut)}
+.stt .fc{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0}.stt .fc:empty{display:none}
+.stt .fc button{border:1.5px solid var(--ink);background:var(--card);color:var(--ink);text-decoration:none;border-radius:999px;padding:4px 12px;min-height:44px;text-align:left}
+.stt .fc button.lt{border:0;background:none;color:var(--tea);text-decoration:underline}
+.tkw{padding:12px 0 4px}.tkw h2{font-size:14px;margin:0 0 8px;font-weight:650}.tkg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:6px}
+.tk{min-height:64px;text-align:left;border:1.5px solid var(--ink);background:var(--card);color:var(--ink);border-radius:12px;padding:8px 10px;font:inherit;display:flex;flex-direction:column;gap:2px}.tk b{font-size:14px}.tk span{font-size:12px;color:var(--mut)}
+#fp{max-height:56vh}
+.fb{display:flex;flex-wrap:wrap;gap:6px}.fb button{min-height:44px;border:1.5px solid var(--ink);background:none;color:var(--ink);padding:6px 12px;border-radius:999px;font:inherit;font-size:13px}.fb button[aria-pressed=true]{background:var(--ink);color:#fff}
+#fb select{width:100%;min-height:44px;font:inherit;padding:8px;border-radius:8px;border:1.5px solid var(--ink);background:var(--card);color:var(--ink)}
+.empty .lk{margin:0 auto}
 footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
 </style></head><body>
 <header><div class="top"><h1>Catálogo UMI</h1><div class="bar" id="tabs"></div></div>
-<input type="search" id="q" placeholder="Buscar ferramenta, técnica, licença…" aria-label="Buscar">
+<input type="search" id="q" placeholder="Buscar por nome, ID, técnica, licença…" aria-label="Buscar">
 <div class="bar" id="bar"></div></header>
-<main id="map"><div class="stt" id="stt" hidden><span id="stl"></span><button id="all" type="button">ver todas</button><div class="nt" id="stn"></div></div><div id="mp"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
+<main id="map"><div class="stt" id="stt" hidden><span id="stl" role="status"></span><button id="all" type="button">ver todas</button><div class="fc" id="fc"></div><div class="nt" id="stn"></div></div><div id="mp"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
 <footer>Mapa de camadas: ordem e tipos são <b>proposta automática</b> (palavras-chave), não verificada.<br>Licença só é firme quando lida na fonte: <b>lic ✓</b> lida na fonte · <b>lic ?</b> não confirmada · <b>lic ✕</b> restrita ou sem fonte. Marcas ficam neste aparelho.</footer>
+<section id="fp" role="dialog" aria-modal="false" aria-labelledby="fpt" tabindex="-1"><button id="fx" type="button" aria-label="Fechar os filtros">×</button><div id="fb"></div></section>
 <section id="sheet" role="dialog" aria-modal="false" aria-labelledby="sht" tabindex="-1"><button id="sx" type="button" aria-label="Fechar a ficha">×</button><div id="sb"></div></section>
 <script>
 const ORD=['Fundação semântica','Padrões, Formatos e Validação','FAIR & Proveniência','Identificação & Bibliotecas','Processamento & Análise espectral','Simulação espectral/instrumental','Termodinâmica e Propriedades','Simulação de Processo','Digital Twin & Processo','Runtime do digital twin','Estado de equipamento e integridade','Visão industrial','Verticais de processo','Fusão, Incerteza & ML','Compliance e segurança','Economia','Supply chain e footprint','Stack de implementação','Visualização & UI','Sem eixo (a definir)'];
 const FIL=[['auto','Candidatas'],['ferramenta','Ferramentas'],['base','Bases e datasets'],['norma','Normas'],['artigo','Artigos'],['all','Todas']];
 const ROT={auto:'Candidatas a rodar sozinhas',ferramenta:'Ferramentas',base:'Bases e datasets',norma:'Normas',artigo:'Artigos'};
+const MARCA={u:'Usar',v:'Ver depois',d:'Descartadas','-':'Sem marca'};
 const MK=[['u','Usar','★'],['v','Ver depois','◔'],['d','Descartar','✕']];
 /* Selo de licença (D1): rótulo, cor e símbolo. Texto sempre junto da cor. */
 const LC={verificada:['verificada na fonte','g','✓','Licença lida na fonte'],triagem:['triagem por outra IA','w','?','Licença trazida pela planilha ou por outra IA; ninguém leu o LICENSE na fonte.'],
  a_confirmar:['a confirmar','w','?','Licença ainda não confirmada; ler o LICENSE ao integrar.'],restrita:['restrita','b','✕','A planilha indica restrição ou licença comercial; não foi lida na fonte.'],
  sem_fonte:['sem fonte','b','✕','A fonte não abriu quando foi conferida; a licença não pôde ser lida.'],nao_localizada:['não localizada','w','?','Licença não localizada nas buscas anteriores.'],varia:['varia','w','?','A licença varia conforme o item ou o componente.']};
 const $=s=>document.querySelector(s),ls=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}};
-let C={out:{},edges:[],recipes:[],prod:{}},cok=false,rid='r0',view='map',D=[],B={},marks=ls('umi_m',{}),ov=ls('umi_a',{}),st={t:'auto',m:'',q:'',sel:null,op:null};
+let C={out:{},edges:[],recipes:[],prod:{}},cok=false,rid='r0',view='map',D=[],B={},marks=ls('umi_m',{}),ov=ls('umi_a',{}),st={t:'auto',m:'',q:'',sel:null,op:null,lc:[],ax:'',lk:''};
 const auto=o=>o.i in ov?ov[o.i]:!!o.a,sv=()=>{try{localStorage.setItem('umi_m',JSON.stringify(marks));localStorage.setItem('umi_a',JSON.stringify(ov))}catch(e){}};
 const norm=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 const e=(t,c,x)=>{const n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n};
 const isOpen=()=>$('#sheet').classList.contains('o');
-function keep(o){if(st.t==='auto'?!auto(o):st.t!=='all'&&o.t!==st.t)return 0;if(st.m&&(marks[o.i]||'')!==(st.m==='-'?'':st.m))return 0;
- if(st.q&&!norm(o.n+' '+o.d+' '+o.l+' '+o.e).includes(st.q))return 0;return 1}
-function bar(){const b=$('#bar');b.innerHTML='';FIL.forEach(([k,l])=>{const x=e('button','',l);x.type='button';x.setAttribute('aria-pressed',st.t===k);x.onclick=()=>{st.t=k;bar();draw()};b.append(x)});
- [['','Qualquer marca'],['u','★ Usar'],['v','◔ Ver depois'],['d','✕ Descartadas'],['-','Sem marca']].forEach(([k,l])=>{const x=e('button','',l);x.type='button';x.setAttribute('aria-pressed',st.m===k);x.onclick=()=>{st.m=k;bar();draw()};b.append(x)})}
-function tabs(){const t=$('#tabs');t.innerHTML='';[['map','Mapa'],['chain','Cadeias']].forEach(([k,l])=>{const x=e('button','',l);x.type='button';x.setAttribute('aria-pressed',view===k);x.onclick=()=>{view=k;tabs();$('#bar').style.display=k==='map'?'':'none';$('#q').style.display=k==='map'?'':'none';draw()};t.append(x)})}
+/* OTM-3 · Busca ponderada (3.2). Tudo local, sem rede. Pesos por campo: nome 10, técnica 6, descrição 3, licença 3, eixo 1. */
+const PESO={nm:10,tc:6,ds:3,lc:3,ex:1};
+const STOP=new Set(['de','da','do','das','dos','e','a','o','as','os','em','para','com','the','of','and','for','in','to']);
+/* Sinônimos pt/en por radical (proposta): o token que começa com um radical ganha os outros como alternativa, com peso menor. */
+const GRP=[['espectr','spectr'],['bateri','batter'],['termodinam','thermodynam'],['gemeo','twin'],['rolament','bearing'],['envelhec','aging','ageing'],['manuten','maintenan'],['falha','fault','failure'],['reator','reactor'],['cristal','crystal'],['seguranc','safety'],['pegada','footprint'],['carbono','carbon'],['otimiz','optimi'],['quimiometr','chemometr'],['cinetic','kinetic'],['equipamento','equipment'],['valvula','valve'],['bomba','pump'],['trocador','exchanger'],['licenc','licens'],['norma','standard','padrao'],['database','dataset','base de dados','banco de dados'],['dados','data']];
+const palavras=s=>s.split(/[\s\/()\[\],;:_\-–—]+/).map(w=>w.replace(/[^a-z0-9]/g,'')).filter(Boolean);
+let IX=[],VOC=new Set(),QS=null,LASTN=0;
+function mkIdx(){IX=D.map(o=>{const F={nm:norm(o.n),tc:norm(o.tc||''),ds:norm(o.d||''),lc:norm('licenca '+(o.l||'')+' '+(LC[o.lc]?LC[o.lc][0]:'')),ex:norm(o.e||'')},W={},T={};for(const k in F){W[k]=palavras(F[k]);T[k]=W[k].join(' ')}return{o,W,T}});
+ VOC=new Set();IX.forEach(x=>{for(const k in x.W)x.W[k].forEach(w=>{if(w.length>=5)VOC.add(w)})})}
+function mt(x,k,a){let m=0;for(const w of x.W[k]){if(w===a)return 1;if(w.startsWith(a))m=.7}return m||(a.length>=3&&x.T[k].includes(a)?.35:0)}
+function tsc(x,al){let s=0;for(const k in PESO){let b=0;for(const [a,p] of al){const m=mt(x,k,a)*p;if(m>b)b=m}s+=PESO[k]*b}return s}
+function alts(t){const a=[[t,1]],g=GRP.find(g=>g.some(s=>s.length>=4&&!s.includes(' ')&&t.startsWith(s)));if(g)g.forEach(s=>{if(s!==t)a.push([s,.6])});return a}
+function toks(q){q=q.replace(/\b(banco|base)s? de dados\b/g,'database');const t=palavras(q),f=t.filter(w=>!STOP.has(w)&&w.length>=2);return f.length?f:t}
+function d1(a,b){const la=a.length,lb=b.length;if(Math.abs(la-lb)>1)return false;let i=0;while(i<la&&i<lb&&a[i]===b[i])i++;if(i===la&&i===lb)return true;
+ if(la===lb)return a.slice(i+1)===b.slice(i+1)||(a[i]===b[i+1]&&a[i+1]===b[i]&&a.slice(i+2)===b.slice(i+2));
+ return la>lb?a.slice(i+1)===b.slice(i):b.slice(i+1)===a.slice(i)}
+function bonus(x,nq){const n=x.T.nm;return n===nq?30:n.startsWith(nq)?8:nq.length>=3&&n.includes(nq)?4:0}
+/* Devolve {r:[[id,nota],…] em ordem de relevância, fix:[[digitado,considerado],…]} ou null se a consulta for vazia. Filtros não entram aqui. */
+function buscar(q){q=q.trim();if(!q)return null;const nq0=norm(q),mi=nq0.match(/^umi[\s-]*0*(\d{1,3})$/);
+ if(mi){const id='UMI-'+mi[1].padStart(3,'0');return{r:B[id]?[[id,1000]]:[],fix:[]}}
+ const T=toks(nq0);if(!T.length)return null;const nq=T.join(' ');
+ const run=AL=>{const r=[];IX.forEach(x=>{let s=0;for(const al of AL){const v=tsc(x,al);if(!v){s=0;break}s+=v}if(s)r.push([x.o.i,s+bonus(x,nq)])});
+  r.sort((a,b)=>b[1]-a[1]||(+auto(B[b[0]]))-(+auto(B[a[0]]))||(a[0]<b[0]?-1:1));return r};
+ let AL=T.map(alts),r=run(AL);const fix=[];
+ /* 2ª etapa, só se a exata não achou nada: erro de 1 letra em palavra de 5+ letras */
+ if(!r.length){AL=T.map((t,j)=>{if(t.length<5||IX.some(x=>tsc(x,AL[j])>0))return AL[j];const c=[...VOC].filter(w=>w!==t&&d1(w,t));if(!c.length)return AL[j];fix.push([t,c.slice(0,3).join(' ou ')]);return AL[j].concat(c.map(w=>[w,.5]))});r=run(AL)}
+ return{r,fix}}
+/* Filtros combinados (3.4): tipo × licença × eixo × link × marca × busca. skip = dimensão ignorada ao contar as opções dela. */
+function okf(o,skip){
+ if(skip!=='t'&&(st.t==='auto'?!auto(o):st.t!=='all'&&o.t!==st.t))return 0;
+ if(skip!=='m'&&st.m&&(marks[o.i]||'')!==(st.m==='-'?'':st.m))return 0;
+ if(skip!=='lc'&&st.lc.length&&!st.lc.includes(o.lc))return 0;
+ if(skip!=='ax'&&st.ax&&o.e!==st.ax)return 0;
+ if(skip!=='lk'&&st.lk&&(st.lk==='com')!==!!o.u.trim())return 0;
+ if(QS&&!QS.has(o.i))return 0;return 1}
+function cnt(dim){const c={};D.forEach(o=>{if(!okf(o,dim))return;const ks=dim==='t'?['all',o.t].concat(auto(o)?['auto']:[]):dim==='m'?['',marks[o.i]||'-']:dim==='lc'?[o.lc]:dim==='ax'?[o.e]:['',o.u.trim()?'com':'sem'];ks.forEach(k=>c[k]=(c[k]||0)+1)});return c}
+const nExtra=()=>st.lc.length+(st.ax?1:0)+(st.lk?1:0)+(st.m?1:0);
+const fOpen=()=>$('#fp').classList.contains('o');
+function limparTudo(){st.t='all';st.m='';st.lc=[];st.ax='';st.lk='';st.q='';$('#q').value='';draw()}
+function bar(){const b=$('#bar'),ac=document.activeElement,fk=ac&&b.contains(ac)?ac.dataset.f:null;b.innerHTML='';const ct=cnt('t');
+ FIL.forEach(([k,l])=>{const x=e('button','',l+' '+(ct[k]||0));x.type='button';x.dataset.f='t:'+k;x.setAttribute('aria-pressed',st.t===k);x.onclick=()=>{st.t=k;draw()};b.append(x)});
+ const f=e('button','','Filtros'+(nExtra()?' · '+nExtra():''));f.type='button';f.dataset.f='fp';f.setAttribute('aria-expanded',fOpen());f.setAttribute('aria-controls','fp');f.onclick=()=>fOpen()?fecharF(true):abrirF();b.append(f);
+ if(fk){const t=b.querySelector('[data-f="'+fk+'"]');if(t)t.focus({preventScroll:true})}}
+function tabs(){const t=$('#tabs');t.innerHTML='';[['map','Mapa'],['chain','Cadeias']].forEach(([k,l])=>{const x=e('button','',l);x.type='button';x.setAttribute('aria-pressed',view===k);x.onclick=()=>setView(k);t.append(x)})}
+function setView(k){view=k;tabs();$('#bar').style.display=k==='map'?'':'none';$('#q').style.display=k==='map'?'':'none';if(k!=='map')fecharF();draw()}
+function goRecipe(id){rid=id;setView('chain')}
+/* Painel de filtros (3.4): folha inferior, como a ficha; as contagens de cada opção levam em conta os outros filtros. */
+function abrirF(k){if(isOpen())fechar();fpanel(k||'');const p=$('#fp');p.classList.add('o');p.scrollTop=0;bar();const alvo=k&&$('#fb [data-f="'+k+'"]');if(alvo)alvo.focus({preventScroll:true});else p.focus({preventScroll:true})}
+function fecharF(foco){if(!fOpen())return;$('#fp').classList.remove('o');bar();if(foco){const t=$('#bar [data-f="fp"]');if(t)t.focus()}}
+function fpanel(k){const b=$('#fb'),ac=document.activeElement,fk=k||(ac&&b.contains(ac)?ac.dataset.f:'');b.innerHTML='';
+ const h=e('h3','','Filtros');h.id='fpt';b.append(h);const gp=t=>b.append(e('div','rl',t));
+ const bt=(txt,key,on,fn,w)=>{const x=e('button','',txt);x.type='button';x.dataset.f=key;x.setAttribute('aria-pressed',on);x.onclick=fn;w.append(x)};
+ const cl=cnt('lc');gp('Estado da licença (pode marcar vários)');let w=e('div','fb');
+ Object.keys(LC).forEach(c=>bt(LC[c][0]+' · '+(cl[c]||0),'lc:'+c,st.lc.includes(c),()=>{st.lc=st.lc.includes(c)?st.lc.filter(x=>x!==c):st.lc.concat(c);draw()},w));b.append(w);
+ const ca=cnt('ax');gp('Eixo');const sl=e('select');sl.dataset.f='ax';sl.setAttribute('aria-label','Eixo');
+ const eix=ORD.filter(x=>D.some(o=>o.e===x)).concat([...new Set(D.map(o=>o.e))].filter(x=>!ORD.includes(x)));
+ sl.append(new Option('Todos os eixos',''));eix.forEach(x=>sl.append(new Option(x+' · '+(ca[x]||0),x)));sl.value=st.ax;sl.onchange=()=>{st.ax=sl.value;draw()};b.append(sl);
+ const ck=cnt('lk');gp('Link');w=e('div','fb');
+ [['','Qualquer'],['com','Com link'],['sem','Sem link']].forEach(([v,l])=>bt(l+' · '+(ck[v]||0),'lk:'+(v||'any'),st.lk===v,()=>{st.lk=v;draw()},w));b.append(w);
+ b.append(e('div','nt','“Com link” inclui '+D.filter(o=>o.us==='proposta').length+' endereços propostos por busca externa, ainda não abertos.'));
+ const cm=cnt('m');gp('Marca (feita neste aparelho)');w=e('div','fb');
+ [['','Qualquer marca'],['u','★ Usar'],['v','◔ Ver depois'],['d','✕ Descartadas'],['-','Sem marca']].forEach(([v,l])=>bt(l+' · '+(cm[v]||0),'m:'+(v||'any'),st.m===v,()=>{st.m=v;draw()},w));b.append(w);
+ const r=e('div','row'),lp=e('button','','Limpar filtros'),ok=e('button','','Ver '+LASTN+(LASTN===1?' resultado':' resultados'));lp.type=ok.type='button';lp.dataset.f='limpar';ok.dataset.f='ok';lp.onclick=limparTudo;ok.onclick=()=>fecharF(true);r.append(lp,ok);b.append(r);
+ if(fk){const t=b.querySelector('[data-f="'+fk+'"]');if(t)t.focus({preventScroll:true})}}
 /* Mensagens de erro com botão "tentar de novo" (2.3) */
 function falha(txt,fn){const m=$('#mp');m.innerHTML='';const d=e('div','err');d.setAttribute('role','alert');d.append(e('p','',txt));const b=e('button','','Tentar de novo');b.type='button';b.onclick=fn;d.append(b);m.append(d);$('#stt').hidden=true}
 const getj=u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
 function loadChains(){return getj('chains.json').then(c=>{C=c;cok=true}).catch(()=>{cok=false})}
 function load(){$('#mp').innerHTML='';$('#mp').append(e('p','empty','Carregando o catálogo…'));
- return Promise.all([getj('data.json'),loadChains()]).then(([d])=>{if(!Array.isArray(d))throw new Error('data.json inválido');D=d;B={};d.forEach(o=>B[o.i]=o);tabs();bar();draw()})
+ return Promise.all([getj('data.json'),loadChains()]).then(([d])=>{if(!Array.isArray(d))throw new Error('data.json inválido');D=d;B={};d.forEach(o=>B[o.i]=o);mkIdx();tabs();bar();draw()})
  .catch(()=>falha('Não foi possível carregar os dados do catálogo (data.json). Verifique a conexão e tente de novo.',load))}
 function chains(){const m=$('#mp');m.innerHTML='';$('#stt').hidden=true;
  if(!cok||!C.recipes.length){const d=e('div','err');d.setAttribute('role','alert');d.append(e('p','','Não foi possível carregar as cadeias (chains.json).'));const b=e('button','','Tentar de novo');b.type='button';b.onclick=()=>loadChains().then(chains);d.append(b);m.append(d);return}
@@ -96,17 +166,40 @@ function chains(){const m=$('#mp');m.innerHTML='';$('#stt').hidden=true;
   const nd=e('div','nodes');p.ids.forEach(i=>{const d=B[i];if(!d)return;const b=e('button','n'+(auto(d)?' a':''),d.n.length>34?d.n.slice(0,33)+'…':d.n);b.type='button';b.dataset.i=d.i;badge(b,d);b.onclick=()=>{if(!isOpen())st.op=d.i;sheet(d)};nd.append(b)});s.append(nd);
   if(p.n>p.ids.length)s.append(e('div','nt','+'+(p.n-p.ids.length)+' ferramentas produzem este objeto (só 126 itens têm saída definida)'));m.append(s)})}
 function badge(b,o){const L=LC[o.lc];if(!L)return;const s=e('span','lb '+L[1],'lic '+L[2]);s.setAttribute('aria-hidden','true');b.append(s,e('span','sr',', licença '+L[0]))}
-/* Rótulo do filtro ativo (2.6, D4) */
-function status(n){const s=$('#stt'),lab=ROT[st.t];if(view!=='map'||!lab){s.hidden=true;return}s.hidden=false;$('#stl').textContent=lab+' · '+n+' de '+D.length;
- $('#all').hidden=false;$('#stn').textContent=st.t==='auto'?'Candidata = sem sinal de dependência na planilha (proposta; não é confirmação).':''}
-function draw(){if(view==='chain')return chains();const m=$('#mp');m.innerHTML='';const g={};let n=0;D.filter(keep).forEach(o=>{(g[o.e]=g[o.e]||[]).push(o);n++});
- status(n);
- const ks=ORD.filter(k=>g[k]).concat(Object.keys(g).filter(k=>!ORD.includes(k)));
- if(!ks.length){m.append(e('p','empty','Nada com esses filtros.'));return}
- ks.forEach(k=>{const s=e('section','lay'),h=e('h2','',k);h.append(e('span','',g[k].length));s.append(h);
-  const nd=e('div','nodes');g[k].forEach(o=>{const b=e('button','n'+(auto(o)?' a':''),o.n.length>34?o.n.slice(0,33)+'…':o.n);b.type='button';b.dataset.i=o.i;badge(b,o);
-   if(marks[o.i]){const mk=MK.find(x=>x[0]===marks[o.i]);b.append(e('span','g',mk[2]),e('span','sr',', marcada: '+mk[1]))}b.onclick=()=>pick(o.i);nd.append(b)});s.append(nd);m.append(s)});
- hl()}
+/* Rótulo do filtro ativo (2.6, D4) e filtros removíveis (3.4) */
+function chips(){const w=$('#fc'),had=w.contains(document.activeElement);w.innerHTML='';
+ const add=(txt,fn,key)=>{const x=e('button','',txt+' ×');x.type='button';x.dataset.f=key;x.setAttribute('aria-label','Remover filtro: '+txt);x.onclick=fn;w.append(x)};
+ if(st.q)add('Busca: '+st.q,()=>{st.q='';$('#q').value='';draw()},'c:q');
+ if(st.m)add('Marca: '+MARCA[st.m],()=>{st.m='';draw()},'c:m');
+ st.lc.forEach(c=>add('Licença: '+LC[c][0],()=>{st.lc=st.lc.filter(x=>x!==c);draw()},'c:lc:'+c));
+ if(st.ax)add('Eixo: '+st.ax,()=>{st.ax='';draw()},'c:ax');
+ if(st.lk)add(st.lk==='com'?'Com link':'Sem link',()=>{st.lk='';draw()},'c:lk');
+ if(w.children.length>1){const x=e('button','lt','Limpar tudo');x.type='button';x.dataset.f='c:all';x.onclick=limparTudo;w.append(x)}
+ if(had)(w.querySelector('button')||$('#q')).focus({preventScroll:true})}
+function status(n,res){const s=$('#stt'),lab=ROT[st.t]||'Todas';if(view!=='map'||!(st.t!=='all'||nExtra()||st.q)){s.hidden=true;return}s.hidden=false;
+ $('#stl').textContent=lab+' · '+n+' de '+D.length;$('#all').hidden=st.t==='all';chips();
+ const f=res&&res.fix.length?'Busca com tolerância a erro de digitação: considerei '+res.fix.map(x=>'“'+x[1]+'”').join(', ')+' no lugar de '+res.fix.map(x=>'“'+x[0]+'”').join(', ')+'. ':'';
+ $('#stn').textContent=f+(st.t==='auto'?'Candidata = sem sinal de dependência na planilha (proposta; não é confirmação).':'')}
+function chip(o){const b=e('button','n'+(auto(o)?' a':''),o.n.length>34?o.n.slice(0,33)+'…':o.n);b.type='button';b.dataset.i=o.i;badge(b,o);
+ if(marks[o.i]){const mk=MK.find(x=>x[0]===marks[o.i]);b.append(e('span','g',mk[2]),e('span','sr',', marcada: '+mk[1]))}b.onclick=()=>pick(o.i);return b}
+/* Entradas por tarefa (3.5): só na abertura (sem busca nem filtro extra). O encaixe tarefa → receita/filtro é proposta. */
+function tarefas(m){const w=e('section','tkw'),g=e('div','tkg');w.append(e('h2','','Por onde começar'));
+ const rec=id=>{const r=C.recipes.find(x=>x.id===id);return r?'Receita: '+r.t:'Receita de cadeia'};
+ [['Analisar um espectro',rec('r1'),()=>goRecipe('r1'),'t1'],['Diagnosticar equipamento',rec('r2'),()=>goRecipe('r2'),'t2'],
+  ['Preciso de uma base de dados','Filtro: bases e datasets',()=>{st.t='base';draw()},'t3'],['Verificar licença','Filtro: estado da licença de cada item',()=>{st.t='all';draw();abrirF('lc:verificada')},'t4']]
+ .forEach(([t,s,fn,k])=>{const b=e('button','tk');b.type='button';b.dataset.k=k;b.append(e('b','',t),e('span','',s));b.onclick=fn;g.append(b)});
+ w.append(g,e('div','nt','Atalhos por tarefa. Qual receita ou filtro serve para cada tarefa é proposta, não verificada.'));m.append(w)}
+function vazio(m,res){const d=e('div','empty');
+ if(res&&!res.r.length)d.append(e('p','','Nada encontrado para “'+st.q+'”. Tente uma palavra mais curta, outra grafia ou o ID (UMI-123).'));
+ else{d.append(e('p','','Nada com esses filtros.'+(res?' A busca acha '+res.r.length+(res.r.length===1?' item':' itens')+' fora deles.':'')));const b=e('button','lk','Limpar filtros');b.type='button';b.onclick=limparTudo;d.append(b)}m.append(d)}
+function draw(){if(view==='chain')return chains();const res=st.q?buscar(st.q):null;QS=res?new Set(res.r.map(x=>x[0])):null;const m=$('#mp');m.innerHTML='';
+ const L=res?res.r.map(x=>B[x[0]]).filter(o=>okf(o)):D.filter(o=>okf(o)),n=L.length;LASTN=n;status(n,res);
+ if(!res&&!nExtra()&&st.t==='auto')tarefas(m);
+ if(!n){vazio(m,res);bar();if(fOpen())fpanel();return}
+ if(res){const s=e('section','lay'),h=e('h2','','Resultados por relevância');h.append(e('span','',n));s.append(h);const nd=e('div','nodes');L.forEach(o=>nd.append(chip(o)));s.append(nd);m.append(s)}
+ else{const g={};L.forEach(o=>{(g[o.e]=g[o.e]||[]).push(o)});const ks=ORD.filter(k=>g[k]).concat(Object.keys(g).filter(k=>!ORD.includes(k)));
+  ks.forEach(k=>{const s=e('section','lay'),h=e('h2','',k);h.append(e('span','',g[k].length));s.append(h);const nd=e('div','nodes');g[k].forEach(o=>nd.append(chip(o)));s.append(nd);m.append(s)})}
+ bar();if(fOpen())fpanel();hl()}
 function hl(){const o=B[st.sel];document.querySelectorAll('.n').forEach(b=>{b.classList.remove('sel','alt','cp','x');if(!o)return;const i=b.dataset.i;
  if(i===o.i)b.classList.add('sel');else if(o.al.includes(i)||o.sc.includes(i))b.classList.add('alt');else if(o.cp.includes(i))b.classList.add('cp');else if(o.al.length+o.cp.length+o.sc.length)b.classList.add('x')})}
 function pick(i){if(!isOpen())st.op=i;st.sel=i;hl();sheet(B[i])}
@@ -126,7 +219,7 @@ function urlBlock(o){const w=e('div');
  if(o.u2){const a=e('a','',(o.u?'Outro endereço: ':'Endereço de apoio: ')+o.u2.replace(/^https?:\/\//,'').slice(0,40));a.href=o.u2;a.target='_blank';a.rel='noopener';a.className='lk';w.append(a)}
  if(o.un){const at=/ATEN[ÇC][ÃA]O/.test(o.un),d=e('details','dn');if(at)d.open=true;d.append(e('summary','','Nota sobre o endereço'),e('div','nt',o.un));w.append(d)}
  return w}
-function sheet(o,opt){opt=opt||{};const s=$('#sb');s.innerHTML='';const sh=$('#sheet');
+function sheet(o,opt){opt=opt||{};fecharF();const s=$('#sb');s.innerHTML='';const sh=$('#sheet');
  const h=e('h3','',o.n);h.id='sht';
  s.append(h,e('div','meta',o.i+' · '+o.e+' · '+({ferramenta:'ferramenta',base:'base/dataset',norma:'norma/padrão',artigo:'artigo/método',outro:'outro'}[o.t])+(o.r?' · tipo por URL/grupo (proposta)':'')));
  s.append(e('p','',o.d||'Sem descrição.'),licBlock(o),urlBlock(o));
@@ -142,9 +235,10 @@ function sheet(o,opt){opt=opt||{};const s=$('#sb');s.innerHTML='';const sh=$('#s
 function fechar(){if(!isOpen())return;$('#sheet').classList.remove('o');st.sel=null;hl();
  const t=(st.op&&document.querySelector('.n[data-i="'+st.op+'"]'))||(view==='map'?$('#q'):document.querySelector('#rc button'));if(t)t.focus();st.op=null}
 $('#sx').onclick=fechar;
-$('#all').onclick=()=>{st.t='all';bar();draw()};
-document.addEventListener('keydown',ev=>{if(ev.key==='Escape')fechar()});
-$('#q').oninput=ev=>{st.q=norm(ev.target.value.trim());draw()};
+$('#all').onclick=()=>{st.t='all';draw()};
+$('#fx').onclick=()=>fecharF(true);
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape'){if(fOpen())fecharF(true);else fechar()}});
+$('#q').oninput=ev=>{st.q=ev.target.value.trim();draw()};
 load();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
 </script></body></html>
