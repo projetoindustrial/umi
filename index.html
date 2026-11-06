@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Catálogo UMI</title><link rel="manifest" href="manifest.webmanifest"><meta name="description" content="Catálogo de ferramentas técnicas, bases de dados e normas de engenharia de processos, materiais e dados industriais, para consulta e triagem no celular."><meta property="og:title" content="Catálogo UMI"><meta property="og:description" content="569 itens catalogados: ferramentas abertas, bases de dados e normas, com ficha, licença e triagem no aparelho."><meta property="og:type" content="website"><meta property="og:url" content="https://projetoindustrial.github.io/umi/"><meta property="og:image" content="https://projetoindustrial.github.io/umi/icon-512.png">
+<meta name="theme-color" content="#12303A"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{--bg:#E8EEF0;--ink:#12303A;--mut:#5B7077;--line:#B9C8CD;--acc:#F2B84B;--tea:#1F7A74;--card:#F7FAFA;--bad:#A3412D}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 "Avenir Next","Segoe UI",system-ui,sans-serif;padding-bottom:40vh}
+header{position:sticky;top:0;z-index:5;background:var(--ink);color:#E8F1F2;padding:calc(10px + env(safe-area-inset-top)) 14px 10px}
+h1{font-size:18px;margin:0 0 6px;font-weight:650;letter-spacing:.2px}h1 small{font-weight:400;color:#9FC3C4;font-size:13px;margin-left:6px}
+input[type=search]{width:100%;padding:9px 11px;border-radius:8px;border:0;font:inherit;background:#E8F1F2;color:var(--ink)}
+.bar{display:flex;gap:6px;overflow-x:auto;padding:8px 0 0;scrollbar-width:none}.bar::-webkit-scrollbar{display:none}
+.bar button{flex:none;border:1px solid #3F6068;background:transparent;color:#CFE3E4;padding:5px 11px;border-radius:999px;font:inherit;font-size:13px}
+.bar button[aria-pressed=true]{background:var(--acc);color:#2b2208;border-color:var(--acc)}
+main{padding:6px 14px}
+.lay{position:relative;margin:0;padding:16px 0 6px 18px;border-left:2px solid var(--line)}
+.lay:last-child{border-left-color:transparent}
+.lay::before{content:"";position:absolute;left:-7px;top:19px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--ink)}
+.lay h2{font-size:14px;margin:0 0 8px;font-weight:650}.lay h2 span{color:var(--mut);font-weight:400;margin-left:6px}
+.nodes{display:flex;flex-wrap:wrap;gap:6px}
+.n{border:1.5px solid var(--ink);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;max-width:100%;text-align:left}
+.n.a{background:var(--ink);color:#EAF4F4}
+.n.x{opacity:.3}.n.sel{outline:3px solid var(--acc);outline-offset:1px}
+.n.alt{border-style:dashed;border-color:var(--tea);box-shadow:0 0 0 2px var(--tea)}.n.cp{box-shadow:0 0 0 3px var(--acc)}
+.n .g{margin-left:5px;font-size:12px}
+.empty{color:var(--mut);padding:30px 0;text-align:center}
+#sheet{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--card);border-radius:16px 16px 0 0;box-shadow:0 -6px 24px #12303a40;max-height:62vh;overflow:auto;padding:14px 16px calc(16px + env(safe-area-inset-bottom));transform:translateY(105%);transition:transform .22s}
+#sheet.o{transform:none}@media(prefers-reduced-motion:reduce){#sheet{transition:none}}
+#sheet h3{margin:0 40px 2px 0;font-size:17px}.meta{color:var(--mut);font-size:13px;margin-bottom:8px}
+#sx{position:absolute;right:10px;top:8px;border:0;background:none;font-size:22px;color:var(--mut);padding:6px 10px}
+.pill{display:inline-block;border-radius:6px;padding:2px 8px;font-size:12px;margin:0 6px 6px 0;background:#DCE7E9}
+.pill.w{background:#F8E3B4}.pill.b{background:#F2D0C6;color:var(--bad)}.pill.g{background:#CBE8DF}
+.row{display:flex;gap:6px;margin:10px 0}.row button{flex:1;padding:9px 4px;border-radius:8px;border:1.5px solid var(--ink);background:none;font:inherit;color:var(--ink)}
+.row button[aria-pressed=true]{background:var(--ink);color:#fff}
+.rl{font-size:13px;color:var(--mut);margin:8px 0 3px}a{color:var(--tea)}
+.lk{border:0;background:none;color:var(--tea);padding:2px 0;font:inherit;text-decoration:underline;display:block;text-align:left}
+#rc{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 2px}#rc button{border:1.5px solid var(--ink);background:none;color:var(--ink);padding:6px 11px;border-radius:10px;font:inherit;font-size:13px;text-align:left}#rc button[aria-pressed=true]{background:var(--ink);color:#fff}
+.tg{font-size:12px;color:var(--mut);margin:4px 0 6px}.st{position:relative;margin:0;padding:12px 0 6px 18px;border-left:2px solid var(--line)}.st::before{content:"";position:absolute;left:-7px;top:15px;width:12px;height:12px;border-radius:3px;background:var(--acc);border:2px solid var(--ink)}
+.st h2{font-size:14px;margin:0 0 6px}.ob{font-size:12px;background:#DCE7E9;border-radius:6px;padding:1px 7px;margin-left:6px;font-weight:400}.nt{font-size:13px;color:var(--mut)}
+footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
+</style></head><body>
+<header><h1>Catálogo UMI<small id="cnt"></small></h1>
+<input type="search" id="q" placeholder="Buscar ferramenta, técnica, licença…" aria-label="Buscar">
+<div class="bar" id="tabs"></div><div class="bar" id="bar"></div></header>
+<main id="map"></main>
+<footer>Mapa de camadas: ordem e tipos são <b>proposta automática</b> (palavras-chave), não verificada.<br>Licença só é firme quando lida na fonte. Marcas ficam neste aparelho.</footer>
+<section id="sheet" aria-live="polite"><button id="sx" aria-label="Fechar">×</button><div id="sb"></div></section>
+<script>
+const ORD=['Fundação semântica','Padrões, Formatos e Validação','FAIR & Proveniência','Identificação & Bibliotecas','Processamento & Análise espectral','Simulação espectral/instrumental','Termodinâmica e Propriedades','Simulação de Processo','Digital Twin & Processo','Runtime do digital twin','Estado de equipamento e integridade','Visão industrial','Verticais de processo','Fusão, Incerteza & ML','Compliance e segurança','Economia','Supply chain e footprint','Stack de implementação','Visualização & UI','Sem eixo (a definir)'];
+const FIL=[['auto','Candidatas'],['ferramenta','Ferramentas'],['base','Bases e datasets'],['norma','Normas'],['artigo','Artigos'],['all','Todas']];
+const MK=[['u','Usar','★'],['v','Ver depois','◔'],['d','Descartar','✕']];
+const $=s=>document.querySelector(s),ls=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}};
+let C={out:{},edges:[],recipes:[],prod:{}},rid='r0',view='map',D=[],B={},marks=ls('umi_m',{}),ov=ls('umi_a',{}),st={t:'auto',m:'',q:'',sel:null};
+const auto=o=>o.i in ov?ov[o.i]:!!o.a,sv=()=>{try{localStorage.setItem('umi_m',JSON.stringify(marks));localStorage.setItem('umi_a',JSON.stringify(ov))}catch(e){}};
+const norm=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+function keep(o){if(st.t==='auto'?!auto(o):st.t!=='all'&&o.t!==st.t)return 0;if(st.m&&(marks[o.i]||'')!==(st.m==='-'?'':st.m))return 0;
+ if(st.q&&!norm(o.n+' '+o.d+' '+o.l+' '+o.e).includes(st.q))return 0;return 1}
+function bar(){const b=$('#bar');b.innerHTML='';FIL.forEach(([k,l])=>{const x=document.createElement('button');x.textContent=l;x.setAttribute('aria-pressed',st.t===k);x.onclick=()=>{st.t=k;bar();draw()};b.append(x)});
+ [['','Qualquer marca'],['u','★ Usar'],['v','◔ Ver depois'],['d','✕ Descartadas'],['-','Sem marca']].forEach(([k,l])=>{const x=document.createElement('button');x.textContent=l;x.setAttribute('aria-pressed',st.m===k);x.onclick=()=>{st.m=k;bar();draw()};b.append(x)})}
+function tabs(){const t=$('#tabs');t.innerHTML='';[['map','Mapa'],['chain','Cadeias']].forEach(([k,l])=>{const x=document.createElement('button');x.textContent=l;x.setAttribute('aria-pressed',view===k);x.onclick=()=>{view=k;tabs();$('#bar').style.display=k==='map'?'':'none';$('#q').style.display=k==='map'?'':'none';draw()};t.append(x)})}
+function chains(){const m=$('#map');m.innerHTML='<div id="rc"></div>';$('#cnt').textContent='';
+ C.recipes.forEach(r=>{const b=document.createElement('button');b.textContent=r.t;b.setAttribute('aria-pressed',r.id===rid);b.onclick=()=>{rid=r.id;chains()};$('#rc').append(b)});
+ const r=C.recipes.find(x=>x.id===rid);if(!r)return;const g=document.createElement('div');g.className='tg';g.textContent='Origem: '+r.tag+'. Ferramentas ordenadas por candidata e prioridade.';m.append(g);
+ r.steps.forEach(p=>{const s=document.createElement('section');s.className='st';const h=document.createElement('h2');h.textContent=p.t;const o=document.createElement('span');o.className='ob';o.textContent=p.o;h.append(o);s.append(h);
+  if(p.nota){const n=document.createElement('div');n.className='nt';n.textContent=p.nota;s.append(n)}
+  const nd=document.createElement('div');nd.className='nodes';p.ids.forEach(i=>{const d=B[i];if(!d)return;const b=document.createElement('button');b.className='n'+(auto(d)?' a':'');b.textContent=d.n.length>34?d.n.slice(0,33)+'…':d.n;b.onclick=()=>sheet(d);nd.append(b)});s.append(nd);
+  if(p.n>p.ids.length){const n=document.createElement('div');n.className='nt';n.textContent='+'+(p.n-p.ids.length)+' ferramentas produzem este objeto (só 126 itens têm saída definida)';s.append(n)}m.append(s)})}
+function draw(){if(view==='chain')return chains();const m=$('#map');m.innerHTML='';const g={};let n=0;D.filter(keep).forEach(o=>{(g[o.e]=g[o.e]||[]).push(o);n++});
+ $('#cnt').textContent=n+' de '+D.length;
+ const ks=ORD.filter(k=>g[k]).concat(Object.keys(g).filter(k=>!ORD.includes(k)));
+ if(!ks.length){m.innerHTML='<p class="empty">Nada com esses filtros.</p>';return}
+ ks.forEach(k=>{const s=document.createElement('section');s.className='lay';s.innerHTML='<h2></h2><div class="nodes"></div>';s.querySelector('h2').innerHTML=k.replace(/&/g,'&amp;')+'<span>'+g[k].length+'</span>';
+  const nd=s.querySelector('.nodes');g[k].forEach(o=>{const b=document.createElement('button');b.className='n'+(auto(o)?' a':'');b.dataset.i=o.i;b.textContent=o.n.length>34?o.n.slice(0,33)+'…':o.n;
+   if(marks[o.i]){const t=document.createElement('span');t.className='g';t.textContent=MK.find(x=>x[0]===marks[o.i])[2];b.append(t)}b.onclick=()=>pick(o.i);nd.append(b)});m.append(s)});
+ hl()}
+function hl(){const o=B[st.sel];document.querySelectorAll('.n').forEach(b=>{b.classList.remove('sel','alt','cp','x');if(!o)return;const i=b.dataset.i;
+ if(i===o.i)b.classList.add('sel');else if(o.al.includes(i)||o.sc.includes(i))b.classList.add('alt');else if(o.cp.includes(i))b.classList.add('cp');else if(o.al.length+o.cp.length+o.sc.length)b.classList.add('x')})}
+function pick(i){st.sel=i;hl();sheet(B[i])}
+function lic(o){const p=[];const a=(t,c)=>{const s=document.createElement('span');s.className='pill '+c;s.textContent=t;p.push(s)};
+ a(o.l||'sem licença registrada',o.v==='ok'?'g':'w');a(o.v==='ok'?'lida na fonte':o.v==='x'?'fonte não abre':'não verificada',o.v==='ok'?'g':o.v==='x'?'b':'w');
+ if(o.c)a('copyleft','b');if(o.nc)a('uso não comercial','b');return p}
+function sheet(o){const s=$('#sb');s.innerHTML='';const e=(t,c,x)=>{const n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n};
+ s.append(e('h3','',o.n),e('div','meta',o.i+' · '+o.e+' · '+({ferramenta:'ferramenta',base:'base/dataset',norma:'norma/padrão',artigo:'artigo/método',outro:'outro'}[o.t])+(o.r?' · tipo por URL/grupo (proposta)':'')));
+ s.append(e('p','',o.d||'Sem descrição.'));const l=e('div');lic(o).forEach(x=>l.append(x));s.append(l);
+ if(o.u){const a=e('a','',o.u.replace(/^https?:\/\//,'').slice(0,48));a.href=o.u;a.target='_blank';a.rel='noopener';s.append(a)}
+ const r=e('div','row');MK.forEach(([k,t,g])=>{const b=e('button','',g+' '+t);b.setAttribute('aria-pressed',marks[o.i]===k);b.onclick=()=>{if(marks[o.i]===k)delete marks[o.i];else marks[o.i]=k;sv();draw();sheet(o)};r.append(b)});s.append(r);
+ const ob=C.out[o.i];if(ob){s.append(e('div','rl','Produz (objeto UMI, planilha): '+ob.join(', ')));const at=[...new Set(C.edges.filter(x=>ob.includes(x[0])).map(x=>x[1]))];
+  at.forEach(y=>{const ps=(C.prod[y]||[]).filter(i=>i!==o.i&&B[i]).slice(0,4);s.append(e('div','nt','Esse objeto alimenta '+y+' (encaixe por objeto, proposta):'));ps.forEach(i=>{const b=e('button','lk',B[i].n);b.onclick=()=>pick(i);s.append(b)})})}
+ const au=e('button','lk',(auto(o)?'Marcada como candidata (proposta). Corrigir para não':'Não candidata (proposta). Corrigir para candidata'));au.onclick=()=>{ov[o.i]=!auto(o);sv();draw();sheet(o)};s.append(au);
+ [['al','Alternativas (uma no lugar da outra)'],['sc','Parecidas: mesma categoria (critério fraco)'],['cp','Complementam']].forEach(([k,t])=>{if(!o[k].length)return;s.append(e('div','rl',t));o[k].forEach(i=>{if(!B[i])return;const b=e('button','lk',B[i].n);b.onclick=()=>pick(i);s.append(b)})});
+ const x=e('button','lk','Exportar marcas e correções (JSON)');x.onclick=()=>{const bl=new Blob([JSON.stringify({exportado:new Date().toISOString(),marcas:marks,autocontida_corrigida:ov},null,1)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(bl);a.download='umi_triagem.json';a.click()};s.append(x);
+ $('#sheet').classList.add('o')}
+$('#sx').onclick=()=>{$('#sheet').classList.remove('o');st.sel=null;hl()};
+$('#q').oninput=e=>{st.q=norm(e.target.value.trim());draw()};
+fetch('chains.json').then(r=>r.json()).then(c=>{C=c}).catch(()=>{}).then(()=>fetch('data.json')).then(r=>r.json()).then(d=>{D=d;d.forEach(o=>B[o.i]=o);tabs();bar();draw()});
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+</script></body></html>
