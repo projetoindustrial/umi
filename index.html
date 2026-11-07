@@ -65,7 +65,12 @@ details.dn{margin:2px 0 6px}details.dn summary{min-height:44px;display:flex;alig
 #nv button{min-height:44px;padding:6px 16px;border-radius:999px;border:0;background:var(--acc);color:#2b2208;font:inherit;font-weight:600}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}.kd{display:inline-block;font-size:12px;font-weight:600;padding:2px 10px;border:1px solid var(--ink);border-radius:999px;margin:2px 0 4px}.kd.sem,.kd.instr{border-style:dashed}
 .ab{padding:12px 0;max-width:46em}.ab h2{font-size:18px;margin:0 0 6px}.ab h3{font-size:15px;margin:18px 0 4px}.ab p,.ab li{font-size:14px;line-height:1.5;margin:4px 0}.ab ul{padding-left:20px;margin:4px 0}.ab a{color:var(--tea)}
-.ab .lcl{display:flex;gap:8px;align-items:flex-start;margin:6px 0;font-size:14px;line-height:1.4}
+.ab .lcl{display:flex;gap:8px;align-items:flex-start;margin:6px 0;font-size:14px;line-height:1.4}.vt{display:flex;gap:6px;margin:6px 0 4px}.vt button{min-height:44px;border:1.5px solid var(--ink);background:none;color:var(--ink);border-radius:999px;padding:5px 14px;font:inherit;font-size:13px}.vt button[aria-pressed=true]{background:var(--ink);color:#EAF4F4}
+.lst{display:flex;flex-direction:column;gap:6px}
+.n.ln{display:flex;align-items:center;gap:8px;width:100%;min-height:52px;border-radius:10px;padding:8px 12px;background:var(--card);color:var(--ink)}.n.ln.a{background:var(--card);color:var(--ink);border-left:6px solid var(--ink)}
+.ln .lt{flex:1;min-width:0}.ln .lt b{display:block;font-weight:600;font-size:14px}.ln .lt small{display:block;font-size:12px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#sw{position:absolute;right:52px;top:2px;min-width:44px;height:44px;border:0;background:none;font:inherit;font-size:13px;color:var(--tea);text-decoration:underline;padding:0 8px}
+#sheet.w{top:0;max-height:none;border-radius:0}#sheet.w #sb{max-width:46em;margin:0 auto;font-size:15px}#sheet h3{margin-right:110px}
 @media(max-width:350px){.top .bar button{padding:5px 9px}.top h1{font-size:17px}}
 footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
 </style></head><body>
@@ -77,7 +82,7 @@ footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
 <footer>Mapa de camadas: ordem e tipos são <b>proposta automática</b> (palavras-chave), não verificada.<br>Licença só é firme quando lida na fonte: <b>lic ✓</b> lida na fonte · <b>lic ?</b> não confirmada · <b>lic ✕</b> restrita ou sem fonte. Marcas ficam neste aparelho.</footer>
 <div id="nv" role="status" hidden><span>Nova versão disponível.</span><button id="nvb" type="button">Atualizar</button></div>
 <section id="fp" role="dialog" aria-modal="false" aria-labelledby="fpt" tabindex="-1"><button id="fx" type="button" aria-label="Fechar os filtros">×</button><div id="fb"></div></section>
-<section id="sheet" role="dialog" aria-modal="false" aria-labelledby="sht" tabindex="-1"><button id="sx" type="button" aria-label="Fechar a ficha">×</button><div id="sb"></div></section>
+<section id="sheet" role="dialog" aria-modal="false" aria-labelledby="sht" tabindex="-1"><button id="sx" type="button" aria-label="Fechar a ficha">×</button><button id="sw" type="button">Ampliar</button><div id="sb"></div></section>
 <script>
 const ORD=['Fundação semântica','Padrões, Formatos e Validação','FAIR & Proveniência','Identificação & Bibliotecas','Processamento & Análise espectral','Simulação espectral/instrumental','Termodinâmica e Propriedades','Simulação de Processo','Digital Twin & Processo','Runtime do digital twin','Estado de equipamento e integridade','Visão industrial','Verticais de processo','Fusão, Incerteza & ML','Compliance e segurança','Economia','Supply chain e footprint','Stack de implementação','Visualização & UI','Sem eixo (a definir)'];
 const FIL=[['auto','Candidatas'],['ferramenta','Ferramentas'],['base','Bases e datasets'],['norma','Normas'],['artigo','Artigos'],['all','Todas']];
@@ -89,7 +94,8 @@ const LC={verificada:['verificada na fonte','g','✓','Licença lida na fonte'],
  a_confirmar:['a confirmar','w','?','Licença ainda não confirmada; ler o LICENSE ao integrar.'],restrita:['restrita','b','✕','A planilha indica restrição ou licença comercial; não foi lida na fonte.'],
  sem_fonte:['sem fonte','b','✕','A fonte não abriu quando foi conferida; a licença não pôde ser lida.'],nao_localizada:['não localizada','w','?','Licença não localizada nas buscas anteriores.'],varia:['varia','w','?','A licença varia conforme o item ou o componente.']};
 const $=s=>document.querySelector(s),ls=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}};
-let C={out:{},edges:[],recipes:[],prod:{}},cok=false,rid='r0',view='map',D=[],B={},marks=ls('umi_m',{}),ov=ls('umi_a',{}),st={t:'auto',m:'',q:'',sel:null,op:null,lc:[],ax:'',lk:''};
+let C={out:{},edges:[],recipes:[],prod:{}},cok=false,rid='r0',view='map',D=[],B={},marks=ls('umi_m',{}),ov=ls('umi_a',{}),st={t:'auto',m:'',q:'',sel:null,op:null,lc:[],ax:'',lk:'',v:ls('umi_v','map'),w:ls('umi_w',false)};
+const pref=()=>{try{localStorage.setItem('umi_v',JSON.stringify(st.v));localStorage.setItem('umi_w',JSON.stringify(st.w))}catch(e){}};
 const auto=o=>o.i in ov?ov[o.i]:!!o.a,sv=()=>{try{localStorage.setItem('umi_m',JSON.stringify(marks));localStorage.setItem('umi_a',JSON.stringify(ov))}catch(e){}};
 const norm=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 const e=(t,c,x)=>{const n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n};
@@ -190,7 +196,7 @@ function sobre(){const m=$('#mp');m.innerHTML='';$('#stt').hidden=true;const w=e
  Object.keys(LC).forEach(c=>{const L=LC[c],r=e('div','lcl'),b=e('span','lb '+L[1],'lic '+L[2]);b.setAttribute('aria-hidden','true');r.append(b,e('span','',L[0]+' ('+D.filter(o=>o.lc===c).length+'): '+L[3]));w.append(r)});
  w.append(H('Cadeias'),e('p','','As cadeias organizam as ferramentas pelo objeto de trabalho que produzem. A cadeia Czochralski vem da planilha; as demais são propostas. Cada etapa diz se há ferramenta no catálogo, se não há ou se depende de instrumento ou medição real. O corte “mostrando X de N” é só de exibição.'),
   H('Limites'));
- const ul=e('ul');['O catálogo reflete a planilha de 06/11/2026 e não cobre tudo o que existe.',D.filter(o=>o.us==='proposta').length+' endereços de fonte foram propostos por busca externa e ainda não foram abertos.','As marcas (usar, ver depois, descartar) e as correções ficam só neste aparelho; limpar os dados do navegador apaga tudo. Dá para exportar em JSON na ficha.','A busca roda no aparelho e não envia nada pela rede.'].forEach(t=>ul.append(e('li','',t)));w.append(ul,H('Como relatar um erro'));
+ const ul=e('ul');['O catálogo reflete a planilha de 06/11/2026 e não cobre tudo o que existe.',D.filter(o=>o.us==='proposta').length+' endereços de fonte foram propostos por busca externa e ainda não foram abertos.','As marcas (usar, ver depois, descartar), as correções e a escolha de exibição (mapa ou lista, ficha ampla) ficam só neste aparelho; limpar os dados do navegador apaga tudo. Dá para exportar as marcas em JSON na ficha.','A busca roda no aparelho e não envia nada pela rede.'].forEach(t=>ul.append(e('li','',t)));w.append(ul,H('Como relatar um erro'));
  const p=e('p','','Abra uma issue em '),a=e('a','','github.com/projetoindustrial/umi/issues');a.href='https://github.com/projetoindustrial/umi/issues';a.target='_blank';a.rel='noopener';p.append(a,' com o ID do item (por exemplo UMI-079) e o que está errado.');w.append(p);m.append(w)}
 function badge(b,o){const L=LC[o.lc];if(!L)return;const s=e('span','lb '+L[1],'lic '+L[2]);s.setAttribute('aria-hidden','true');b.append(s,e('span','sr',', licença '+L[0]))}
 /* Rótulo do filtro ativo (2.6, D4) e filtros removíveis (3.4) */
@@ -207,6 +213,10 @@ function status(n,res){const s=$('#stt'),lab=ROT[st.t]||'Todas';if(view!=='map'|
  $('#stl').textContent=lab+' · '+n+' de '+D.length;$('#all').hidden=st.t==='all';chips();
  const f=res&&res.fix.length?'Busca com tolerância a erro de digitação: considerei '+res.fix.map(x=>'“'+x[1]+'”').join(', ')+' no lugar de '+res.fix.map(x=>'“'+x[0]+'”').join(', ')+'. ':'';
  $('#stn').textContent=f+(st.t==='auto'?'Candidata = sem sinal de dependência na planilha (proposta; não é confirmação).':'')}
+const TIPO={ferramenta:'ferramenta',base:'base/dataset',norma:'norma/padrão',artigo:'artigo/método',outro:'outro'};
+function linha(o){const b=e('button','n ln'+(auto(o)?' a':''));b.type='button';b.dataset.i=o.i;const t=e('div','lt');t.append(e('b','',o.n),e('small','',(auto(o)?'candidata · ':'')+o.e+' · '+TIPO[o.t]));b.append(t);badge(b,o);
+ if(marks[o.i]){const mk=MK.find(x=>x[0]===marks[o.i]);b.append(e('span','g',mk[2]),e('span','sr',', marcada: '+mk[1]))}b.onclick=()=>pick(o.i);return b}
+function vt(m){const g=e('div','vt');g.setAttribute('role','group');g.setAttribute('aria-label','Exibição');[['map','Mapa de camadas'],['list','Lista']].forEach(([k,l])=>{const b=e('button','',l);b.type='button';b.dataset.k='v:'+k;b.setAttribute('aria-pressed',st.v===k);b.onclick=()=>{st.v=k;pref();draw();const x=$('#mp [data-k="v:'+k+'"]');if(x)x.focus({preventScroll:true})};g.append(b)});m.append(g)}
 function chip(o){const b=e('button','n'+(auto(o)?' a':''),o.n.length>34?o.n.slice(0,33)+'…':o.n);b.type='button';b.dataset.i=o.i;badge(b,o);
  if(marks[o.i]){const mk=MK.find(x=>x[0]===marks[o.i]);b.append(e('span','g',mk[2]),e('span','sr',', marcada: '+mk[1]))}b.onclick=()=>pick(o.i);return b}
 /* Entradas por tarefa (3.5): só na abertura (sem busca nem filtro extra). O encaixe tarefa → receita/filtro é proposta. */
@@ -222,7 +232,9 @@ function vazio(m,res){const d=e('div','empty');
 function draw(){if(view==='chain')return chains();if(view==='about')return sobre();const res=st.q?buscar(st.q):null;QS=res?new Set(res.r.map(x=>x[0])):null;const m=$('#mp');m.innerHTML='';
  const L=res?res.r.map(x=>B[x[0]]).filter(o=>okf(o)):D.filter(o=>okf(o)),n=L.length;LASTN=n;status(n,res);
  if(!res&&!nExtra()&&st.t==='auto')tarefas(m);
+ vt(m);
  if(!n){vazio(m,res);bar();if(fOpen())fpanel();return}
+ if(st.v==='list'){const s=e('section','lay'),h=e('h2','',res?'Resultados por relevância':'Lista por nome');h.append(e('span','',n));s.append(h);const nd=e('div','lst');(res?L:L.slice().sort((a,b)=>a.n.localeCompare(b.n,'pt-BR')||(a.i<b.i?-1:1))).forEach(o=>nd.append(linha(o)));s.append(nd);m.append(s);bar();if(fOpen())fpanel();hl();return}
  if(res){const s=e('section','lay'),h=e('h2','','Resultados por relevância');h.append(e('span','',n));s.append(h);const nd=e('div','nodes');L.forEach(o=>nd.append(chip(o)));s.append(nd);m.append(s)}
  else{const g={};L.forEach(o=>{(g[o.e]=g[o.e]||[]).push(o)});const ks=ORD.filter(k=>g[k]).concat(Object.keys(g).filter(k=>!ORD.includes(k)));
   ks.forEach(k=>{const s=e('section','lay'),h=e('h2','',k);h.append(e('span','',g[k].length));s.append(h);const nd=e('div','nodes');g[k].forEach(o=>nd.append(chip(o)));s.append(nd);m.append(s)})}
@@ -256,9 +268,11 @@ function sheet(o,opt){opt=opt||{};fecharF();const s=$('#sb');s.innerHTML='';cons
  const au=e('button','lk',(auto(o)?'Marcada como candidata (proposta). Corrigir para não':'Não candidata (proposta). Corrigir para candidata'));au.type='button';au.dataset.k='au';au.onclick=()=>{ov[o.i]=!auto(o);sv();draw();sheet(o,{k:'au'})};s.append(au);
  [['al','Alternativas (uma no lugar da outra)'],['sc','Parecidas: mesma categoria (critério fraco)'],['cp','Complementam']].forEach(([k,t])=>{if(!o[k].length)return;s.append(e('div','rl',t));o[k].forEach(i=>{if(!B[i])return;const b=e('button','lk',B[i].n);b.type='button';b.onclick=()=>pick(i);s.append(b)})});
  const x=e('button','lk','Exportar marcas e correções (JSON)');x.type='button';x.onclick=()=>{const bl=new Blob([JSON.stringify({exportado:new Date().toISOString(),marcas:marks,autocontida_corrigida:ov},null,1)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(bl);a.download='umi_triagem.json';a.click()};s.append(x);
- sh.classList.add('o');
+ ampla();sh.classList.add('o');
  /* 2.4: foco vai para a ficha (ou volta ao botão que acabou de mudar a ficha) */
  const alvo=opt.k&&s.querySelector('[data-k="'+opt.k+'"]');if(alvo)alvo.focus({preventScroll:true});else{sh.scrollTop=0;sh.focus({preventScroll:true})}}
+function ampla(){const sh=$('#sheet');sh.classList.toggle('w',!!st.w);$('#sw').textContent=st.w?'Reduzir':'Ampliar';$('#sw').setAttribute('aria-label',st.w?'Reduzir a ficha':'Ampliar a ficha para a tela inteira')}
+$('#sw').onclick=()=>{st.w=!st.w;pref();ampla();$('#sheet').scrollTop=0};
 function fechar(){if(!isOpen())return;$('#sheet').classList.remove('o');st.sel=null;hl();
  const t=(st.op&&document.querySelector('.n[data-i="'+st.op+'"]'))||(view==='map'?$('#q'):document.querySelector('#rc button'));if(t)t.focus();st.op=null}
 $('#sx').onclick=fechar;

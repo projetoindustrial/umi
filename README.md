@@ -7,7 +7,8 @@ Catálogo de consulta e triagem de ferramentas técnicas abertas, bases de dados
 ## Como usar
 
 - **Mapa:** os itens aparecem em camadas, como um fluxograma. As candidatas a rodar sozinhas vêm primeiro.
-- **Ficha:** um toque num item abre a ficha (descrição, tipo, licença com selo, link da fonte e alternativas parecidas).
+- **Lista:** alternativa ao mapa, com uma linha por item (nome, eixo, tipo e selo de licença), em ordem de nome ou de relevância na busca.
+- **Ficha:** um toque num item abre a ficha (descrição, tipo, licença com selo, link da fonte e alternativas parecidas). O botão Ampliar leva a ficha para a tela inteira.
 - **Busca:** por nome, ID (UMI-079), técnica, descrição ou licença; entende sinônimos pt/en e erro de uma letra.
 - **Filtros:** tipo, estado da licença, eixo, link e marca, combinados, com contagem em cada opção.
 - **Cadeias:** receitas por objeto de trabalho, com o tipo de cada etapa (há ferramenta no catálogo, não há, ou depende de instrumento).
