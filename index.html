@@ -59,14 +59,20 @@ details.dn{margin:2px 0 6px}details.dn summary{min-height:44px;display:flex;alig
 #fp{max-height:56vh}
 .fb{display:flex;flex-wrap:wrap;gap:6px}.fb button{min-height:44px;border:1.5px solid var(--ink);background:none;color:var(--ink);padding:6px 12px;border-radius:999px;font:inherit;font-size:13px}.fb button[aria-pressed=true]{background:var(--ink);color:#fff}
 #fb select{width:100%;min-height:44px;font:inherit;padding:8px;border-radius:8px;border:1.5px solid var(--ink);background:var(--card);color:var(--ink)}
-.empty .lk{margin:0 auto}
+.empty .lk{margin:0 auto}.skip{position:absolute;left:8px;top:-80px;z-index:20;background:var(--acc);color:#2b2208;padding:6px 16px;border-radius:8px;font-weight:600;text-decoration:none;min-height:44px;display:flex;align-items:center}.skip:focus{top:calc(8px + env(safe-area-inset-top))}
+#mp:focus{outline:none}
+#nv{position:fixed;left:8px;right:8px;bottom:calc(8px + env(safe-area-inset-bottom));z-index:8;background:var(--ink);color:#EAF4F4;border-radius:12px;padding:6px 6px 6px 14px;display:flex;align-items:center;justify-content:space-between;gap:8px}#nv[hidden]{display:none}
+#nv button{min-height:44px;padding:6px 16px;border-radius:999px;border:0;background:var(--acc);color:#2b2208;font:inherit;font-weight:600}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
 </style></head><body>
-<header><div class="top"><h1>Catálogo UMI</h1><div class="bar" id="tabs"></div></div>
+<a class="skip" href="#mp">Pular para os resultados</a>
+<header><div class="top"><h1>Catálogo UMI</h1><div class="bar" id="tabs" role="group" aria-label="Vista"></div></div>
 <input type="search" id="q" placeholder="Buscar por nome, ID, técnica, licença…" aria-label="Buscar">
-<div class="bar" id="bar"></div></header>
-<main id="map"><div class="stt" id="stt" hidden><span id="stl" role="status"></span><button id="all" type="button">ver todas</button><div class="fc" id="fc"></div><div class="nt" id="stn"></div></div><div id="mp"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
+<div class="bar" id="bar" role="group" aria-label="Filtros de tipo"></div></header>
+<main id="map"><div class="stt" id="stt" hidden><span id="stl" role="status"></span><button id="all" type="button">ver todas</button><div class="fc" id="fc"></div><div class="nt" id="stn"></div></div><div id="mp" tabindex="-1"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
 <footer>Mapa de camadas: ordem e tipos são <b>proposta automática</b> (palavras-chave), não verificada.<br>Licença só é firme quando lida na fonte: <b>lic ✓</b> lida na fonte · <b>lic ?</b> não confirmada · <b>lic ✕</b> restrita ou sem fonte. Marcas ficam neste aparelho.</footer>
+<div id="nv" role="status" hidden><span>Nova versão disponível.</span><button id="nvb" type="button">Atualizar</button></div>
 <section id="fp" role="dialog" aria-modal="false" aria-labelledby="fpt" tabindex="-1"><button id="fx" type="button" aria-label="Fechar os filtros">×</button><div id="fb"></div></section>
 <section id="sheet" role="dialog" aria-modal="false" aria-labelledby="sht" tabindex="-1"><button id="sx" type="button" aria-label="Fechar a ficha">×</button><div id="sb"></div></section>
 <script>
@@ -240,5 +246,10 @@ $('#fx').onclick=()=>fecharF(true);
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'){if(fOpen())fecharF(true);else fechar()}});
 $('#q').oninput=ev=>{st.q=ev.target.value.trim();draw()};
 load();
-if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+$('.skip').onclick=ev=>{ev.preventDefault();$('#mp').focus();$('#mp').scrollIntoView()};
+/* OTM-4: a versão nova fica em espera; o aviso pede o toque, o app recarrega uma vez e as marcas (localStorage) não são tocadas */
+if('serviceWorker'in navigator){let atu=false,rec=false;
+ navigator.serviceWorker.register('sw.js').then(r=>{const w=()=>{if(r.waiting&&navigator.serviceWorker.controller){$('#nv').hidden=false;$('#nvb').onclick=()=>{atu=true;r.waiting.postMessage('SKIP_WAITING')}}};
+  w();r.addEventListener('updatefound',()=>{const x=r.installing;if(x)x.addEventListener('statechange',()=>{if(x.state==='installed')w()})})}).catch(()=>{});
+ navigator.serviceWorker.addEventListener('controllerchange',()=>{if(atu&&!rec){rec=true;location.reload()}})}
 </script></body></html>
