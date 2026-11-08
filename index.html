@@ -4,7 +4,7 @@
 <title>Catálogo UMI</title><link rel="manifest" href="manifest.webmanifest"><meta name="description" content="Catálogo de ferramentas técnicas, bases de dados e normas de engenharia de processos, materiais e dados industriais, para consulta e triagem no celular."><meta property="og:title" content="Catálogo UMI"><meta property="og:description" content="569 itens catalogados: ferramentas abertas, bases de dados e normas, com ficha, licença e triagem no aparelho."><meta property="og:type" content="website"><meta property="og:url" content="https://projetoindustrial.github.io/umi/"><meta property="og:image" content="https://projetoindustrial.github.io/umi/icon-512.png">
 <meta name="theme-color" content="#12303A"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
 <style>
-:root{--bg:#E8EEF0;--ink:#12303A;--mut:#526870;--line:#B9C8CD;--acc:#F2B84B;--tea:#1F7A74;--card:#F7FAFA;--bad:#7A2E1D}
+:root{--bg:#E8EEF0;--ink:#12303A;--mut:#526870;--line:#B9C8CD;--acc:#F2B84B;--tea:#1B6F69;--card:#F7FAFA;--bad:#7A2E1D}
 *{box-sizing:border-box}html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:15px/1.45 "Avenir Next","Segoe UI",system-ui,sans-serif;padding-bottom:40vh}
 header{position:sticky;top:0;z-index:5;background:var(--ink);color:#E8F1F2;padding:calc(6px + env(safe-area-inset-top)) 14px 8px}
@@ -71,6 +71,7 @@ details.dn{margin:2px 0 6px}details.dn summary{min-height:44px;display:flex;alig
 .ln .lt{flex:1;min-width:0}.ln .lt b{display:block;font-weight:600;font-size:14px}.ln .lt small{display:block;font-size:12px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #sw{position:absolute;right:52px;top:2px;min-width:44px;height:44px;border:0;background:none;font:inherit;font-size:13px;color:var(--tea);text-decoration:underline;padding:0 8px}
 #sheet.w{top:0;max-height:none;border-radius:0}#sheet.w #sb{max-width:46em;margin:0 auto;font-size:15px}#sheet h3{margin-right:110px}
+#mp{min-height:70vh;display:flow-root}#stt{min-height:71px}@media(max-width:600px){#stt{min-height:90px}}@media(max-width:340px){#stt{min-height:109px}}
 @media(max-width:350px){.top .bar button{padding:5px 9px}.top h1{font-size:17px}}
 footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
 </style></head><body>
@@ -78,7 +79,7 @@ footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
 <header><div class="top"><h1>Catálogo UMI</h1><div class="bar" id="tabs" role="group" aria-label="Vista"></div></div>
 <input type="search" id="q" placeholder="Buscar por nome, ID, técnica, licença…" aria-label="Buscar">
 <div class="bar" id="bar" role="group" aria-label="Filtros de tipo"></div></header>
-<main id="map"><div class="stt" id="stt" hidden><span id="stl" role="status"></span><button id="all" type="button">ver todas</button><div class="fc" id="fc"></div><div class="nt" id="stn"></div></div><div id="mp" tabindex="-1"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
+<main id="map"><div class="stt" id="stt"><span id="stl" role="status"></span><button id="all" type="button">ver todas</button><div class="fc" id="fc"></div><div class="nt" id="stn"></div></div><div id="mp" tabindex="-1"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
 <footer>Mapa de camadas: ordem e tipos são <b>proposta automática</b> (palavras-chave), não verificada.<br>Licença só é firme quando lida na fonte: <b>lic ✓</b> lida na fonte · <b>lic ?</b> não confirmada · <b>lic ✕</b> restrita ou sem fonte. Marcas ficam neste aparelho.</footer>
 <div id="nv" role="status" hidden><span>Nova versão disponível.</span><button id="nvb" type="button">Atualizar</button></div>
 <section id="fp" role="dialog" aria-modal="false" aria-labelledby="fpt" tabindex="-1"><button id="fx" type="button" aria-label="Fechar os filtros">×</button><div id="fb"></div></section>
@@ -118,7 +119,7 @@ function d1(a,b){const la=a.length,lb=b.length;if(Math.abs(la-lb)>1)return false
  return la>lb?a.slice(i+1)===b.slice(i):b.slice(i+1)===a.slice(i)}
 function bonus(x,nq){const n=x.T.nm;return n===nq?30:n.startsWith(nq)?8:nq.length>=3&&n.includes(nq)?4:0}
 /* Devolve {r:[[id,nota],…] em ordem de relevância, fix:[[digitado,considerado],…]} ou null se a consulta for vazia. Filtros não entram aqui. */
-function buscar(q){q=q.trim();if(!q)return null;const nq0=norm(q),mi=nq0.match(/^umi[\s-]*0*(\d{1,3})$/);
+function buscar(q){q=q.trim();if(!q)return null;if(!IX.length)mkIdx();const nq0=norm(q),mi=nq0.match(/^umi[\s-]*0*(\d{1,3})$/);
  if(mi){const id='UMI-'+mi[1].padStart(3,'0');return{r:B[id]?[[id,1000]]:[],fix:[]}}
  const T=toks(nq0);if(!T.length)return null;const nq=T.join(' ');
  const run=AL=>{const r=[];IX.forEach(x=>{let s=0;for(const al of AL){const v=tsc(x,al);if(!v){s=0;break}s+=v}if(s)r.push([x.o.i,s+bonus(x,nq)])});
@@ -169,7 +170,7 @@ function falha(txt,fn){const m=$('#mp');m.innerHTML='';const d=e('div','err');d.
 const getj=u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
 function loadChains(){return getj('chains.json').then(c=>{C=c;cok=true}).catch(()=>{cok=false})}
 function load(){$('#mp').innerHTML='';$('#mp').append(e('p','empty','Carregando o catálogo…'));
- return Promise.all([getj('data.json'),loadChains()]).then(([d])=>{if(!Array.isArray(d))throw new Error('data.json inválido');D=d;B={};d.forEach(o=>B[o.i]=o);mkIdx();tabs();bar();draw()})
+ return Promise.all([getj('data.json'),loadChains()]).then(([d])=>{if(!Array.isArray(d))throw new Error('data.json inválido');D=d;B={};d.forEach(o=>B[o.i]=o);tabs();bar();draw()})
  .catch(()=>falha('Não foi possível carregar os dados do catálogo (data.json). Verifique a conexão e tente de novo.',load))}
 function chains(){const m=$('#mp');m.innerHTML='';$('#stt').hidden=true;
  if(!cok||!C.recipes.length){const d=e('div','err');d.setAttribute('role','alert');d.append(e('p','','Não foi possível carregar as cadeias (chains.json).'));const b=e('button','','Tentar de novo');b.type='button';b.onclick=()=>loadChains().then(chains);d.append(b);m.append(d);return}
@@ -279,7 +280,9 @@ $('#sx').onclick=fechar;
 $('#all').onclick=()=>{st.t='all';draw()};
 $('#fx').onclick=()=>fecharF(true);
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'){if(fOpen())fecharF(true);else fechar()}});
+$('#q').addEventListener('focus',()=>{if(D.length&&!IX.length)setTimeout(mkIdx,0)});
 $('#q').oninput=ev=>{st.q=ev.target.value.trim();draw()};
+tabs();bar();
 load();
 $('.skip').onclick=ev=>{ev.preventDefault();$('#mp').focus();$('#mp').scrollIntoView()};
 /* OTM-4: a versão nova fica em espera; o aviso pede o toque, o app recarrega uma vez e as marcas (localStorage) não são tocadas */
