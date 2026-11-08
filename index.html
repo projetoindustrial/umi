@@ -79,7 +79,8 @@ footer{color:var(--mut);font-size:12px;padding:14px;text-align:center}
 <header><div class="top"><h1>Catálogo UMI</h1><div class="bar" id="tabs" role="group" aria-label="Vista"></div></div>
 <input type="search" id="q" placeholder="Buscar por nome, ID, técnica, licença…" aria-label="Buscar">
 <div class="bar" id="bar" role="group" aria-label="Filtros de tipo"></div></header>
-<main id="map"><div class="stt" id="stt"><span id="stl" role="status"></span><button id="all" type="button">ver todas</button><div class="fc" id="fc"></div><div class="nt" id="stn"></div></div><div id="mp" tabindex="-1"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
+<main id="map"><div class="stt" id="stt"><span id="stl" role="status"></span><button id="all" type="button">ver todas</button><div class="fc" id="fc"></div><div class="nt" id="stn"></div></div><div id="fe" class="err" role="alert" hidden><p>Não foi possível carregar as fontes de dados (fontes.json). O catálogo mostra só os itens do UMI.</p><button id="feb" type="button">Tentar de novo</button></div>
+<div id="mp" tabindex="-1"><noscript><p class="err">Este catálogo precisa de JavaScript ligado no navegador para funcionar.</p></noscript><p class="empty" id="ld">Carregando o catálogo…</p></div></main>
 <footer>Mapa de camadas: ordem e tipos são <b>proposta automática</b> (palavras-chave), não verificada.<br>Licença só é firme quando lida na fonte: <b>lic ✓</b> lida na fonte · <b>lic ?</b> não confirmada · <b>lic ✕</b> restrita ou sem fonte. Marcas ficam neste aparelho.</footer>
 <div id="nv" role="status" hidden><span>Nova versão disponível.</span><button id="nvb" type="button">Atualizar</button></div>
 <section id="fp" role="dialog" aria-modal="false" aria-labelledby="fpt" tabindex="-1"><button id="fx" type="button" aria-label="Fechar os filtros">×</button><div id="fb"></div></section>
@@ -121,6 +122,7 @@ function bonus(x,nq){const n=x.T.nm;return n===nq?30:n.startsWith(nq)?8:nq.lengt
 /* Devolve {r:[[id,nota],…] em ordem de relevância, fix:[[digitado,considerado],…]} ou null se a consulta for vazia. Filtros não entram aqui. */
 function buscar(q){q=q.trim();if(!q)return null;if(!IX.length)mkIdx();const nq0=norm(q),mi=nq0.match(/^umi[\s-]*0*(\d{1,3})$/);
  if(mi){const id='UMI-'+mi[1].padStart(3,'0');return{r:B[id]?[[id,1000]]:[],fix:[]}}
+ const ms=nq0.match(/^src[_\s-]*([a-z0-9_]+)$/);if(ms){const id='src_'+ms[1];return{r:B[id]?[[id,1000]]:[],fix:[]}}
  const T=toks(nq0);if(!T.length)return null;const nq=T.join(' ');
  const run=AL=>{const r=[];IX.forEach(x=>{let s=0;for(const al of AL){const v=tsc(x,al);if(!v){s=0;break}s+=v}if(s)r.push([x.o.i,s+bonus(x,nq)])});
   r.sort((a,b)=>b[1]-a[1]||(+auto(B[b[0]]))-(+auto(B[a[0]]))||(a[0]<b[0]?-1:1));return r};
@@ -168,9 +170,12 @@ function fpanel(k){const b=$('#fb'),ac=document.activeElement,fk=k||(ac&&b.conta
 /* Mensagens de erro com botão "tentar de novo" (2.3) */
 function falha(txt,fn){const m=$('#mp');m.innerHTML='';const d=e('div','err');d.setAttribute('role','alert');d.append(e('p','',txt));const b=e('button','','Tentar de novo');b.type='button';b.onclick=fn;d.append(b);m.append(d);$('#stt').hidden=true}
 const getj=u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
+/* OTM-7: camada das fontes de dados (fontes.json), carregada depois da 1ª tela e misturada ao catálogo. Proposta, nada lido nas fontes. */
+function loadFontes(){return getj('fontes.json').then(f=>{if(!Array.isArray(f))throw new Error('fontes.json inválido');const ids=new Set(D.map(o=>o.i));f=f.filter(o=>!ids.has(o.i));D=D.concat(f);f.forEach(o=>B[o.i]=o);IX=[];VOC=new Set();$('#fe').hidden=true;draw()}).catch(()=>{$('#fe').hidden=false})}
+$('#feb').onclick=()=>{loadFontes()};
 function loadChains(){return getj('chains.json').then(c=>{C=c;cok=true}).catch(()=>{cok=false})}
 function load(){$('#mp').innerHTML='';$('#mp').append(e('p','empty','Carregando o catálogo…'));
- return Promise.all([getj('data.json'),loadChains()]).then(([d])=>{if(!Array.isArray(d))throw new Error('data.json inválido');D=d;B={};d.forEach(o=>B[o.i]=o);tabs();bar();draw()})
+ return Promise.all([getj('data.json'),loadChains()]).then(([d])=>{if(!Array.isArray(d))throw new Error('data.json inválido');D=d;B={};d.forEach(o=>B[o.i]=o);tabs();bar();draw();(window.requestIdleCallback?requestIdleCallback(loadFontes,{timeout:2500}):setTimeout(loadFontes,800))})
  .catch(()=>falha('Não foi possível carregar os dados do catálogo (data.json). Verifique a conexão e tente de novo.',load))}
 function chains(){const m=$('#mp');m.innerHTML='';$('#stt').hidden=true;
  if(!cok||!C.recipes.length){const d=e('div','err');d.setAttribute('role','alert');d.append(e('p','','Não foi possível carregar as cadeias (chains.json).'));const b=e('button','','Tentar de novo');b.type='button';b.onclick=()=>loadChains().then(chains);d.append(b);m.append(d);return}
@@ -190,6 +195,7 @@ function sobre(){const m=$('#mp');m.innerHTML='';$('#stt').hidden=true;const w=e
   e('p','','Catálogo de consulta e triagem de ferramentas técnicas abertas, bases de dados e normas de engenharia de processos, materiais e dados industriais. Reúne '+D.length+' itens em '+new Set(D.map(o=>o.e)).size+' eixos: '+ct('ferramenta')+' ferramentas, '+ct('base')+' bases de dados, '+ct('norma')+' normas, '+ct('artigo')+' artigos e '+ct('outro')+' de outros tipos. Não é uma plataforma: serve para chegar a uma lista curta de opções.'),
   H('Como os itens foram classificados'),
   e('p','','Eixo e tipo vêm de regras de palavras-chave aplicadas ao texto da planilha UMI, com revisão parcial. São propostas de classificação, não verificadas nas fontes.'),
+  ...(D.some(o=>o.g==='f')?[H('Camada de fontes de dados'),e('p','',D.filter(o=>o.g==='f').length+' itens vêm da inspeção de 1.202 fontes de dados (os que já existiam no UMI ou se repetiam não entram duas vezes). O tipo e o eixo são heurísticos; a descrição vem do conhecimento do modelo que fez a inspeção, sem abrir as páginas; parte da licença e da URL foi triada por busca de outra IA. Nada foi lido na fonte: a licença desses itens é, no máximo, triagem. Eles não são candidatas a rodar sozinhas.')]:[]),
   H('O que é candidata'),
   e('p','','Candidata a rodar sozinha é o item sem dependência de outro programa escrita na descrição da planilha ('+D.filter(auto).length+' de '+D.length+' itens). Isso não garante que a ferramenta rode sozinha. Na ficha você pode corrigir a marca neste aparelho.'),
   H('Selos de licença'),
@@ -262,11 +268,13 @@ function urlBlock(o){const w=e('div');
 function sheet(o,opt){opt=opt||{};fecharF();const s=$('#sb');s.innerHTML='';const sh=$('#sheet');
  const h=e('h3','',o.n);h.id='sht';
  s.append(h,e('div','meta',o.i+' · '+o.e+' · '+({ferramenta:'ferramenta',base:'base/dataset',norma:'norma/padrão',artigo:'artigo/método',outro:'outro'}[o.t])+(o.r?' · tipo por URL/grupo (proposta)':'')));
- s.append(e('p','',o.d||'Sem descrição.'),licBlock(o),urlBlock(o));
+ s.append(e('p','',o.d||'Sem descrição.'));
+ if(o.g==='f')s.append(e('div','nt','Item da camada de fontes de dados (inspeção de 1.202 fontes). '+({CONHECIDO:'Descrição conhecida pelo modelo que fez a inspeção, sem abrir a página.',INFERIDO_TIPO:'Descrição inferida só pela categoria.',BUSCAR:'Fonte marcada para busca; descrição a confirmar.'}[o.bk]||'')+' Nada aqui foi lido na fonte.'));
+ s.append(licBlock(o),urlBlock(o));
  const r=e('div','row');MK.forEach(([k,t,g])=>{const b=e('button','',g+' '+t);b.type='button';b.dataset.k=k;b.setAttribute('aria-pressed',marks[o.i]===k);b.onclick=()=>{if(marks[o.i]===k)delete marks[o.i];else marks[o.i]=k;sv();draw();sheet(o,{k})};r.append(b)});s.append(r);
  const ob=C.out[o.i];if(ob){s.append(e('div','rl','Produz (objeto UMI, planilha): '+ob.join(', ')));const at=[...new Set(C.edges.filter(x=>ob.includes(x[0])).map(x=>x[1]))];
   at.forEach(y=>{const ps=(C.prod[y]||[]).filter(i=>i!==o.i&&B[i]).slice(0,4);s.append(e('div','nt','Esse objeto alimenta '+y+' (encaixe por objeto, proposta):'));ps.forEach(i=>{const b=e('button','lk',B[i].n);b.type='button';b.onclick=()=>pick(i);s.append(b)})})}
- const au=e('button','lk',(auto(o)?'Marcada como candidata (proposta). Corrigir para não':'Não candidata (proposta). Corrigir para candidata'));au.type='button';au.dataset.k='au';au.onclick=()=>{ov[o.i]=!auto(o);sv();draw();sheet(o,{k:'au'})};s.append(au);
+ if(o.g!=='f'){const au=e('button','lk',(auto(o)?'Marcada como candidata (proposta). Corrigir para não':'Não candidata (proposta). Corrigir para candidata'));au.type='button';au.dataset.k='au';au.onclick=()=>{ov[o.i]=!auto(o);sv();draw();sheet(o,{k:'au'})};s.append(au)}
  [['al','Alternativas (uma no lugar da outra)'],['sc','Parecidas: mesma categoria (critério fraco)'],['cp','Complementam']].forEach(([k,t])=>{if(!o[k].length)return;s.append(e('div','rl',t));o[k].forEach(i=>{if(!B[i])return;const b=e('button','lk',B[i].n);b.type='button';b.onclick=()=>pick(i);s.append(b)})});
  const x=e('button','lk','Exportar marcas e correções (JSON)');x.type='button';x.onclick=()=>{const bl=new Blob([JSON.stringify({exportado:new Date().toISOString(),marcas:marks,autocontida_corrigida:ov},null,1)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(bl);a.download='umi_triagem.json';a.click()};s.append(x);
  ampla();sh.classList.add('o');

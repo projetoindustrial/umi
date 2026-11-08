@@ -22,6 +22,7 @@ Catálogo de consulta e triagem de ferramentas técnicas abertas, bases de dados
 - Tipos, eixos e "candidata a rodar sozinha" são propostas de classificação por palavras-chave, não verificadas nas fontes. "Candidata" não garante que rode sozinha.
 - A maioria das licenças ainda não foi lida na fonte. **Confirme a licença antes de usar qualquer item em projeto.**
 - Parte dos links foi proposta por busca externa e ainda não foi aberta.
+- Parte dos itens vem de uma camada de fontes de dados (971 itens, de uma inspeção de 1.202 fontes; as repetidas não entram duas vezes). Nela, tipo e eixo são heurísticos, a descrição vem do conhecimento do modelo que fez a inspeção e nada foi lido na fonte: a licença desses itens é, no máximo, triagem.
 - Nada é enviado pela rede: busca e marcas rodam no aparelho. Limpar os dados do navegador apaga as marcas.
 
 ## Como relatar um erro
