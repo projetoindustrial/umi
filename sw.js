@@ -1,6 +1,6 @@
 /* OTM-4: arquivos do app em cache-first (versionados); data.json e chains.json em "usa o cache e atualiza em segundo plano".
    A versão nova NÃO assume sozinha: fica em espera até o app pedir (botão "Atualizar"), para não misturar versões. */
-const V='umi-v17',SHELL=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png'],DADOS=['data.json','chains.json','fontes.json'];
+const V='umi-v18',SHELL=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png'],DADOS=['data.json','chains.json','fontes.json'];
 const off=()=>new Response('offline',{status:503,headers:{'Content-Type':'text/plain;charset=utf-8'}});
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL.concat(DADOS))))});
 self.addEventListener('message',e=>{if(e.data==='SKIP_WAITING')self.skipWaiting()});

@@ -1,0 +1,2296 @@
+# Catálogo UMI
+
+> 569 itens em 20 eixos; licença verificada na fonte em 62. Ferramentas, bases de dados e normas de engenharia de processos, materiais e dados industriais.
+
+Observação: o app também mostra uma camada de 971 fontes de dados (inspeção heurística, não verificada); ela não consta desta versão em texto.
+
+## Páginas
+- [Itens por eixo](https://projetoindustrial.github.io/umi/catalogo/)
+- [Cadeias e receitas](https://projetoindustrial.github.io/umi/cadeias.html)
+
+## Dados
+- [CSV](https://projetoindustrial.github.io/umi/dados/catalogo.csv)
+- [JSONL](https://projetoindustrial.github.io/umi/dados/catalogo.jsonl)
+- [llms-full.txt](https://projetoindustrial.github.io/umi/llms-full.txt)
+
+## Aviso
+A licença só é firme se estiver "verificada na fonte" (62 itens). Dados de 06/11/2026.
+
+
+# Todos os itens
+
+## UMI-001 · SEARS
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Multi-técnica | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/SEARS-Project/SEARS (link conferido)
+Plataforma cloud-native FAIR para experimentos multi-laboratório com trilhas de auditoria.
+
+## UMI-002 · datalab
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Materiais | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/datalab-org/datalab (link conferido)
+Gestão de dados de materiais com foco em proveniência e parsers abertos.
+
+## UMI-003 · MatterGraph
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Materiais | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/cyrusmo/MatterGraph (link conferido)
+SDK para fluxos de materiais com ProvenanceRecord como cidadão de primeira classe.
+
+## UMI-004 · IUPAC FAIRSpec
+Eixo: FAIR & Proveniência | Tipo: norma | Técnica: Espectroscopia | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/IUPAC/IUPAC-FAIRSpec (link conferido)
+Padrão de metadados FAIR para espectroscopia (Finding Aids).
+
+## UMI-005 · FAIRaman
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Raman | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/Maugeri-Nanomed-Lab/FAIRaman (link conferido)
+Converte Raman em HDF5/NeXus com hierarquia PROJECT/SAMPLE/ENTRY.
+
+## UMI-006 · Specatalog
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Espectroscopia | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/Specatalog/Specatalog (link conferido)
+Gestão e arquivamento de dados espectroscópicos com PostgreSQL e HDF5.
+
+## UMI-007 · RECAP
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Alto throughput | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/IllDepence/recap (link conferido)
+Proveniência reprodutível para experimentos de alto throughput.
+
+## UMI-008 · Consist
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Simulação | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/consist-org/consist (link conferido)
+Rastreamento de proveniência e cache para workflows de simulação.
+
+## UMI-009 · openBIS
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: ELN-LIMS | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/openbis/openbis (link conferido)
+ELN-LIMS open-source com vínculo entre espectros e metadados.
+
+## UMI-010 · NMRspec
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: NMR | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/NFDI4Chem/nmrspec (link conferido)
+Geração de schema (JSON-LD, JSON Schema, Python) via LinkML.
+
+## UMI-011 · NXraman
+Eixo: FAIR & Proveniência | Tipo: norma | Técnica: Raman | Licença: A confirmar (LICENSE do repo) [a confirmar] | Link: https://manual.nexusformat.org/classes/applications/NXraman.html (link conferido)
+Application definition NeXus para Raman.
+
+## UMI-012 · nmrXiv
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: NMR | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/NFDI4Chem/nmrxiv (link conferido)
+Repositório e plataforma de análise de NMR FAIR.
+
+## UMI-013 · Elemental Feature Bank
+Eixo: FAIR & Proveniência | Tipo: base | Técnica: Materiais | Licença: A confirmar (LICENSE do repo) [a confirmar] | Link: https://github.com/Elemental-Feature-Bank (link conferido)
+Dataset de features elementares provenance-aware (118 elementos).
+
+## UMI-014 · Mat3ra-2D
+Eixo: FAIR & Proveniência | Tipo: ferramenta | Técnica: Materiais 2D | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/mat3ra/mat3ra-2d (link conferido)
+Framework para materiais 2D com esquemas de dados abertos.
+
+## UMI-015 · MRDFuse
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Multimodal | Licença: BSD-3-Clause (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/ljy110346/MRDFuse (link conferido)
+Fusão multimodal com ramo auxiliar de reconstrução.
+
+## UMI-016 · MM-Spectrum
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Multimodal | Licença: Sem licença declarada (sem LICENSE na raiz; verificado 02/11/2026) [não localizada] | Link: https://github.com/HHHTTY/MM-Spectrum (link conferido)
+Mixture-of-Experts para elucidação estrutural multimodal.
+
+## UMI-017 · raman-open-ml
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Raman | Licença: Sem licença declarada (sem LICENSE na raiz; verificado 02/11/2026) [não localizada] | Link: https://github.com/BalytskyiJaroslaw/RamanOpenSet (link conferido)
+Conformal prediction e rejeição open-set para Raman.
+
+## UMI-018 · Neutrosophic PLS
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Quimiometria | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/neurosophic/neutrosophic-pls (link conferido)
+PLS com canais Truth/Indeterminacy/Falsity.
+
+## UMI-019 · Uncertainty_noise_structure
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Incerteza | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/Uncertainty-Labs/uncertainty-noise-structure (link conferido)
+Propagação de erro Monte Carlo com covariância.
+
+## UMI-020 · Uncertainty-Laplace-NMR
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: NMR | Licença: Sem licença declarada (sem LICENSE na raiz; verificado 02/11/2026) [não localizada] | Link: https://github.com/Vetor7/Uncertainty-Laplace-NMR (link conferido)
+Inversão de Laplace em NMR com deep learning informado por incerteza.
+
+## UMI-021 · MultimodalAnalytical
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: IR / NMR | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/rxn4chemistry/MultimodalAnalytical (link conferido)
+Codebase PyTorch para treinar modelos em IR e NMR.
+
+## UMI-022 · ChemDFM-X
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Multimodal | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/OpenDFM/ChemDFM-X (link conferido)
+Modelo multimodal para química (grafo, 3D, imagem, MS, IR).
+
+## UMI-023 · SAFDN
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Vibracional | Licença: A confirmar (LICENSE do repo) [a confirmar] | Link: https://github.com/SAFDN (link conferido)
+Diagnóstico multimodal baseado em espectroscopia vibracional.
+
+## UMI-024 · Multi-Modal-2D-Data-Fusion
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: EDS / EELS | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/jtschwar/Multi-Modal-2D-Data-Fusion (link conferido)
+Fusão de dados para microscopia eletrônica (EDS/EELS).
+
+## UMI-025 · ReactorTwin
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Reatores | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/ktubhyam/reactor-twin (link conferido)
+Digital twin de reatores com Neural ODEs e restrições físicas.
+
+## UMI-026 · KG4DT
+Eixo: Digital Twin & Processo | Tipo: norma | Técnica: Digital twin | Licença: Creative Commons (conferir variante) (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/sustainable-processes/KG4DT (link conferido)
+Knowledge Graph para Digital Twins com ontologias.
+
+## UMI-027 · SpecTwin
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Espectral | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/SpecTwin/SpecTwin (link conferido)
+Digital twin espectral baseado em xrt e AutoFDMNES.
+
+## UMI-028 · NOMAD
+Eixo: Digital Twin & Processo | Tipo: base | Técnica: Materiais | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/nomad-coe/nomad (link conferido)
+Plataforma open-access para dados de materiais de alto throughput.
+
+## UMI-029 · Bluesky
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Instrumentação | Licença: BSD-3-Clause (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/bluesky/bluesky (link conferido)
+Framework modular para experimentos de caracterização multimodal.
+
+## UMI-030 · CSTR_InfluxDB
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: CSTR | Licença: Sem licença declarada (sem LICENSE na raiz; verificado 02/11/2026) [não localizada] | Link: https://github.com/InfluxCommunity/CSTR_InfluxDB (link conferido)
+Digital twin de CSTR com streaming em tempo real.
+
+## UMI-031 · MATTERIX
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Robótica de lab | Licença: BSD (2/3-clause; conferir) (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/AccelerationConsortium/Matterix (link conferido)
+Simulação robótica acelerada por GPU para laboratórios.
+
+## UMI-032 · Recycle Reactor Digital Twin
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Processo | Licença: A confirmar (LICENSE do repo) [a confirmar] | Link: https://github.com/Recycle-Reactor-DT (link conferido)
+Digital twin do processo Tennessee Eastman.
+
+## UMI-033 · PIXLISE
+Eixo: Visualização & UI | Tipo: ferramenta | Técnica: XRF | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/pixlise/pixlise-ui (link conferido)
+Visualização e análise de XRF (NASA), com chord diagram e workspaces.
+
+## UMI-034 · SPECTROview
+Eixo: Visualização & UI | Tipo: ferramenta | Técnica: Espectral | Licença: GPL (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/CEA-MetroCarac/SPECTROview (link conferido)
+Desktop app para fitting e visualização espectral com VBF.
+
+## UMI-035 · spectraview
+Eixo: Visualização & UI | Tipo: ferramenta | Técnica: Vibracional | Licença: MIT (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://www.npmjs.com/package/spectraview (link conferido)
+Componente React para espectroscopia vibracional com resíduo.
+
+## UMI-036 · SpectraCloud
+Eixo: Visualização & UI | Tipo: ferramenta | Técnica: Multimodal | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/SpectraCloud/SpectraCloud (link conferido)
+Pipeline multimodal com barra de confiança e ranked similarity.
+
+## UMI-037 · RamanLab
+Eixo: Visualização & UI | Tipo: ferramenta | Técnica: Raman | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/RamanLab/RamanLab (link conferido)
+Análise Raman com destaque de resíduo positivo para fases menores.
+
+## UMI-038 · PySpecTrace
+Eixo: Visualização & UI | Tipo: ferramenta | Técnica: UV-Vis-NIR | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/PySpecTrace/PySpecTrace (link conferido)
+GUI Python para análise em tempo real de UV-Vis-NIR.
+
+## UMI-039 · Spectral Nexus
+Eixo: Visualização & UI | Tipo: ferramenta | Técnica: FTIR | Licença: MIT (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/Spectral-Nexus (link conferido)
+Aplicação web para análise de dados FT-IR.
+
+## UMI-040 · SpectraGuru
+Eixo: Identificação & Bibliotecas | Tipo: ferramenta | Técnica: Raman / SERS | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/FengboMa/SpectraGuru_beta (link conferido)
+Plataforma web para Raman e SERS com análise estatística.
+
+## UMI-041 · Smart Spectral Matching (SSM)
+Eixo: Identificação & Bibliotecas | Tipo: ferramenta | Técnica: Raman / IR | Licença: BSD-3-Clause (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/smart-spectral-matching (link conferido)
+Plataforma ORNL para Raman e infravermelho.
+
+## UMI-042 · CRAMM
+Eixo: Identificação & Bibliotecas | Tipo: ferramenta | Técnica: Hiperespectral | Licença: A confirmar (LICENSE do repo) [sem fonte] | Link: https://github.com/USGS-MICA/CRAMM (link conferido)
+Identificação mineral hiperespectral com regras JSON.
+
+## UMI-043 · Open Specy
+Eixo: Identificação & Bibliotecas | Tipo: ferramenta | Técnica: Microplásticos (IR/Raman) | Licença: CC-BY-4.0 (LICENSE.md lido via raw.githubusercontent.com em 03/11/2026) [verificada na fonte] | Link: https://github.com/wincowgerDEV/OpenSpecy-package (link conferido)
+Plataforma para microplásticos com 40k+ espectros.
+
+## UMI-044 · LIBSkit
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: LIBS | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/DLR-WR/libskit (link conferido)
+Modelagem e simulação de espectros de plasma LIBS com parâmetros físicos controlados; gera dados de treino.
+
+## UMI-045 · simLIBS
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: LIBS | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/MKastek/simLIBS (link conferido)
+Classe Python para simular espectros LIBS com interface ao banco NIST LIBS.
+
+## UMI-046 · CF-LIBS
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: LIBS | Licença: Sem licença declarada (sem LICENSE na raiz; verificado 02/11/2026) [não localizada] | Link: https://github.com/acobo/CFLIBS (link conferido)
+Modelagem de plasma e análise quantitativa sem calibração.
+
+## UMI-047 · libssa
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: LIBS | Licença: AGPL-3.0 (verificado em 01/11/2026) [triagem por outra IA] | Link: https://github.com/kstenio/libssa (link conferido)
+Identificação de picos, PCA, PLSR, quantificação e mapeamento LIBS.
+
+## UMI-048 · pyLIBS
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: LIBS | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/Vince1960/pyLIBS (link conferido)
+Estatística, mapeamento e workbenches integrados para LIBS.
+
+## UMI-049 · Rampy
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Raman | Licença: GPL-2.0 (LICENSE lido via raw.githubusercontent.com em 03/11/2026; corrige "LGPL" anterior [verificada na fonte] | Link: https://github.com/charlesll/rampy (link conferido)
+Processamento espectroscópico (baseline, smoothing, stacking, classificação ML).
+
+## UMI-050 · pybaselines
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Multi (baseline) | Licença: BSD-3-Clause (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/derb12/pybaselines (link conferido)
+Mais de 50 algoritmos de correção de linha de base (AsLS, airPLS, ModPoly, SNIP...).
+
+## UMI-051 · Virtual FTIR Spectrometer
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: FTIR | Licença: GPL (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/RastonLab/Virtual-FTIR-Spectrometer (link conferido)
+Simulador de instrumento FTIR com interface de medição e visualização.
+
+## UMI-052 · THeSeuSS
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: IR / Raman / THz | Licença: A confirmar (LICENSE do repo) [a confirmar] | Link: https://ariadni20.github.io/THeSeuSS/ (link conferido)
+Simula espectros IR, Raman e THz a partir de DFT/DFTB para moléculas e sólidos.
+
+## UMI-053 · mlip-ir-sim
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: IR | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/ShunKonno/mlip-ir-sim (link conferido)
+Espectros de transmissão IR a partir de dinâmica molecular com potenciais de ML.
+
+## UMI-054 · NIRS4ALL
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: NIR | Licença: AGPL-3.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/GBeurier/nirs4all (link conferido)
+Biblioteca Python e app desktop com pipelines de processamento e ML/DL para NIR.
+
+## UMI-055 · MATS (NIST)
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: Multiespectral | Licença: NIST Software Licensing Statement (triagem LLM externa 02/11/2026; confiança ALTA; LICENSE [triagem por outra IA] | Link: https://pages.nist.gov/MATS/ (link conferido)
+Ajuste multiespectral com perfis de linha e geração de espectros simulados.
+
+## UMI-056 · XMI-MSIM
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: XRF | Licença: GPL (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/tschoonj/xmimsim (link conferido)
+Simulação Monte Carlo da resposta de espectrômetros EDXRF, com GUI.
+
+## UMI-057 · XrayLarch
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XRF | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/xraypy/xraylarch (link conferido)
+Análise de espectros de raios X: integração, normalização, quantificação, pipelines.
+
+## UMI-058 · HEXRD
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XRD | Licença: BSD-3-Clause (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/HEXRD/hexrd (link conferido)
+Difração de raios X (pó, Laue, 3DXRD/HEDM) com abstração multi-detector.
+
+## UMI-059 · Profex
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XRD | Licença: A confirmar (LICENSE do repo) [a confirmar] | Link: https://www.profex-xrd.org/ (link conferido)
+Refinamento Rietveld (kernel BGMN) para identificação e quantificação de fases.
+
+## UMI-060 · DARA
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XRD | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/idocx/dara (link conferido)
+Automatiza busca de fases e refinamento Rietveld.
+
+## UMI-061 · XRD-AutoAnalyzer
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XRD | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/njszym/XRD-AutoAnalyzer (link conferido)
+Identificação automática de fases por deep learning (augmentation physics-informed).
+
+## UMI-062 · ViMMS
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: LC-MS/MS | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/glasgowcompbio/vimms (link conferido)
+Simulador programável e modular de LC-MS/MS; exporta mzML.
+
+## UMI-063 · mzrtsim
+Eixo: Simulação espectral/instrumental | Tipo: base | Técnica: GC/LC-MS | Licença: GPL-2 (declarada no DESCRIPTION do pacote R; sem arquivo LICENSE; 02/11/2026) [verificada na fonte] | Link: https://github.com/yufree/mzrtsim (link conferido)
+Dados brutos e tabelas de features para metabolômica não direcionada.
+
+## UMI-064 · MatchMS
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/matchms/matchms (link conferido)
+Comparação de espectros de massas e busca por similaridade.
+
+## UMI-065 · ms2deepscore
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/matchms/ms2deepscore (link conferido)
+Scoring por deep learning para similaridade espectral em MS.
+
+## UMI-066 · pymzML
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/pymzml/pymzml (link conferido)
+Leitura eficiente de arquivos mzML.
+
+## UMI-067 · nmrglue
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: NMR | Licença: BSD (2/3-clause; conferir) (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/jjhelmus/nmrglue (link conferido)
+Leitura/escrita/processamento de formatos Varian, Bruker, NMRPipe e Sparky.
+
+## UMI-068 · ssNake
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: NMR (solid-state) | Licença: GPL-3.0 (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://gitlab.science.ru.nl/mrrc/nmrzoo/ssnake/ (link conferido)
+Processamento e fitting cross-platform com ênfase em solid-state NMR.
+
+## UMI-069 · PikaXPS
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XPS | Licença: GPL (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/contact993/pikaxps (link conferido)
+Peak-fitting XPS com auditor de ajuste e banco de referências.
+
+## UMI-070 · KherveFitting
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XPS / XAS | Licença: BSD-3-Clause (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/KherveFitting/KherveFitting (link conferido)
+Fitting XPS/XAS completo (backgrounds Shirley/Tougaard, vários shapes).
+
+## UMI-071 · SpectroChemPy
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Multi-técnica | Licença: CECILL-B (LICENSE lido via raw.githubusercontent.com em 03/11/2026; confirma a triagem da  [verificada na fonte] | Link: https://github.com/spectrochempy/spectrochempy (link conferido)
+Framework com NDDataset (metadados, histórico, PCA, MCR-ALS, PLS, fitting).
+
+## UMI-072 · chemotools
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Quimiometria | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/paucablop/chemotools (link conferido)
+Pré-processamento quimiométrico nativo ao scikit-learn (baseline, derivatização, DS/PDS).
+
+## UMI-073 · RamanSPy
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Raman | Licença: BSD-3-Clause [triagem por outra IA] | Link: https://github.com/barahona-research-group/RamanSPy (link conferido)
+Pacote Python para análise integrativa de Raman: loaders, pré-processamento, pipelines, sintéticos, RRUFF.
+
+## UMI-074 · rietx
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: XRD | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/yue-here/rietx (link conferido)
+API Python para Rietveld/Le Bail/Pawley com correções instrumentais.
+
+## UMI-075 · openCGS
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Crescimento de cristal | Licença: GPL-3.0 (exemplo em schemas) [triagem por outra IA] | Link: https://github.com/nemocrys/opencgs (link conferido)
+Plataforma para crescimento de cristais (Czochralski), acoplando Elmer e OpenFOAM.
+
+## UMI-076 · Aspen Plus / HYSYS
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Processo (clássico) | Licença: Comercial [restrita] | Link: https://www.aspentech.com/en/products/engineering/aspen-plus (link conferido)
+Simulação comercial de processos contínuos, balanços de massa/energia e termodinâmica.
+
+## UMI-077 · Basalt Provenance Triage Toolkit
+Eixo: Identificação & Bibliotecas | Tipo: ferramenta | Técnica: Multi-domínio | Licença: CC-BY-NC-SA-4.0 (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/Basalt-Provenance-Triage-Toolkit (link conferido)
+Plataforma multi-domínio com 70+ motores de classificação.
+
+## UMI-078 · PeakForest
+Eixo: Identificação & Bibliotecas | Tipo: ferramenta | Técnica: Metabolômica | Licença: GPL-3.0 (triagem LLM externa 02/11/2026; confiança BAIXA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/PeakForest/PeakForest (link conferido)
+Ferramenta Java para anotação de metaboloma.
+
+## UMI-079 · DWSIM
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Processo | Licença: GPL-3.0 (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://dwsim.org/ (link conferido)
+Simulador de processos químicos open-source (steady-state/dinâmico), alternativa ao Aspen.
+
+## UMI-080 · IDAES
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Processo | Licença: BSD, variante não especificada (classificador do pyproject; triagem LLM externa 02/11/2026 [triagem por outra IA] | Link: https://idaes.org/ (link conferido)
+Framework Python/Pyomo do DOE para modelagem e otimização de processos.
+
+## UMI-081 · Choupo
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Processo glass-box | Licença: GPL-3 (CSV) [triagem por outra IA] | Link: https://www.choupo.org/ (link conferido)
+Simulador em C++/WebAssembly; steady-state, batch, dinâmico, destilação, membranas.
+
+## UMI-082 · FLUX
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Eletroquímica de planta | Licença: Apache-2.0 (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/pabloagn/flux (link conferido)
+Digital twin declarativo de processos eletroquímicos (clor-álcali) em Rust.
+
+## UMI-083 · RFBniCS
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Baterias de fluxo | Licença: MIT (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://arxiv.org/abs/2410.06133 (link conferido)
+Half-cells de baterias de fluxo redox em FEniCSx.
+
+## UMI-084 · FreeSim
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Eletroquímica | Licença: GPL-3.0 (LICENSE lido via raw.githubusercontent.com em 03/11/2026) [verificada na fonte] | Link: https://github.com/nmerovingian/FreeSim (link conferido)
+Simulador de reações eletroquímicas (voltametria; Butler-Volmer, Marcus-Hush).
+
+## UMI-085 · OpenPhase
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Microestrutura | Licença: GPL v3 (CSV) [triagem por outra IA] | Link: https://openphase.rub.de/ (link conferido)
+Biblioteca C++ de phase-field (solidificação, crescimento de grão).
+
+## UMI-086 · MulSKIPS
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Deposição atômica | Licença: GPL-3.0 (LICENSE lido via raw.githubusercontent.com em 03/11/2026) [verificada na fonte] | Link: https://github.com/MulSKIPS/MulSKIPS (link conferido)
+Kinetic Monte Carlo para CVD, PVD e laser annealing.
+
+## UMI-087 · ViennaPS
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Deposição atômica | Licença: GPL (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/ViennaTools/ViennaPS (link conferido)
+Topografia e microfabricação (etch, deposition) com level-set.
+
+## UMI-088 · Kinetix
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Deposição atômica | Licença: MIT (CSV) [triagem por outra IA] | Link: https://github.com/aldanads/Kinetix (link conferido)
+Simulador kMC em Python para deposição de filmes, annealing e memristores.
+
+## UMI-089 · ChemPlasKin
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Plasma e química | Licença: LGPL (LICENSE lido 02/11/2026; versão/variante a conferir) [verificada na fonte] | Link: https://github.com/ShaoX96/ChemPlasKin (link conferido)
+Solver 0D de cinética de plasma (Boltzmann + Cantera).
+
+## UMI-090 · catchyCFDEM
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Catálise heterogênea | Licença: A confirmar (LICENSE do repo) [a confirmar] | Link: — (link não localizado)
+CFD-DEM (OpenFOAM + LIGGGHTS) para leitos fluidizados reativos.
+
+## UMI-091 · PyBaMM
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Baterias Li-ion | Licença: BSD-3 (CSV) [triagem por outra IA] | Link: https://pybamm.org/ (link conferido)
+Modelos físico-químicos de baterias (DFN, SPMe) e otimização.
+
+## UMI-092 · PathSim
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Ciclo de combustível | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/pathsim/pathsim (link conferido)
+Digital twin do ciclo de combustível de fusão (trítio, breeding).
+
+## UMI-093 · shadcn/ui
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: UI | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA; LICENSE não lido) [triagem por outra IA] | Link: https://ui.shadcn.com/ (link conferido)
+Mapa de componentes sugerido para o relatório (Badge, Card, Table, Alert, Sheet...).
+
+## UMI-094 · D3
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Gráficos | Licença: ISC (triagem LLM externa 02/11/2026; confiança ALTA; LICENSE não lido) [triagem por outra IA] | Link: https://d3js.org/ (link conferido)
+Engine SVG para espectros com até 5k pontos.
+
+## UMI-095 · uPlot
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Gráficos | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/leeoniya/uPlot (link conferido)
+Engine Canvas para espectros com mais de 5k pontos.
+
+## UMI-096 · HermiT
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Ontologia | Licença: LGPL-3.0 (triagem LLM externa 02/11/2026; confiança ALTA; LICENSE não lido) [triagem por outra IA] | Link: http://www.hermit-reasoner.com/ (link conferido)
+Reasoner OWL para consumo do export Turtle.
+
+## UMI-097 · FaCT++
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Ontologia | Licença: GPL-2.0-or-later (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/ethz-asl/libfactplusplus (endereço proposto por busca externa, ainda não aberto)
+Reasoner OWL para consumo do export Turtle.
+
+## UMI-098 · Pydantic v2
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Python | Licença: MIT (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://docs.pydantic.dev/ (link conferido)
+Modelos dos schemas UMI gerados de schemas.json/enums.json.
+
+## UMI-099 · Typer
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Python | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA; LICENSE não lido) [triagem por outra IA] | Link: https://typer.tiangolo.com/ (link conferido)
+CLI do P0 (umi run p0 ...).
+
+## UMI-100 · pytest
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Python | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA; LICENSE não lido) [triagem por outra IA] | Link: https://pytest.org/ (link conferido)
+Testes do P0 contra os 5 fixtures dos validadores.
+
+## UMI-101 · FastAPI
+Eixo: Stack de implementação | Tipo: ferramenta | Técnica: Python | Licença: MIT (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://fastapi.tiangolo.com/ (link conferido)
+API prevista para o P1 (fora do P0).
+
+## UMI-102 · RRUFF
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Raman / XRD / IR | Licença: A confirmar (Terms and Conditions do RRUFF) [a confirmar] | Link: https://rruff.info (link conferido)
+Base integrada de espectros Raman, difração de raios X e química de minerais.
+
+## UMI-103 · COD — Crystallography Open Database
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: XRD (estruturas) | Licença: CC0 (domínio público) [triagem por outra IA] | Link: https://www.crystallography.net/cod/ (link conferido)
+Estruturas cristalinas de compostos orgânicos, inorgânicos e organometálicos, em CIF.
+
+## UMI-104 · ICDD Powder Diffraction File
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: XRD | Licença: Comercial (assinatura por produto) [restrita] | Link: https://www.icdd.com/ (link conferido)
+Powder Diffraction File (PDF-5+, PDF-4, PDF-2): base comercial de padrões de difração.
+
+## UMI-105 · NIST ASD / LIBS Database
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: LIBS / OES | Licença: NIST SRD (a confirmar termos) [a confirmar] | Link: https://physics.nist.gov/PhysRefData/ASD/LIBS/ (link conferido)
+Atomic Spectra Database do NIST com interface LIBS para espectros sintéticos.
+
+## UMI-106 · NIST Mass Spectrometry Data Center
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: MS | Licença: SRD Act 1968 (a confirmar termos) [a confirmar] | Link: https://www.nist.gov/srd/public-law (link conferido)
+Biblioteca de espectros de massas do NIST.
+
+## UMI-107 · MassBank (Europe)
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: LC-MS / GC-MS | Licença: Por registro (CC BY-NC-SA 4.0 ou CC BY; confirmar) [varia] | Link: https://massbank.eu/ (link conferido)
+Biblioteca aberta de espectros de massas para pequenas moléculas.
+
+## UMI-108 · MassBank of North America (MoNA)
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: MS | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://mona.fiehnlab.ucdavis.edu/documentation/license (link conferido)
+Base MassBank of North America.
+
+## UMI-109 · EMMO
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia | Licença: CC-BY-4.0 (LICENSE lido via raw.githubusercontent.com em 03/11/2026) [verificada na fonte] | Link: https://github.com/emmo-repo/EMMO (link conferido)
+Ontologia de materiais multi-escala (OWL2 DL); transforma technique/material/process em entidades semânticas.
+
+## UMI-110 · IDTA AAS Specifications
+Eixo: Fundação semântica | Tipo: norma | Técnica: Padrão normativo | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://industrialdigitaltwin.org/en/ (link conferido)
+Norma do digital twin industrial (IEC 63278); ProcessContext vira Submodel AAS.
+
+## UMI-111 · OPC UA Companion Specifications
+Eixo: Fundação semântica | Tipo: norma | Técnica: Dialeto industrial | Licença: Aberto (alguns exigem filiação OPC Foundation) [triagem por outra IA] | Link: https://reference.opcfoundation.org/ (link conferido)
+Dialeto OPC UA por vertical; permite à UMI entender sensores/PLCs.
+
+## UMI-112 · Eclipse BaSyx
+Eixo: Runtime do digital twin | Tipo: ferramenta | Técnica: Runtime AAS | Licença: EPL-2.0 / Apache-2.0 [triagem por outra IA] | Link: https://basyx.org/ (link conferido)
+Implementação de referência da AAS; publica o ProcessContext como AAS (REST).
+
+## UMI-113 · Eclipse AAS Core Works
+Eixo: Runtime do digital twin | Tipo: ferramenta | Técnica: Tooling AAS | Licença: EPL-2.0 / MIT [triagem por outra IA] | Link: https://github.com/eclipse-aascw (link conferido)
+SDKs e geradores a partir do metamodelo IDTA-01001; elimina schema escrito à mão.
+
+## UMI-114 · Eclipse Ditto
+Eixo: Runtime do digital twin | Tipo: ferramenta | Técnica: Runtime de estado | Licença: EPL-2.0 [triagem por outra IA] | Link: https://github.com/eclipse-ditto/ditto (link conferido)
+Guarda o estado atual (T, P, vibração, RUL) para o EquipmentState em tempo real.
+
+## UMI-115 · S2OPC
+Eixo: Runtime do digital twin | Tipo: ferramenta | Técnica: Conectividade OPC UA | Licença: Apache-2.0 [triagem por outra IA] | Link: https://www.s2opc.com/ (link conferido)
+OPC UA em dispositivos embarcados (Zephyr, FreeRTOS); gateway edge sem Windows.
+
+## UMI-116 · open62541
+Eixo: Runtime do digital twin | Tipo: ferramenta | Técnica: Conectividade OPC UA | Licença: MPL-2.0 [triagem por outra IA] | Link: https://github.com/open62541/open62541 (link conferido)
+Biblioteca OPC UA em C, leve e madura, com Pub/Sub; alternativa ao S2OPC.
+
+## UMI-117 · PHM Society Data Repository
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Varia por dataset [varia] | Link: https://data.phmsociety.org/ (link conferido)
+Hub de datasets de RUL/falha/diagnóstico e desafios anuais (agrega PHM 2009, 2022, 2023, 2026).
+
+## UMI-118 · NASA PCoE Prognostics Data Repository
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: US Government Work (citação por dataset) [triagem por outra IA] | Link: https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/ (link conferido)
+C-MAPSS, IMS Bearings e outros benchmarks de RUL (baseline de degradação).
+
+## UMI-119 · CWRU Bearing Data Center
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Uso livre com citação [triagem por outra IA] | Link: https://engineering.case.edu/bearingdatacenter (link conferido)
+Vibração de rolamentos com falhas controladas; manutenção preditiva clássica.
+
+## UMI-120 · PHM 2022 Data Challenge — Rock Drill
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Proprietary / Restricted (segundo agregador) (triagem LLM externa 02/11/2026; confiança ME [restrita] | Link: https://data.phmsociety.org/2022-phm-conference-data-challenge/ (link conferido)
+Domain shift (5 configurações); testa generalização quando o contexto muda.
+
+## UMI-121 · PHM 2023 Data Challenge — Gearbox
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Re-use free for research and educational purposes (triagem LLM externa 02/11/2026; confian [triagem por outra IA] | Link: https://data.phmsociety.org/phm2023-conference-data-challenge/ (link conferido)
+Degradação gradual (pitting); incerteza contínua no estado do equipamento.
+
+## UMI-122 · ALPI — Alarm Logs in Packaging Industry
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY [triagem por outra IA] | Link: https://ieee-dataport.org/open-access/alarm-logs-packaging-industry-alpi (link conferido)
+Eventos discretos (logs de alarme), alinhado à visão orientada a eventos da UMI.
+
+## UMI-123 · SKAB — Skoltech Anomaly Benchmark
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: GPL-3.0 [triagem por outra IA] | Link: https://github.com/waico/SKAB (link conferido)
+Anomalia coletiva (changepoint); mudança de regime.
+
+## UMI-124 · NoBOOM
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY-SA 4.0 [triagem por outra IA] | Link: https://github.com/wagner-d/noboom (link conferido)
+Dados reais de processo químico (BASF) com anomalias rotuladas.
+
+## UMI-125 · Pipeline Thickness Measurement Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Integridade | Licença: MIT [triagem por outra IA] | Link: https://huggingface.co/datasets/MustaphaL/pipeline-thickness-dataset (link conferido)
+Modelos de corrosão (Waard-Milliams, API 570, NACE SP0775); base do SafetyPrecursor.
+
+## UMI-126 · CORR-DATA (NACE-NIST)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Integridade | Licença: Domínio público [triagem por outra IA] | Link: https://data.nist.gov/od/id/54AE54FB37AC022DE0531A570681D4291851 (link conferido)
+24 mil registros históricos de corrosão; ground truth do dataset sintético.
+
+## UMI-127 · BOSCH Plasma-Etching Dataset
+Eixo: Verticais de processo | Tipo: base | Técnica: Semicondutores | Licença: Aberto (Zenodo) [triagem por outra IA] | Link: https://zenodo.org/records/17122442 (link conferido)
+OES medido durante o processo (185-884 nm, 25 Hz); caso PAT em semicondutores.
+
+## UMI-128 · LithoSim
+Eixo: Verticais de processo | Tipo: base | Técnica: Semicondutores | Licença: Código Apache-2.0; dados CC BY-NC 4.0 [varia] | Link: https://huggingface.co/datasets/grandiflorum/LithoSim (link conferido)
+Benchmark de litografia sub-28nm (source/dose/defocus): esperado vs medido.
+
+## UMI-129 · IndPenSim
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Pharma | Licença: Aberto (verificar) [a confirmar] | Link: https://www.industrialpenicillinsimulation.com/ (link conferido)
+Simulador com as 3 etapas do PAT da FDA e Raman simulado.
+
+## UMI-130 · NIST Printable Medicine
+Eixo: Verticais de processo | Tipo: base | Técnica: Pharma | Licença: Domínio público [triagem por outra IA] | Link: https://data.nist.gov/od/id/mds2-3661 (link conferido)
+UV-Vis, THz-Raman, SEM e logs do mesmo material; caso multimodal.
+
+## UMI-131 · In-Line Pharmaceutical Powder Blending
+Eixo: Verticais de processo | Tipo: base | Técnica: Pharma | Licença: Aberto (Mendeley) [triagem por outra IA] | Link: https://data.mendeley.com/datasets/8379rk6rph/1 (link conferido)
+Variação de processo (X1–X4, 3 concentrações); robustez do veredito.
+
+## UMI-132 · MATR Battery Dataset
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: Dados públicos (uso acadêmico consolidado) [triagem por outra IA] | Link: https://data.matr.io/1/ (link conferido)
+Seminal em RUL de bateria; correlação com XPS/Raman/XRD.
+
+## UMI-133 · KIT NMC/C-SiO Full-Life Aging Dataset
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://radar.kit.edu/radar/en/dataset/kww7jv8ajuvchcah (link conferido)
+Química NMC (vs LFP da MATR), resolução de 2 s.
+
+## UMI-134 · BatteryML
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Baterias | Licença: MIT [triagem por outra IA] | Link: https://github.com/microsoft/BatteryML (link conferido)
+Agrega 7 datasets de bateria em uma API; 1 adapter herda os 7.
+
+## UMI-135 · PVDAQ
+Eixo: Verticais de processo | Tipo: base | Técnica: Solar | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://data.openei.org/submissions/4568 (link conferido)
+Hardware + sensores ambientais + desempenho de sistemas PV.
+
+## UMI-136 · Monthly Global Cement Production Data
+Eixo: Verticais de processo | Tipo: base | Técnica: Cimento | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://zenodo.org/records/17270962 (link conferido)
+175 séries mensais desde 1982; rastreia origem do clínquer.
+
+## UMI-137 · CGFI/SFI Global Pulp and Paper Mill Database
+Eixo: Verticais de processo | Tipo: base | Técnica: Papel & Celulose | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://cgfi.ac.uk/spatial-finance-initiative/geoasset-project/ (link conferido)
+838 moinhos com GRADE de produto; infere processo de polpa.
+
+## UMI-138 · Climate TRACE
+Eixo: Supply chain e footprint | Tipo: base | Técnica: Footprint | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://climatetrace.org/data (link conferido)
+Inventário global de emissões por ativo (352M+), API pública.
+
+## UMI-139 · EDGAR
+Eixo: Supply chain e footprint | Tipo: base | Técnica: Footprint | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://edgar.jrc.ec.europa.eu/ (link conferido)
+Emissões nacionais/grade; fallback do Climate TRACE.
+
+## UMI-140 · OGIM
+Eixo: Supply chain e footprint | Tipo: base | Técnica: Supply chain | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://zenodo.org/records/11660052 (link conferido)
+6,7M de feições geoespaciais de infraestrutura O&G.
+
+## UMI-141 · NPD/SODIR
+Eixo: Supply chain e footprint | Tipo: base | Técnica: Supply chain | Licença: NLOD 2.0 [triagem por outra IA] | Link: https://factpages.sodir.no/ (link conferido)
+Well logs de ~6.400 poços noruegueses; complementa OGIM.
+
+## UMI-142 · USGS Mineral Commodity Summaries
+Eixo: Supply chain e footprint | Tipo: base | Técnica: Supply chain | Licença: Domínio público [triagem por outra IA] | Link: https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries (link conferido)
+Produção, import/export e preço de 90+ commodities minerais.
+
+## UMI-143 · VynFi Supply Chain OCEL
+Eixo: Supply chain e footprint | Tipo: base | Técnica: Supply chain | Licença: Apache-2.0 [triagem por outra IA] | Link: https://huggingface.co/datasets/VynFi/vynfi-supply-chain-ocel (link conferido)
+Event log OCEL (P2P/O2C/manufatura); grafo de eventos rastreáveis.
+
+## UMI-144 · OCEL 2.1 Synthetic Relational Databases
+Eixo: Supply chain e footprint | Tipo: base | Técnica: Supply chain | Licença: Aberto (verificar termos) [a confirmar] | Link: https://www.ocel-standard.org/event-logs/simulations/synthetic-relational-databases/ (link conferido)
+Cenário BatteryVault (ciclo circular de baterias).
+
+## UMI-145 · pyteeadb
+Eixo: Economia | Tipo: base | Técnica: Economia | Licença: Código aberto [triagem por outra IA] | Link: https://elib.dlr.de/221584/ (link conferido)
+Custos de mão de obra, correlações de equipamento, preços e CEPCI.
+
+## UMI-146 · TUD Industrial Database
+Eixo: Economia | Tipo: base | Técnica: Economia | Licença: CC BY-NC-ND 4.0 [triagem por outra IA] | Link: https://opara.zih.tu-dresden.de/items/ac75ed4c-da8c-41e2-9ce3-8c7d29c3a207 (link conferido)
+Fatores de disponibilidade, investimentos normalizados, preços de emissão.
+
+## UMI-147 · ICH Q Guidelines
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Compliance | Licença: Documentos públicos [triagem por outra IA] | Link: https://www.ich.org/page/quality-guidelines (link conferido)
+Q1/Q2/Q3/Q8: vocabulário regulatório para ComplianceRequirement (Pharma).
+
+## UMI-148 · FDA Process Analytical Technology (PAT)
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Compliance | Licença: Domínio público [triagem por outra IA] | Link: https://www.fda.gov/science-research/process-analytical-technology-pat (link conferido)
+Framework PAT/QbD; o expected_spectrum da UMI é na prática um método PAT.
+
+## UMI-149 · ARIA / BARPI
+Eixo: Compliance e segurança | Tipo: base | Técnica: Safety | Licença: Dados públicos [triagem por outra IA] | Link: https://www.aria.developpement-durable.gouv.fr/ (link conferido)
+60 mil acidentes franceses; base de SafetyPrecursor.
+
+## UMI-150 · U.S. Chemical Safety Board (CSB)
+Eixo: Compliance e segurança | Tipo: artigo | Técnica: Safety | Licença: Domínio público [triagem por outra IA] | Link: https://www.csb.gov/ (link conferido)
+Investigações de causa-raiz dos EUA; narrativa de falha.
+
+## UMI-151 · eMARS
+Eixo: Compliance e segurança | Tipo: base | Técnica: Safety | Licença: Dados públicos UE [triagem por outra IA] | Link: https://industry.eea.europa.eu/seveso/accidents (link conferido)
+Acidentes maiores (Diretiva Seveso); SafetyFlag alinhado à UE.
+
+## UMI-152 · MVTec AD
+Eixo: Visão industrial | Tipo: base | Técnica: Visão | Licença: CC BY-NC-SA 4.0 [triagem por outra IA] | Link: https://www.mvtec.com/company/research/datasets/mvtec-ad (link conferido)
+Benchmark mundial de inspeção visual; abre VisionTechResult.
+
+## UMI-153 · GC10-DET
+Eixo: Visão industrial | Tipo: base | Técnica: Visão | Licença: CC BY 4.0 (via mirror) [triagem por outra IA] | Link: https://github.com/lvxiaoming2019/GC10-DET-Metallic-Surface-Defect-Datasets (link conferido)
+3.570 imagens de defeitos em superfícies metálicas.
+
+## UMI-154 · Real3D-AD
+Eixo: Visão industrial | Tipo: base | Técnica: Visão | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://github.com/M-3LAB/Real3D-AD (link conferido)
+Anomalia em nuvem de pontos 3D.
+
+## UMI-155 · BSData
+Eixo: Visão industrial | Tipo: base | Técnica: Visão | Licença: CC BY-SA 4.0 [triagem por outra IA] | Link: https://github.com/2Obe/BSData (link conferido)
+Defeitos em fusos de esferas (ball screw).
+
+## UMI-156 · MPDD
+Eixo: Visão industrial | Tipo: base | Técnica: Visão | Licença: CC BY-NC-SA 4.0 [triagem por outra IA] | Link: https://github.com/stepanje/MPDD (link conferido)
+Defeitos em peças metálicas usinadas.
+
+## UMI-157 · MPDD2
+Eixo: Visão industrial | Tipo: base | Técnica: Visão | Licença: CC BY-NC-SA 4.0 [triagem por outra IA] | Link: https://github.com/stepanje/MPDD2 (link conferido)
+Versão estendida do MPDD; testa data drift.
+
+## UMI-158 · Spec2Vec
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS / similaridade | Licença: Apache-2.0 (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/iomega/spec2vec (link conferido)
+Ecossistema matchms – similarity measure
+
+## UMI-159 · MS2Query
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS / busca de análogos | Licença: Apache-2.0 (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/iomega/ms2query (link conferido)
+Analogue search; depende de matchms/spec2vec/ms2deepscore
+
+## UMI-160 · matchmsextras
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS / redes e extras | Licença: Apache-2.0 (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/matchms/matchmsextras (link conferido)
+Extensão oficial do matchms (redes + extras)
+
+## UMI-161 · Elmer
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Simulação (dependência do openCGS) | Licença: GPL-2.0 / LGPL-2.1 (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://www.csc.fi/web/elmer (link conferido)
+Dependência direta do openCGS. Evidência citada como "Documentação CSC" (sem URL)
+
+## UMI-162 · memo
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS2 / alinhamento de amostras | Licença: GPL-3.0 (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/mandelbrot-project/memo (link conferido)
+RT-agnostic alignment de amostras MS2
+
+## UMI-163 · RIAssigner
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: GC-MS / retention index | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/RECETOX/RIAssigner (link conferido)
+Cálculo de Retention Index (GC-MS)
+
+## UMI-164 · MSMetaEnhancer
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS / metadados | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/RECETOX/MSMetaEnhancer (link conferido)
+Anotação de metadados de espectros MS
+
+## UMI-165 · SimMS
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: MS / similaridade (GPU) | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/PangeAI/SimMS (link conferido)
+Similaridade espectral acelerada por GPU
+
+## UMI-166 · atomate2
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco C) | Licença: BSD-3-Clause (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/materialsproject/atomate2 (link conferido)
+Sucessor moderno do atomate (Materials Project)
+
+## UMI-167 · pyelmer
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco A) | Licença: GPL-3.0 (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/nemocrys/pyelmer (link conferido)
+Interface Python para o Elmer FEM (ecossistema nemocrys). (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-168 · objectgmsh
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco A) | Licença: GPL-3.0-or-later (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/nemocrys/objectgmsh (link conferido)
+Camada orientada a objetos sobre o Gmsh para geometria e malha (ecossistema nemocrys). (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-169 · nemoblock
+Eixo: Digital Twin & Processo | Tipo: outro | Técnica: Candidato lateral (bloco A) | Licença: Não localizada (busca encerrada 02/11/2026; não rebuscar) [não localizada] | Link: https://github.com/nemocrys/nemoblock (link conferido)
+Não identificado: descrição não verificada; sem busca adicional (02/11/2026).
+
+## UMI-170 · crystal-game
+Eixo: Digital Twin & Processo | Tipo: outro | Técnica: Candidato lateral (bloco A) | Licença: Não localizada (busca encerrada 02/11/2026; não rebuscar) [não localizada] | Link: https://github.com/nemocrys/crystal-game (link conferido)
+Não identificado: descrição não verificada; sem busca adicional (02/11/2026).
+
+## UMI-171 · ExaCA
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco A) | Licença: MIT (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/LLNL/ExaCA (link conferido)
+Autômato celular para crescimento de grãos em manufatura aditiva (LLNL). (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-172 · openCrys
+Eixo: Digital Twin & Processo | Tipo: outro | Técnica: Candidato lateral (bloco A) | Licença: Não localizada (busca encerrada 02/11/2026; não rebuscar) [não localizada] | Link: https://github.com/darosacezar/openCrys (link conferido)
+Não identificado: descrição não verificada; sem busca adicional (02/11/2026).
+
+## UMI-173 · Gemtelligence
+Eixo: Identificação & Bibliotecas | Tipo: outro | Técnica: Candidato lateral (bloco A) | Licença: CC-BY-4.0 (triagem LLM externa 02/11/2026; confiança BAIXA; LICENSE não lido) [triagem por outra IA] | Link: https://www.research-collection.ethz.ch/handle/20.500.11850/ (link conferido)
+URL original com handle truncado; registro específico não identificado. Escopo MODELO a confirmar
+
+## UMI-174 · mineral-database
+Eixo: Identificação & Bibliotecas | Tipo: outro | Técnica: Candidato lateral (bloco A) | Licença: MIT (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/gemmology-dev/mineral-database (link conferido)
+Não identificado: descrição não verificada; sem busca adicional (02/11/2026).
+
+## UMI-175 · PySILLS
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Candidato lateral (bloco A) | Licença: Não localizada (busca encerrada 02/11/2026; não rebuscar) [não localizada] | Link: https://github.com/MABeeskow/PySILLS (link conferido)
+Redução de dados de LA-ICP-MS (geoquímica). (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-176 · Basalt_Source_Insight
+Eixo: Identificação & Bibliotecas | Tipo: outro | Técnica: Candidato lateral (bloco A) | Licença: Não localizada (busca encerrada 02/11/2026; não rebuscar) [não localizada] | Link: https://zenodo.org/record/11557784 (link conferido)
+Não identificado: descrição não verificada; sem busca adicional (02/11/2026).
+
+## UMI-177 · Quasar (orange-spectroscopy)
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Candidato lateral (bloco B) | Licença: GPL-3.0-or-later (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/Quasars/orange-spectroscopy (link conferido)
+Complemento de espectroscopia para o Orange (análise e visualização de espectros). (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-178 · Spectra-BREAST
+Eixo: Identificação & Bibliotecas | Tipo: outro | Técnica: Candidato lateral (bloco B) | Licença: CC-BY-4.0 (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://zenodo.org/communities/spectrabreast (link conferido)
+Projeto de pesquisa; não é um software único
+
+## UMI-179 · MuPIF
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco B) | Licença: LGPL-3.0 (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/mupif/mupif (link conferido)
+Framework de integração multifísica para acoplar simuladores. (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-180 · PolyTex
+Eixo: Digital Twin & Processo | Tipo: outro | Técnica: Candidato lateral (bloco B) | Licença: GPL-3.0-or-later (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/binyang424/PolyTex (link conferido)
+Não identificado: descrição não verificada; sem busca adicional (02/11/2026).
+
+## UMI-181 · PRISMS-PF
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco B) | Licença: LGPL-3.0 (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://github.com/prisms-center/phaseField (link conferido)
+Framework de campo de fase (PRISMS Center). (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-182 · DAMASK
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco B) | Licença: AGPL-3.0-or-later (triagem LLM externa 02/11/2026; confiança ALTA) [triagem por outra IA] | Link: https://damask-multiphysics.org/ (link conferido)
+Simulação multifísica de plasticidade cristalina (Düsseldorf Advanced Material Simulation Kit). (conhecimento geral do autor da planilha em 02/11/2026; não verificado na fonte)
+
+## UMI-183 · CIPHER
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Candidato lateral (bloco B) | Licença: MIT (triagem LLM externa 02/11/2026; confiança MEDIA; LICENSE não lido) [triagem por outra IA] | Link: https://github.com/LightForm-group/matflow-cipher (link conferido)
+Verificar licença do código Fortran principal
+
+## UMI-184 · DiMAT Project
+Eixo: Sem eixo (a definir) | Tipo: outro | Técnica: Candidato lateral (bloco B) | Licença: Licença por componente; não localizada como produto único (busca encerrada 02/11/2026; não [não localizada] | Link: https://dimat-project.eu/ (link conferido)
+Projeto Horizon Europe (guarda-chuva); sem produto único; licenças por componente.
+
+## UMI-185 · ORCAN
+Eixo: Sem eixo (a definir) | Tipo: outro | Técnica: Candidato lateral (bloco B) | Licença: Não localizada (busca encerrada 02/11/2026; não rebuscar) [não localizada] | Link: http://sourceforge.net/projects/orcan (link conferido)
+Não identificado: descrição não verificada; sem busca adicional (02/11/2026).
+
+## UMI-186 · forward_registration
+Eixo: Sem eixo (a definir) | Tipo: outro | Técnica: Candidato lateral (bloco B) | Licença: Não localizada (busca encerrada 02/11/2026; não rebuscar) [não localizada] | Link: — (link não localizado)
+Identidade do projeto não confirmada (nome pode se referir a outro software).
+
+## UMI-187 · NeqSim
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Processo, termodinâmica, segurança | Licença: Apache-2.0 (verificado) [verificada na fonte] | Link: https://github.com/equinor/neqsim (link conferido)
+Biblioteca Java/.NET/Python da Equinor; 60+ EoS, 33+ equipamentos, QRA, MPC, H2, gêmeos digitais
+
+## UMI-188 · Cantera
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética química e reatores | Licença: BSD-3-Clause (verificado) [verificada na fonte] | Link: https://github.com/Cantera/cantera (link conferido)
+Cinética, termodinâmica e transporte; C++ com interfaces Python/MATLAB/Fortran
+
+## UMI-189 · Pyomo
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização | Licença: BSD-3-Clause (verificado) [verificada na fonte] | Link: https://github.com/Pyomo/pyomo (link conferido)
+Linguagem de modelagem de otimização em Python; solver por trás do IDAES
+
+## UMI-190 · ProcessSimulator.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação acausal | Licença: MIT (verificado) [verificada na fonte] | Link: https://github.com/ProcessSimulator/ProcessSimulator.jl (link conferido)
+Framework de simulação de processos com EoS e cinética; comparado ao Aspen em CSTR
+
+## UMI-191 · UnitOperations (Modelica)
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação dinâmica | Licença: A confirmar (LICENSE) [sem fonte] | Link: https://github.com/modelica-3rdparty/UnitOperations (link conferido)
+Biblioteca orientada a objetos com termo-hidráulica e reações para sistemas industriais
+
+## UMI-192 · gPROMS
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Modelagem acausal | Licença: Comercial (PSE) [restrita] | Link: https://www.psenterprise.com/products/gproms (link conferido)
+Linguagem de modelagem baseada em equações; integração com SPYRO para craqueamento
+
+## UMI-193 · EMSO
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de processo | Licença: GPL-3.0 (triagem; confirmar) [triagem por outra IA] | Link: https://www.emsoworld.com/ (link conferido)
+Simulador de flowsheet com extensão em C/C++/Fortran; alternativa ao DWSIM
+
+## UMI-194 · PyJutulDarcy
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Reservatórios | Licença: MIT (verificado: LICENSE lido 02/11/2026) [verificada na fonte] | Link: https://github.com/sintefmath/JutulDarcy.jl (link conferido)
+Interface Python para JutulDarcy.jl; simulação de reservatório multifásica
+
+## UMI-195 · MRST
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Reservatórios | Licença: GPL-3.0 (versão open) / comercial (SINTEF) [varia] | Link: https://www.sintef.no/projectweb/mrst/ (link conferido)
+MATLAB Reservoir Simulation Toolbox; black-oil e composicional
+
+## UMI-196 · do-mpc
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle preditivo | Licença: LGPL-3.0 (verificado) [verificada na fonte] | Link: https://github.com/do-mpc/do-mpc (link conferido)
+MPC e MHE em Python; exemplos de CSTR e polimerização
+
+## UMI-197 · CoolProp
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Propriedades termofísicas | Licença: MIT (verificado) [verificada na fonte] | Link: https://github.com/CoolProp/CoolProp (link conferido)
+Biblioteca de propriedades de fluidos e misturas; interface Python simples
+
+## UMI-198 · Clapeyron.jl
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: EoS e VLE | Licença: MIT (verificado) [verificada na fonte] | Link: https://github.com/ClapeyronThermo/Clapeyron.jl (link conferido)
+Toolkit abrangente: SAFT, cúbicas, NRTL, COSMO-SAC, equilíbrio
+
+## UMI-199 · Thermopack
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: EoS e PVT | Licença: MIT (triagem; confirmar) [triagem por outra IA] | Link: https://github.com/thermotools/thermopack (link conferido)
+Biblioteca de modelos termodinâmicos e PVT com equações de estado
+
+## UMI-200 · REFPROP
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Propriedades de referência | Licença: Comercial (NIST) [restrita] | Link: https://www.nist.gov/srd/refprop (link conferido)
+NIST Reference Fluid Thermodynamic and Transport Properties; código-fonte pago
+
+## UMI-201 · DIPPR 801
+Eixo: Termodinâmica e Propriedades | Tipo: base | Técnica: Propriedades de referência | Licença: Comercial (AIChE) [restrita] | Link: https://www.aiche.org/dippr (link conferido)
+Base do AIChE com propriedades avaliadas de compostos químicos
+
+## UMI-202 · DDB (Dortmund Data Bank)
+Eixo: Termodinâmica e Propriedades | Tipo: base | Técnica: Equilíbrio de fases | Licença: Comercial / acadêmico (DDBST) [varia] | Link: http://www.ddbst.com/ (link conferido)
+Base de equilíbrio líquido-vapor, LLE, SLE, VLE de misturas
+
+## UMI-203 · DECHEMA Chemistry Data Series
+Eixo: Termodinâmica e Propriedades | Tipo: base | Técnica: Equilíbrio de fases | Licença: Comercial (DECHEMA) [restrita] | Link: https://dechema.de/ (link conferido)
+Séries clássicas de dados de equilíbrio de fases
+
+## UMI-204 · NIST ThermoML / WebBook
+Eixo: Termodinâmica e Propriedades | Tipo: base | Técnica: Propriedades termofísicas | Licença: NIST SRD (a confirmar termos) [a confirmar] | Link: https://www.nist.gov/mml/thermodynamics-research-center/thermoml (link conferido)
+ThermoML (dados termodinâmicos em XML) e WebBook (propriedades)
+
+## UMI-205 · ReactionMechanismSimulator.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética e reatores | Licença: MIT (verificado) [verificada na fonte] | Link: https://github.com/ReactionMechanismGenerator/ReactionMechanismSimulator.jl (link conferido)
+Simulação de mecanismos grandes; pirólise, craqueamento, combustão, catálise
+
+## UMI-206 · GRI-Mech 3.0
+Eixo: Termodinâmica e Propriedades | Tipo: base | Técnica: Cinética de combustão | Licença: Livre para pesquisa (citar) [triagem por outra IA] | Link: http://combustion.berkeley.edu/gri-mech/ (link conferido)
+Mecanismo de referência para gás natural (53 espécies, 325 reações)
+
+## UMI-207 · CRECK Modeling
+Eixo: Termodinâmica e Propriedades | Tipo: base | Técnica: Cinética de combustão | Licença: Livre para pesquisa (citar) [triagem por outra IA] | Link: https://creckmodeling.chem.polimi.it/ (link conferido)
+Grupo de mecanismos cinéticos para combustão, pirólise e oxidação
+
+## UMI-208 · JuMP
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização | Licença: MPL-2.0 (verificado) [verificada na fonte] | Link: https://github.com/jump-dev/JuMP.jl (link conferido)
+Linguagem de modelagem matemática em Julia; solvers MILP/NLP
+
+## UMI-209 · GAMS
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização algébrica | Licença: Comercial (GAMS) [restrita] | Link: https://www.gams.com/ (link conferido)
+Linguagem de modelagem algébrica; modelos ORION e Fawley
+
+## UMI-210 · ModelPredictiveControl.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle preditivo | Licença: MIT (verificado) [verificada na fonte] | Link: https://github.com/JuliaControl/ModelPredictiveControl.jl (link conferido)
+MPC não linear e MHE em Julia
+
+## UMI-211 · OntoCAPE
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia de processo | Licença: Acadêmico (a confirmar) [sem fonte] | Link: https://github.com/ontocape/ontocape (link conferido)
+Ontologia de engenharia de processos (CAPE): flowsheet, operações, materiais, matemática
+
+## UMI-212 · QUDT
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia de unidades | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://qudt.org/ (link conferido)
+Quantities, Units, Dimensions and Types; vocabulário de Quantity
+
+## UMI-213 · PROV-O (W3C)
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia de proveniência | Licença: W3C (aberto) [triagem por outra IA] | Link: https://www.w3.org/TR/prov-o/ (link conferido)
+Modelo W3C de proveniência (Entity, Activity, Agent)
+
+## UMI-214 · ChEBI
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia química | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://www.ebi.ac.uk/chebi/ (link conferido)
+Ontologia de entidades químicas de interesse biológico
+
+## UMI-215 · CHEMINF
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia química | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://github.com/cheminf/cheminf (link conferido)
+Ontologia de informação química (estruturas, descritores)
+
+## UMI-216 · ISO 15926
+Eixo: Fundação semântica | Tipo: norma | Técnica: Padrão de dados de processo | Licença: Comercial (ISO) [restrita] | Link: https://www.iso.org/standard/29557.html (link conferido)
+Modelo de dados para integração de informação ao longo do ciclo de vida de plantas
+
+## UMI-217 · JCAMP-DX
+Eixo: Padrões, Formatos e Validação | Tipo: norma | Técnica: Troca de espectros | Licença: IUPAC (aberto) [triagem por outra IA] | Link: https://iupac.org/what-we-do/databases/ (link conferido)
+Formato padrão IUPAC para troca de espectros IR, Raman, NMR, MS
+
+## UMI-218 · AnIML
+Eixo: Padrões, Formatos e Validação | Tipo: norma | Técnica: Troca de dados analíticos | Licença: Comercial (ASTM) [restrita] | Link: https://www.astm.org/e1947-98r20.html (link conferido)
+ASTM E1947 para informação analítica (instrumento, método, resultado)
+
+## UMI-219 · DEXPI
+Eixo: Padrões, Formatos e Validação | Tipo: norma | Técnica: Troca de P&ID | Licença: Aberto (specs free) [triagem por outra IA] | Link: https://dexpi.org/ (link conferido)
+Data Exchange in the Process Industry; formato aberto de P&ID
+
+## UMI-220 · RO-Crate
+Eixo: Padrões, Formatos e Validação | Tipo: norma | Técnica: Pesquisa reprodutível | Licença: Apache-2.0 (verificado) [verificada na fonte] | Link: https://www.researchobject.org/ro-crate/ (link conferido)
+Empacota dados, código e metadados em RO-Crate
+
+## UMI-221 · Datasheets for Datasets
+Eixo: Padrões, Formatos e Validação | Tipo: artigo | Técnica: Documentação de datasets | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://arxiv.org/abs/1803.09010 (link conferido)
+Documenta motivação, composição, coleta, uso e manutenção de datasets
+
+## UMI-222 · Model Cards
+Eixo: Padrões, Formatos e Validação | Tipo: artigo | Técnica: Documentação de modelos | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://arxiv.org/abs/1810.03993 (link conferido)
+Documenta desempenho, limitações e uso pretendido de modelos de ML
+
+## UMI-223 · IEC 61511
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Segurança funcional | Licença: Comercial (IEC) [restrita] | Link: https://webstore.iec.ch/publication/24259 (link conferido)
+Norma de SIS para indústria de processo; base do SafetyCase
+
+## UMI-224 · IEC 62443
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Segurança cibernética OT | Licença: Comercial (IEC) [restrita] | Link: https://webstore.iec.ch/publication/7029 (link conferido)
+Norma de cibersegurança para sistemas de automação industrial
+
+## UMI-225 · ISA-18.2
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Gestão de alarmes | Licença: Comercial (ISA) [restrita] | Link: https://www.isa.org/products/ansi-isa-18-2-2016-management-of-alarm-systems-fo (link conferido)
+Norma para projeto, operação e manutenção de sistemas de alarme
+
+## UMI-226 · ISA-88
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Controle em batelada | Licença: Comercial (ISA) [restrita] | Link: https://www.isa.org/products/ansi-isa-88-01-2010-batch-control-part-1-models (link conferido)
+Norma para controle de processos em batelada
+
+## UMI-227 · ISA-95
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Integração MES-ERP | Licença: Comercial (ISA) [restrita] | Link: https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard (link conferido)
+Norma para integração entre sistemas de manufatura e negócio
+
+## UMI-228 · API RP 520/521
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Alívio de pressão | Licença: Comercial (API) [restrita] | Link: https://www.api.org/products-and-services/standards (link conferido)
+Dimensionamento e instalação de sistemas de alívio de pressão
+
+## UMI-229 · ISO 17776
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Segurança offshore | Licença: Comercial (ISO) [restrita] | Link: https://www.iso.org/standard/68442.html (link conferido)
+Gestão de riscos em instalações offshore
+
+## UMI-230 · NIST SP 800-82
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Segurança cibernética OT | Licença: NIST (aberto) [triagem por outra IA] | Link: https://csrc.nist.gov/pubs/sp/800/82/r3/final (link conferido)
+Guia de segurança de sistemas de controle industrial
+
+## UMI-231 · ISO 14040/14044
+Eixo: Economia | Tipo: norma | Técnica: LCA | Licença: Comercial (ISO) [restrita] | Link: https://www.iso.org/standard/37456.html (link conferido)
+Princípios, estrutura e requisitos de avaliação de ciclo de vida
+
+## UMI-232 · GHG Protocol
+Eixo: Economia | Tipo: norma | Técnica: Contabilidade de carbono | Licença: Aberto (WRI/WBCSD) [triagem por outra IA] | Link: https://ghgprotocol.org/ (link conferido)
+Padrão corporativo de contabilidade e reporte de GHG
+
+## UMI-233 · PEF/OEF (UE)
+Eixo: Economia | Tipo: norma | Técnica: Pegada ambiental | Licença: Aberto (UE) [triagem por outra IA] | Link: https://environment.ec.europa.eu/topics/circular-economy/product-environmental-footprint_en (link conferido)
+Product/Organisation Environmental Footprint da Comissão Europeia
+
+## UMI-234 · ecoinvent
+Eixo: Economia | Tipo: base | Técnica: Inventário de LCA | Licença: Comercial (ecoinvent) [restrita] | Link: https://ecoinvent.org/ (link conferido)
+Base de inventário de ciclo de vida; referência global
+
+## UMI-235 · GREET
+Eixo: Economia | Tipo: ferramenta | Técnica: Modelo de LCA | Licença: Aberto (Argonne) [triagem por outra IA] | Link: https://greet.anl.gov/ (link conferido)
+Modelo da Argonne para LCA de combustíveis e veículos
+
+## UMI-236 · openLCA
+Eixo: Economia | Tipo: ferramenta | Técnica: Software de LCA | Licença: MPL-2.0 (verificado) [verificada na fonte] | Link: https://www.openlca.org/ (link conferido)
+Software open-source de LCA; API Java
+
+## UMI-237 · Materials Project
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Estruturas e propriedades | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://materialsproject.org/ (link conferido)
+Base do LBNL com propriedades calculadas por DFT
+
+## UMI-238 · OQMD
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Estruturas e propriedades | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://oqmd.org/ (link conferido)
+Open Quantum Materials Database (Northwestern)
+
+## UMI-239 · ICSD
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Estruturas cristalinas | Licença: Comercial [restrita] | Link: https://icsd.fiz-karlsruhe.de/ (link conferido)
+Inorganic Crystal Structure Database (FIZ Karlsruhe)
+
+## UMI-240 · CSD
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Estruturas cristalinas | Licença: Comercial (CCDC) [restrita] | Link: https://www.ccdc.cam.ac.uk/solutions/software/csd/ (link conferido)
+Cambridge Structural Database (orgânicas e organometálicas)
+
+## UMI-241 · AMCSD
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Estruturas cristalinas | Licença: Aberto (citar) [triagem por outra IA] | Link: http://rruff.geo.arizona.edu/AMS/amcsd.php (link conferido)
+American Mineralogist Crystal Structure Database
+
+## UMI-242 · SDBS
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Espectros | Licença: Aberto (citar) [triagem por outra IA] | Link: https://sdbs.db.aist.go.jp/ (link conferido)
+Spectral Database for Organic Compounds (AIST, Japão)
+
+## UMI-243 · HMDB
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Metabolômica | Licença: CC BY-NC-SA (triagem; confirmar) [triagem por outra IA] | Link: https://hmdb.ca/ (link conferido)
+Human Metabolome Database
+
+## UMI-244 · METLIN
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Metabolômica | Licença: Restrito (comercial) [restrita] | Link: https://metlin.scripps.edu/ (link conferido)
+Base de espectros MS/MS de metabólitos (Scripps)
+
+## UMI-245 · mzCloud
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Espectrometria de massas | Licença: Comercial (HighChem) [restrita] | Link: https://www.mzcloud.org/ (link conferido)
+Base de espectros MS/MS de alta resolução
+
+## UMI-246 · GNPS
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Espectrometria de massas | Licença: CC BY 4.0 (triagem; confirmar) [triagem por outra IA] | Link: https://gnps.ucsd.edu/ (link conferido)
+Global Natural Products Social Molecular Networking
+
+## UMI-247 · SIRIUS / CSI:FingerID
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Identificação estrutural | Licença: AGPL-3.0 (verificado) [verificada na fonte] | Link: https://bio.informatik.uni-jena.de/software/sirius/ (link conferido)
+Identificação de fórmula molecular e estrutura a partir de MS/MS (Jena)
+
+## UMI-248 · MS-DIAL
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Processamento de metabolômica | Licença: MIT (triagem; confirmar) [triagem por outra IA] | Link: http://prime.psc.riken.jp/compms/msdial/main.html (link conferido)
+Processamento de LC-MS/GC-MS e identificação
+
+## UMI-249 · CAPE-OPEN test suites
+Eixo: Padrões, Formatos e Validação | Tipo: ferramenta | Técnica: Conformidade de módulos | Licença: Aberto (specs) [triagem por outra IA] | Link: https://www.colan.org/ (link conferido)
+Conjunto de casos de teste para módulos CAPE-OPEN
+
+## UMI-250 · EU AI Act
+Eixo: Fusão, Incerteza & ML | Tipo: norma | Técnica: Regulamentação de IA | Licença: Aberto (UE) [triagem por outra IA] | Link: https://artificialintelligenceact.eu/ (link conferido)
+Regulamento europeu de IA; classificação de risco
+
+## UMI-251 · COD — Crystallography Open Database
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: XRD | Licença: CONFIRMADO: CC0 (dominio publico) - declarado em todas as paginas oficiais do site [triagem por outra IA] | Link: https://www.crystallography.net/cod/ (link conferido)
+mais de 520 mil estruturas cristalinas experimentais (organicas, inorganicas, metal-organicas e minerais) coletadas de artigos revisados por pares, dominio publico
+
+## UMI-252 · IR-NMR Multimodal Dataset
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: FTIR / NMR | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://doi.org/10.5281/zenodo.16417648 (link conferido)
+USPTO-Spectra — espectros IR sintéticos para 177.461 moléculas extraídas de patentes (via dinâmica molecular + DFT + ML para predição de momento dipolar), mais deslocamentos químicos de RMN de ¹H/¹³C para um…
+
+## UMI-253 · JARVIS-DFT
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Materiais (DFT) | Licença: dominio publico padrao NIST (nist.gov/open/license, regime 17 U.S.C. Sec 105) - DIFERENTE  [triagem por outra IA] | Link: https://jarvis.nist.gov/ (link conferido)
+propriedades computadas por DFT (eletronicas, elasticas, opticas) de materiais na infraestrutura JARVIS do NIST, com ferramentas de codigo aberto (jarvis-tools, MIT)
+
+## UMI-254 · HTEM DB
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: XRD / UV-Vis | Licença: Aberto [triagem por outra IA] | Link: https://htem.nrel.gov/ (link conferido)
+Propriedades de thin films | Óxidos, nitretos, sulfetos, intermetálicos | Composição, estrutura, óptica, elétrica || Enriquecimento (PP-19, 2026-09-17): HTEM DB (NREL): base experimental de materiais de alto…
+
+## UMI-255 · NMRShiftDB
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: NMR | Licença: CONFIRMADO: dados sob licenca de dominio publico ('Data license: Public Domain', re3data.o [triagem por outra IA] | Link: https://nmrshiftdb.nmr.uni-koeln.de/ (link conferido)
+deslocamentos quimicos de RMN experimentais e preditos, ligados a estrutura molecular, usado para predicao/verificacao de espectros
+
+## UMI-256 · BMRB
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: NMR | Licença: Dominio publico (dados NMR arquivados 'worldwide in the public domain', conforme a propria [triagem por outra IA] | Link: https://bmrb.io/ (link conferido)
+dados de RMN de biomoleculas (proteinas, acidos nucleicos, metabolitos) — deslocamentos quimicos, restricoes estruturais e dados brutos depositados
+
+## UMI-257 · MassBank
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: MS (LCMS) | Licença: Licenca varia por registro/espectro individual: CC0, CC BY, CC BY-NC, CC BY-NC-SA ou CC BY [varia] | Link: https://massbank.eu/MassBank/ (link conferido)
+espectros de massa
+
+## UMI-258 · NIST Chemistry WebBook
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: FTIR / MS | Licença: SRD (Standard Reference Database 69) — mesmo regime de copyright federal (Standard Referen [restrita] | Link: https://webbook.nist.gov/chemistry/ (link conferido)
+termoquimica espectros identidade
+
+## UMI-259 · Materials Project
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Materiais (DFT) | Licença: CC BY 4.0 (conteúdo principal); subconjunto GNoME é CC BY-NC 4.0 (tratar à parte) [triagem por outra IA] | Link: https://materialsproject.org (link conferido)
+materiais inorganicos dft estabilidade superficies
+
+## UMI-260 · Panasonic 18650PF Li-ion Battery Data
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: Creative Commons Attribution 4.0 International (CC BY 4.0) [triagem por outra IA] | Link: https://data.mendeley.com/datasets/wykht8y7tg/1 (link conferido)
+Dataset de degradação de bateria Li-ion (Mendeley Data, ~182 MB)
+
+## UMI-261 · Battery Degradation Dataset
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://data.mendeley.com/datasets/kw34hhw7xg/3 (link conferido)
+Dados de degradação de bateria sob perfis de corrente fixos/arbitrários
+
+## UMI-262 · A Multi-Stage Lithium-Ion Battery Aging Dataset
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: CC BY 4.0 — publicado em Scientific Data (Nature, DOI 10.1038/s41597-024-03859-z), periódi [triagem por outra IA] | Link: https://doi.org/10.6084/m9.figshare.25975315 (link conferido)
+279 células de íon-lítio (Samsung INR21700-50E) sob 71 condições distintas de envelhecimento calendário+ciclo em 2 estágios experimentais (DoE full-factorial/Latin hypercube + pi-OED), 3 laboratórios (Siemens,…
+
+## UMI-263 · Na-ion High-throughput Manufacturing
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias (Na-ion) | Licença: CC BY 4.0 (explícito no Zenodo) [triagem por outra IA] | Link: https://zenodo.org/records/7981011 (link conferido)
+Síntese, impressão de eletrodos, montagem robótica e ciclismo || Enriquecimento (PP-19, 2026-09-17): Baterias íon-sódio (síntese de alta vazão, impressão de eletrodos, montagem robótica). Na-upscaling.zip, 660MB;…
+
+## UMI-264 · 3W Dataset - Oil Wells Anomaly Detection
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY 4.0 (dados) + Apache 2.0 (código) — declaradas explicitamente no paper Nature Scient [triagem por outra IA] | Link: https://github.com/petrobras/3W (link conferido)
+Anomalias em poços de petróleo | Oil wells / reservoirs | Time series, anomaly detection, fault diagnosis, classification
+
+## UMI-265 · Batch Distillation Anomaly Detection Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://doi.org/10.5281/zenodo.17395543 (link conferido)
+Dados reais de destilação batch com anomalias controladas | Planta piloto de destilação batch (laboratório TU Munich) | Temperaturas (C001-C003, reboiler, condensador), pressão, vazão, nível, composição (NMR online),…
+
+## UMI-266 · FCCU Dataset (ML-PSE)
+Eixo: Verticais de processo | Tipo: base | Técnica: Processo (refino) | Licença: MIT License — confirmado por 2 fontes independentes lendo o LICENSE do repositório GitHub, [restrita] | Link: https://github.com/ML-PSE/Fluid-Catalytic-Cracking-Unit-Dataset-for-Process-Monitoring-Evaluation (link conferido)
+Dataset de monitoramento de processo de uma unidade de craqueamento catalítico fluido (FCC) — dados de simulação pra avaliação de métodos de process monitoring/fault detection
+
+## UMI-267 · OCx24
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: XRD / XRF | Licença: Creative Commons 4.0 (variante exata -- BY, BY-NC, etc -- nao especificada na fonte); pagi [triagem por outra IA] | Link: https://github.com/facebookresearch/fairchem (link conferido)
+X-ray fluorescence (XRF), X-ray diffraction (XRD), and electrochemical testing results of catalyst materials.
+
+## UMI-268 · ORNL_AISD-Ex
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: UV-Vis (calculado) | Licença: Artigo companheiro é CC BY 4.0, mas a página do DATASET (OSTI/ORNL Constellation) não exib [a confirmar] | Link: https://www.osti.gov/biblio/1907919 (link conferido)
+ORNL_AISD-Ex: dataset de predição química-quântica de espectros de absorção UV/Vis para 10.502.904 moléculas orgânicas (5 a 71 átomos pesados: C,N,O,F,S), calculado por TD-DFTB (50 estados excitados singleto por…
+
+## UMI-269 · AdaptFerm - FTIR Bioprocess Monitoring
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: FTIR | Licença: Acesso aberto via Zenodo [triagem por outra IA] | Link: https://zenodo.org/records/14171427 (link conferido)
+Dados de espectroscopia FTIR para monitoramento de fermentação de ácido lático || Enriquecimento PP-19 Industrias_Verticais_Processo (2026-09-15/17): Espectroscopia FTIR para monitoramento com adaptação de domínio.…
+
+## UMI-270 · Li-ion Battery Aging Datasets
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: não localizada — mas o repositório PCoE em si é domínio público (mesmo padrão já usado pra [não localizada] | Link: https://catalog.data.gov/dataset/li-ion-battery-aging-datasets (link conferido)
+RUL de baterias — subset específico do NASA Prognostics Data Repository (src_ind_001), que hoje só está cadastrado como entrada genérica/guarda-chuva; esta é a linha específica de baterias, que ainda não existe ||…
+
+## UMI-271 · MoNA
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: MS | Licença: Politica geral do site declara CC BY 4.0 para o 'conteudo da base MoNA', MAS registros ind [varia] | Link: https://mona.fiehnlab.ucdavis.edu/ (link conferido)
+espectros de massa (MS/MS) de referencia curados de multiplas fontes, usados para identificacao de compostos por comparacao espectral
+
+## UMI-272 · Oxford Battery Degradation Dataset 1
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: Open Database License (ODbL) 1.0 + Database Contents License (DbCL) 1.0 — share-alike [triagem por outra IA] | Link: https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac (link conferido)
+Dados de envelhecimento de 8 células de íon-lítio (pouch cells), ciclagem em câmara térmica 40°C, perfil de carga CC-CV + descarga Artemis urbano
+
+## UMI-273 · CELLO / Battery Manufacturing Datasets — NREL
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: Licença padrão NREL/DOE — permissiva uso comercial permitido com atribuição [restrita] | Link: https://www.nrel.gov/energy-systems/battery-manufacturing-analysis.html (link conferido)
+Modelos energéticos taxa defeitos tempo ciclo parâmetros processo por etapa; dados agregados linhas piloto públicas || Enriquecimento (PP-19, 2026-09-17): CELLO (NREL): modelos/código pra analisar fabricação de célula…
+
+## UMI-274 · MIMII Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY-SA 4.0 (Hitachi, Zenodo) [triagem por outra IA] | Link: https://zenodo.org/records/3384388 (link conferido)
+Detecção de anomalias por áudio | Bombas, válvulas, fans, slide rails | Áudio, espectrogramas
+
+## UMI-275 · Additional TEP Data for Anomaly Detection Evaluation
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Aberto [triagem por outra IA] | Link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1 (link conferido)
+Extensão do TEP para avaliação de anomaly detection | Tennessee Eastman Process | 55 colunas (mesmas do TEP original)
+
+## UMI-276 · KIproBatt Dataset
+Eixo: Verticais de processo | Tipo: base | Técnica: Baterias | Licença: Zenodo: 'Other (Open)' — não é CC padrão [triagem por outra IA] | Link: https://doi.org/10.5281/zenodo.8418323 (link conferido)
+Processo e qualidade de células LIB, incluindo montagem, eletrólito e formação || Enriquecimento PP-19 Bloco 4 RODADA 1 (2026-09-18): KIproBatt Dataset (projeto financiado pelo BMBF alemao, grant 03XP0309A-C) —…
+
+## UMI-277 · CSB — Chemical Incident Reports
+Eixo: Compliance e segurança | Tipo: base | Técnica: Segurança (incidentes) | Licença: Domínio público — documento federal dos EUA (CSB / DOT ROSA P) [triagem por outra IA] | Link: https://rosap.ntl.bts.gov/view/dot/80622 (link conferido)
+Compilações periódicas de resumos e causas prováveis de acidentes químicos reportados sob a Accidental Release Reporting Rule da CSB (em vigor desde março/2020) — Vol. 1: 26 incidentes (2020–2023); Vol. 2: março/2025.…
+
+## UMI-278 · DTDL — Digital Twins Definition Language
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologias (DTDL / AAS) | Licença: MIT SPDX: MIT [triagem por outra IA] | Link: https://github.com/Azure/opendigitaltwins-dtdl;https://learn.microsoft.com/en-us/azure/digital-twins/concepts-models (link conferido)
+Linguagem padrão gêmeos digitais + > 100 ontologias prontas; conversão oficial bidirecional AAS disponível
+
+## UMI-279 · BaSyx PDF-to-AAS
+Eixo: Fundação semântica | Tipo: ferramenta | Técnica: AAS (conversão de PDF) | Licença: MIT; documentos processados dependem da origem / OK condicionado [triagem por outra IA] | Link: https://github.com/eclipse-basyx/basyx-pdf-to-aas (link conferido)
+Conversão de PDFs técnicos para AAS
+
+## UMI-280 · Co-hidropirólise analítica (Py-GC-MS) de biomassa com polietileno
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: GCMS (Py-GC-MS) | Licença: CC BY 4.0 (padrão da revista Data in Brief para o artigo + dataset associado) [triagem por outra IA] | Link: https://data.mendeley.com/datasets/6xb48vg9rb/3 (link conferido)
+Dados de co-hidropirólise analítica (Py-GC-MS) de biomassa (carvalho chileno) com polietileno HDPE/LDPE, sob condições catalíticas e não-catalíticas — arquivos brutos TurboMass + tabelas processadas + caracterização de…
+
+## UMI-281 · OQMD — Open Quantum Materials Database
+Eixo: Identificação & Bibliotecas | Tipo: base | Técnica: Materiais (DFT) | Licença: CONFIRMADO CC-BY 4.0 pela propria pagina oqmd.org, sem ambiguidade [triagem por outra IA] | Link: https://oqmd.org/ (link conferido)
+dft estabilidade de fases
+
+## UMI-282 · OpenCrystalData
+Eixo: Verticais de processo | Tipo: base | Técnica: Farmacêutica (cristalização) | Licença: Acesso aberto via Kaggle (inferido) [triagem por outra IA] | Link: https://www.kaggle.com/opencrystaldata/datasets (link conferido)
+Banco de imagens de cristalização para PAT
+
+## UMI-283 · PID2Graph
+Eixo: Digital Twin & Processo | Tipo: base | Técnica: P&ID (digitalização) | Licença:  [a confirmar] | Link: https://arxiv.org/abs/2411.13929 (link conferido)
+Stürmer, Graumann & Koch, 'From Engineering Diagrams to Graphs: Digitizing P&IDs with Transformers' (IEEE DSAA 2025, arXiv:2411.13929). Primeiro benchmark P&ID publicamente acessível com ground truth em nível de grafo…
+
+## UMI-284 · PIDQA
+Eixo: Digital Twin & Processo | Tipo: base | Técnica: P&ID (perguntas e respostas) | Licença:  [a confirmar] | Link: https://doi.org/10.3390/MAKE7020039 (link conferido)
+Dataset PIDQA (Machine Learning and Knowledge Extraction, DOI 10.3390/MAKE7020039): 64.000 pares pergunta-resposta sobre P&IDs em 4 categorias (contagem simples, contagem espacial, conexões espaciais, perguntas…
+
+## UMI-285 · Manufacturing Ontologies
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologias (ISA95 / IEC 63278) | Licença: Não especificada [não localizada] | Link: https://github.com/sandervandevelde/ManufacturingOntologies (link conferido)
+Ontologias DTDL v2 para ISA95 e IEC 63278
+
+## UMI-286 · PathSim-Chem
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação dinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/pathsim-chem/ (endereço proposto por busca externa, ainda não aberto)
+Blocos de engenharia química sobre o framework PathSim (CSTR, trocador contracorrente, flash drum, prato de destilação com dinâmica ODE).
+
+## UMI-287 · PFDSim
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Estado estacionário | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/pfdsim/ (endereço proposto por busca externa, ainda não aberto)
+Simulador Python de estado estacionário com flowsheets .pfd editáveis, reciclos e relatórios de balanço.
+
+## UMI-288 · BioSTEAM
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação, TEA e LCA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/BioSTEAMDevelopmentGroup/biosteam (endereço proposto por busca externa, ainda não aberto)
+Simulação, TEA e LCA de processos químicos sob incerteza, acoplados ao flowsheet.
+
+## UMI-289 · PyOMES
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação dinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://arxiv.org/abs/2608.06360 (endereço proposto por busca externa, ainda não aberto)
+Framework open-source para modelagem dinâmica de processos (bio)químicos.
+
+## UMI-290 · thermo (CalebBell)
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/CalebBell/thermo (endereço proposto por busca externa, ainda não aberto)
+Biblioteca de termodinâmica e equilíbrio de fases (EoS, capacidade calorífica, solubilidade, tensão superficial, condutividade térmica); base termodinâmica do BioSTEAM.
+
+## UMI-291 · chemicals (CalebBell)
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Base de componentes | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/CalebBell/chemicals (endereço proposto por busca externa, ainda não aberto)
+Base de dados de componentes puros (pontos de ebulição e fusão, entalpia de formação, entropia, rotinas de flash).
+
+## UMI-292 · ThermSolve
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Propriedades termofísicas | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/thermsolve/ (endereço proposto por busca externa, ainda não aberto)
+Biblioteca leve de propriedades termofísicas com segurança de unidades e faixas de validade.
+
+## UMI-293 · PyThermoDB
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Base de dados termodinâmicos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/pyThermoDB/ (endereço proposto por busca externa, ainda não aberto)
+Acesso rápido a dados termodinâmicos a partir de CSVs customizados.
+
+## UMI-294 · fugacio-thermo
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica diferenciável | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/fugacio-thermo/ (endereço proposto por busca externa, ainda não aberto)
+Motor diferenciável (JAX) com PC-SAFT e base de componentes curada.
+
+## UMI-295 · ThermoFun
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Propriedades de substâncias e reações | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/thermohub/thermofun (endereço proposto por busca externa, ainda não aberto)
+Cálculo e recuperação de propriedades termodinâmicas padrão de substâncias e reações.
+
+## UMI-296 · CFIHOS
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia industrial | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.jip36-cfihos.org/ (endereço proposto por busca externa, ainda não aberto)
+Ontologia draft alinhada com ISO 15926-14 para a indústria de processo.
+
+## UMI-297 · IDO (Industrial Data Ontology)
+Eixo: Fundação semântica | Tipo: norma | Técnica: Ontologia industrial | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.iso.org/standard/91845.html (endereço proposto por busca externa, ainda não aberto)
+Ontologia industrial usada para mapear ISO 15926-4.
+
+## UMI-298 · OPC UA DEXPI Companion Specification
+Eixo: Padrões, Formatos e Validação | Tipo: norma | Técnica: Especificação companheira | Licença: A confirmar (só relatório) [a confirmar] | Link: https://reference.opcfoundation.org/DEXPI/v100/docs/ (endereço proposto por busca externa, ainda não aberto)
+Especificação que liga OPC UA ao DEXPI (P&ID e automação em tempo real).
+
+## UMI-299 · IEC 61499
+Eixo: Padrões, Formatos e Validação | Tipo: norma | Técnica: Automação distribuída | Licença: A confirmar (só relatório) [a confirmar] | Link: https://webstore.iec.ch/en/publication/61499 (endereço proposto por busca externa, ainda não aberto)
+Padrão de automação distribuída, usado com DEXPI e OPC UA para comissionamento.
+
+## UMI-300 · ISO/IEC 42001:2023
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Sistema de gestão de IA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.iso.org/standard/81230.html (endereço proposto por busca externa, ainda não aberto)
+Sistema de gestão de IA certificável (política, risco, ciclo de vida, controles do Anexo A).
+
+## UMI-301 · NIST AI RMF + Generative AI Profile (AI 600-1)
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Gestão de risco de IA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence (endereço proposto por busca externa, ainda não aberto)
+Framework voluntário com as funções Govern, Map, Measure, Manage, mais o perfil de IA generativa.
+
+## UMI-302 · NIST CSF 2.0
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Cibersegurança | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.nist.gov/cyberframework (endereço proposto por busca externa, ainda não aberto)
+Framework de cibersegurança, frequentemente acoplado ao AI RMF na indústria.
+
+## UMI-303 · ISO/IEC 23894
+Eixo: Compliance e segurança | Tipo: norma | Técnica: Gestão de risco de IA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.iso.org/standard/77304.html (endereço proposto por busca externa, ainda não aberto)
+Gestão de risco de IA; complementa a ISO/IEC 42001.
+
+## UMI-304 · pyteea
+Eixo: Economia | Tipo: ferramenta | Técnica: TEA e LCA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://gitlab.dlr.de/tt-tea/teeatool/pyteea-main (endereço proposto por busca externa, ainda não aberto)
+Toolbox Python do DLR para TEA e LCA automatizados de processos químicos.
+
+## UMI-305 · BioProcessNexus
+Eixo: Economia | Tipo: ferramenta | Técnica: TEA/LCA com surrogate | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/mmedl94/bioprocessnexus (endereço proposto por busca externa, ainda não aberto)
+Plataforma open-source de surrogate models para TEA/LCA, treinados em dados de Monte Carlo de softwares proprietários.
+
+## UMI-306 · Interface Aspen HYSYS → Python
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Integração com simulador | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/DanielVazVaz/PySIS (endereço proposto por busca externa, ainda não aberto)
+Extrai resultados de flowsheet do Aspen HYSYS para heat integration, TEA e LCA em Python.
+
+## UMI-307 · CloveCircle
+Eixo: Economia | Tipo: ferramenta | Técnica: LCA/TEA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://clovecircle.com/ (endereço proposto por busca externa, ainda não aberto)
+Modelos de massa/energia, LCA e TEA com interface gráfica.
+
+## UMI-308 · GasDispersion.jl
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Dispersão e QRA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/aefarrell/GasDispersion.jl (endereço proposto por busca externa, ainda não aberto)
+Dispersão atmosférica de liberações gasosas; QRA.
+
+## UMI-309 · process-risk-consequence-toolkit
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Risco de processo | Licença: Apache-2.0 (segundo o relatório; não verificado) [triagem por outra IA] | Link: https://github.com/lyullee/process-risk-consequence-toolkit (endereço proposto por busca externa, ainda não aberto)
+Toolkit com 23 cálculos de risco: source screening, dispersão passiva, fogo, explosão, exposição normalizada.
+
+## UMI-310 · Hyram
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: QRA de hidrogênio | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/sandialabs/hyram (endereço proposto por busca externa, ainda não aberto)
+Segurança de hidrogênio com QRA (probits, posições, efeitos, fatalidades).
+
+## UMI-311 · deepsafety
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Segurança de processo | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/deepsafety/ (endereço proposto por busca externa, ainda não aberto)
+Pacote Python alinhado a OpenAPI: materiais, source, dispersão, fogo, alívio e avaliação de hazard.
+
+## UMI-312 · PRISM
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Risco de processo | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/lyullee/prism (endereço proposto por busca externa, ainda não aberto)
+Framework de pesquisa em risco de processo, com HAZOP, dispersão de H2 e QRA.
+
+## UMI-313 · JuDCB
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Adsorção dinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/von19990115/JuDCB (endereço proposto por busca externa, ainda não aberto)
+Framework Julia para simulação de curvas de breakthrough em adsorção e fitting de parâmetros.
+
+## UMI-314 · Langmuir.jl
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica de adsorção | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/ClapeyronThermo/Langmuir.jl (endereço proposto por busca externa, ainda não aberto)
+Carregamento de dados, fitting de isotermas e derivadas automáticas.
+
+## UMI-315 · Spectra.jl
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Espectroscopia | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/charlesll/Spectra.jl (endereço proposto por busca externa, ainda não aberto)
+Processamento de dados espectroscópicos (Raman, IR, XAS, NMR); versão 2.0.1 segundo o relatório.
+
+## UMI-316 · OpticalSpectroscopy.jl
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Espectroscopia óptica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://docs.juliahub.com/OpticalSpectroscopy (endereço proposto por busca externa, ainda não aberto)
+Análise de espectros ópticos, com fitting de picos (Gaussian, Fano) e correção de baseline.
+
+## UMI-317 · MOADyna.jl
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: Espectroscopia de caroço | Licença: A confirmar (só relatório) [a confirmar] | Link: https://docs.juliahub.com/General/MOADyna/stable/ (endereço proposto por busca externa, ainda não aberto)
+Diagonalização exata e espectroscopia de níveis de caroço para sistemas quânticos pequenos.
+
+## UMI-318 · Lcpv
+Eixo: Economia | Tipo: ferramenta | Técnica: LCA/LCC dinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/spirdgk/lcpv (endereço proposto por busca externa, ainda não aberto)
+LCA paramétrica e dinâmica e LCC.
+
+## UMI-319 · Brightway2 + lca-algebraic
+Eixo: Economia | Tipo: ferramenta | Técnica: LCA | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/A-JMinor/Automated-Life-Cycle-Assessment-of-Aspen-Plus-Simulations-using-Python (endereço proposto por busca externa, ainda não aberto)
+Framework de LCA com automação de Aspen Plus.
+
+## UMI-320 · pypws
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Consequência (PHAST) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/pypws/ (endereço proposto por busca externa, ainda não aberto)
+API Python para o PHAST (DNV), com QRA e dispersão.
+
+## UMI-321 · spectralAnalysis
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: PAT | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=spectralAnalysis (endereço proposto por busca externa, ainda não aberto)
+Pré-processamento, visualização e análise de dados espectrais (IR, NIR, Raman) para PAT.
+
+## UMI-322 · limpca
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Quimiometria de processo | Licença: A confirmar (só relatório) [a confirmar] | Link: https://bioconductor.org/packages/limpca/ (endereço proposto por busca externa, ainda não aberto)
+Métodos quimiométricos (ASCA+/APCA+) para dados de monitoramento de processo.
+
+## UMI-323 · NeqSim.NET
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Binding | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/equinor/neqsimNET (endereço proposto por busca externa, ainda não aberto)
+Binding oficial .NET do NeqSim.
+
+## UMI-324 · DTL (DWSIM Thermodynamics Library)
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/DanWBR/DTL (endereço proposto por busca externa, ainda não aberto)
+DLL .NET/COM que expõe o motor termodinâmico do DWSIM.
+
+## UMI-325 · Chemical 2.0
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética e eletroquímica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/MarekMatejak/Chemical (endereço proposto por busca externa, ainda não aberto)
+Biblioteca Modelica de processos químicos e eletroquímicos (release 2025-09-06 segundo o relatório).
+
+## UMI-326 · OpenProc
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação dinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Framework orientado a objetos para simulação dinâmica de processos químicos, com conectores semânticos e backend CoolProp.
+
+## UMI-327 · FreeFluidsModelica
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Propriedades termofísicas | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/modelica-3rdparty/FreeFluidsModelica (endereço proposto por busca externa, ainda não aberto)
+Pacote Modelica com mídias compatíveis com Modelica.Media e TMedia para cálculos bifásicos.
+
+## UMI-328 · T-MATS
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica de turbomáquinas | Licença: A confirmar (só relatório) [a confirmar] | Link: https://software.nasa.gov/software/LEW-19165-1 (endereço proposto por busca externa, ainda não aberto)
+Toolbox de modelagem termodinâmica (NASA) para turbomáquinas e turbinas a gás.
+
+## UMI-329 · ReactorApp
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: https://es.mathworks.com/matlabcentral/fileexchange/76917-reactorapp-toolbox (endereço proposto por busca externa, ainda não aberto)
+Toolbox para simular e otimizar reatores químicos.
+
+## UMI-330 · MODELTOOL
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Operações unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://dsp.vscht.cz/ (endereço proposto por busca externa, ainda não aberto)
+Biblioteca de modelos de processos químicos (tanques, trocadores, colunas, reatores).
+
+## UMI-331 · Unit Operations Toolbox
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação dinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Pacote de simulação dinâmica em Simulink.
+
+## UMI-332 · Toolbox de termodinâmica com VLE não ideal (UNIFAC e Virial)
+Eixo: Termodinâmica e Propriedades | Tipo: outro | Técnica: VLE não ideal | Licença: A confirmar (só relatório) [a confirmar] | Link: — (link não localizado)
+Toolbox modular para termodinâmica de processos, refino e cinética. Nome genérico no relatório; projeto não identificado.
+
+## UMI-333 · Plato
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Plasmas e gases | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Biblioteca Fortran 2003/2008 para termodinâmica, transporte e cinética de gases e plasmas multicomponente.
+
+## UMI-334 · Thermochimica
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Equilíbrio de fases | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/ORNL-CEES/thermochimica (endereço proposto por busca externa, ainda não aberto)
+Biblioteca Fortran para termodinâmica computacional e equilíbrio de fases.
+
+## UMI-335 · Cminor
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética multifásica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://zenodo.org/records/14713289 (endereço proposto por busca externa, ainda não aberto)
+Ambiente Fortran para simulação de mecanismos químicos multifásicos (atmosférico e combustão).
+
+## UMI-336 · tpt-thermodynamics
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/tpt-solutions/tpt-thermodynamics (endereço proposto por busca externa, ainda não aberto)
+Workspace Rust para termodinâmica computacional (EoS cúbicas, SAFT, atividade, WASM).
+
+## UMI-337 · tpt-process
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de processo | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/tpt-solutions/tpt-process (endereço proposto por busca externa, ainda não aberto)
+Engine Rust para engenharia de processo (termodinâmica, fluidos, calor, separações, reatores, flowsheet).
+
+## UMI-338 · ushma
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e calor | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/MacCracken/ushma (endereço proposto por busca externa, ainda não aberto)
+Biblioteca Rust de termodinâmica e transferência de calor.
+
+## UMI-339 · xraydb-rs
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: Raios X | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/Ameyanagi/xraydb-rs (endereço proposto por busca externa, ainda não aberto)
+Porte Rust do XrayDB para espectroscopia de raios X.
+
+## UMI-340 · refeff
+Eixo: Simulação espectral/instrumental | Tipo: ferramenta | Técnica: XAS/XANES | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/Ameyanagi/refeff (endereço proposto por busca externa, ainda não aberto)
+Porte Rust do FEFF10 para espectroscopia de raios X.
+
+## UMI-341 · rexafs
+Eixo: Processamento & Análise espectral | Tipo: ferramenta | Técnica: EXAFS | Licença: A confirmar (só relatório) [a confirmar] | Link: https://crates.io/crates/rexafs (endereço proposto por busca externa, ainda não aberto)
+Porte Rust para análise EXAFS.
+
+## UMI-342 · rs-materials
+Eixo: Identificação & Bibliotecas | Tipo: ferramenta | Técnica: Propriedades de materiais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://crates.io/crates/rs-materials (endereço proposto por busca externa, ainda não aberto)
+Crate Rust que lê arquivos TOML de materiais e expõe propriedades (densidade, composição, dados ópticos).
+
+## UMI-343 · refinery-planning-benchmark
+Eixo: Economia | Tipo: base | Técnica: Benchmark | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/EMRPS/refinery-planning-benchmark (endereço proposto por busca externa, ainda não aberto)
+Benchmark industrial de planejamento de refino em GAMS 45.5.0 com ANTIGONE e BARON.
+
+## UMI-344 · Production planning benchmark (complexos refinaria-petroquímica)
+Eixo: Economia | Tipo: base | Técnica: Benchmark | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/EMRPS/refinery-planning-benchmark (endereço proposto por busca externa, ainda não aberto)
+Benchmark de planejamento de produção para complexos refinaria-petroquímica, em GAMS.
+
+## UMI-345 · Modelo de turnaround planning (MILP)
+Eixo: Economia | Tipo: ferramenta | Técnica: Planejamento de manutenção | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Modelo GAMS para otimização de paradas de manutenção de refinaria.
+
+## UMI-346 · FeOs
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Equações de estado | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/feos-org/feos (endereço proposto por busca externa, ainda não aberto)
+EoS e DFT clássica em Rust.
+
+## UMI-347 · GEKKO / APMonitor
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização dinâmica e MPC | Licença: A confirmar (só relatório) [a confirmar] | Link: https://apmonitor.com/ (endereço proposto por busca externa, ainda não aberto)
+Linguagem de modelagem para otimização dinâmica, MPC e estimação de parâmetros.
+
+## UMI-348 · AIMMS
+Eixo: Economia | Tipo: ferramenta | Técnica: Otimização | Licença: Comercial (segundo o relatório; não verificado) [restrita] | Link: https://www.aimms.com/ (endereço proposto por busca externa, ainda não aberto)
+Modelagem algébrica comercial (concorrente do GAMS), usada em planejamento de refino e supply chain.
+
+## UMI-349 · Mosel / FICO Xpress
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/fico-xpress/mosel (endereço proposto por busca externa, ainda não aberto)
+Linguagem de modelagem de otimização, concorrente do GAMS/AMPL.
+
+## UMI-350 · MiniZinc
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Programação por restrições | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.minizinc.org/ (endereço proposto por busca externa, ainda não aberto)
+Modelagem de restrições (scheduling, alocação, planejamento).
+
+## UMI-351 · Wolfram Language / Mathematica
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cálculo simbólico | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.wolfram.com/mathematica/ (endereço proposto por busca externa, ainda não aberto)
+Simbólico, regressão simbólica e automação de cálculos; alternativa ao Maple.
+
+## UMI-352 · VOCSim.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Citado na matriz de linguagens como Julia, cat. 1 (secundário): Framework acausal; caso CSTR comparado ao Aspen Plus.
+
+## UMI-353 · CoolProp.jl
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/CoolProp/CoolProp.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 2 (secundário): Toolkit abrangente de EoS e VLE.
+
+## UMI-354 · StirredReactor.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética Química e Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/vinodjanardhanan/StirredReactor.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 3 (secundário): Mecanismos grandes; pirólise, craqueamento, catálise.
+
+## UMI-355 · BatchReactor.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética Química e Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/vinodjanardhanan/BatchReactor.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 3 (secundário): Mecanismos grandes; pirólise, craqueamento, catálise.
+
+## UMI-356 · Gurobi
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.gurobi.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 4 (secundário): Otimização e planejamento sob incerteza.
+
+## UMI-357 · JuliaSimControl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle Preditivo e Sistemas de Controle | Licença: A confirmar (só relatório) [a confirmar] | Link: https://help.juliahub.com/juliasimcontrol/stable/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 5 (secundário): MPC não linear e MHE nativos.
+
+## UMI-358 · Corleone.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle Preditivo e Sistemas de Controle | Licença: A confirmar (só relatório) [a confirmar] | Link: https://docs.sciml.ai/Corleone/stable/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 5 (secundário): MPC não linear e MHE nativos.
+
+## UMI-359 · JutulDarcy.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Dinâmica de Fluidos e Reservatórios | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/sintefmath/JutulDarcy.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 6 (principal): Reservatórios, volumes finitos e transporte reativo.
+
+## UMI-360 · Trixi.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Dinâmica de Fluidos e Reservatórios | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/trixi-framework/Trixi.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 6 (secundário): Reservatórios, volumes finitos e transporte reativo.
+
+## UMI-361 · VoronoiFVM.jl
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Dinâmica de Fluidos e Reservatórios | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/WIAS-PDELib/VoronoiFVM.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 6 (secundário): Reservatórios, volumes finitos e transporte reativo.
+
+## UMI-362 · Kinetica.jl
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Aprendizado de Máquina e Modelagem Híbrida | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/Kinetica-jl/Kinetica.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 7 (principal): Redes de reação automatizadas com ML.
+
+## UMI-363 · Temporal.jl
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise de Dados e Séries Temporais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/dysonance/Temporal.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 8 (principal): Séries temporais e grafos computacionais.
+
+## UMI-364 · TimeDag.jl
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise de Dados e Séries Temporais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/tpgillam/TimeDag.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 8 (secundário): Séries temporais e grafos computacionais.
+
+## UMI-365 · STRE3AM
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise Econômica, LCA e Planejamento | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/ANL-CEEESA/STREAM (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 9 (principal): Rotas tecnológicas e descarbonização.
+
+## UMI-366 · PlasmoData.jl
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise Econômica, LCA e Planejamento | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/zavalab/PlasmoData.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 9 (secundário): Rotas tecnológicas e descarbonização.
+
+## UMI-367 · H2gen.jl
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/sandialabs/H2Gen.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 11 (principal): Eletrolisadores, células a combustível e combustíveis sintéticos.
+
+## UMI-368 · Dolphyn.jl
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/macroenergy/Dolphyn.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 11 (secundário): Eletrolisadores, células a combustível e combustíveis sintéticos.
+
+## UMI-369 · JuliaSim
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.juliahub.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 12 (principal): SciML e MPC automatizado.
+
+## UMI-370 · Dyad
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://juliahub.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 12 (secundário): SciML e MPC automatizado.
+
+## UMI-371 · OMJulia
+Eixo: Padrões, Formatos e Validação | Tipo: ferramenta | Técnica: Interoperabilidade com Modelica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/OpenModelica/OMJulia.jl (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 13 (principal): Controle do OpenModelica a partir de Julia; Python, cat. 13 (principal): Integração menos padronizada que em Julia.
+
+## UMI-372 · stoichcalc
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=stoichcalc (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 1 (principal): Estequiometria e reconciliação de balanço de massa.
+
+## UMI-373 · BayesMassBal
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=BayesMassBal (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 1 (secundário): Estequiometria e reconciliação de balanço de massa.
+
+## UMI-374 · iapws
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=iapws (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 2 (principal): Forte para água/vapor e geoquímica; limitado para hidrocarbonetos.
+
+## UMI-375 · CHNOSZ
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=CHNOSZ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 2 (secundário): Forte para água/vapor e geoquímica; limitado para hidrocarbonetos.
+
+## UMI-376 · dMod
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética Química e Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=dMod (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 3 (principal): Geração de EDOs de redes de reação e transporte reativo.
+
+## UMI-377 · ReacTran
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética Química e Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=ReacTran (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 3 (secundário): Geração de EDOs de redes de reação e transporte reativo; R, cat. 6 (principal): Transporte reativo em meios porosos.
+
+## UMI-378 · refineryLP
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=RTL (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 4 (principal): Modelo LP de refino e solver MILP.
+
+## UMI-379 · scip
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=scip (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 4 (secundário): Modelo LP de refino e solver MILP.
+
+## UMI-380 · SVEMnet
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Aprendizado de Máquina e Modelagem Híbrida | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=SVEMnet (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 7 (secundário): Ecossistema forte de ML.
+
+## UMI-381 · RTL
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise de Dados e Séries Temporais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=RTL (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 8 (principal): Commodities, risco e previsão de preços.
+
+## UMI-382 · NFCP
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise de Dados e Séries Temporais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=NFCP (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 8 (secundário): Commodities, risco e previsão de preços; C++/Fortran, cat. 8 (principal): Previsão de commodities e séries clássicas.
+
+## UMI-383 · cforecast
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise de Dados e Séries Temporais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=cforecast (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 8 (secundário): Commodities, risco e previsão de preços.
+
+## UMI-384 · useeior
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise Econômica, LCA e Planejamento | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/USEPA/useeior (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 9 (principal): Modelos econômicos e inventário de LCA.
+
+## UMI-385 · MSMGOptimizer
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise Econômica, LCA e Planejamento | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=MSMGOptimizer (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 9 (secundário): Modelos econômicos e inventário de LCA.
+
+## UMI-386 · puff
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Segurança de Processos e Análise de Consequências | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=puff (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 10 (principal): Dispersão gaussiana e poluentes.
+
+## UMI-387 · pgsig
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Segurança de Processos e Análise de Consequências | Licença: A confirmar (só relatório) [a confirmar] | Link: — (link não localizado)
+Citado na matriz de linguagens como R, cat. 10 (secundário): Dispersão gaussiana e poluentes.
+
+## UMI-388 · OPEM
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/ecsim/opem (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 11 (secundário): Ponto fraco; modelagem H2 mais comum em Python.
+
+## UMI-389 · simmer
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://cran.r-project.org/package=simmer (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 12 (principal): Simulação de eventos discretos e interface.
+
+## UMI-390 · ROpenModelica
+Eixo: Padrões, Formatos e Validação | Tipo: ferramenta | Técnica: Interoperabilidade com Modelica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/mclements/ROpenModelica (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como R, cat. 13 (principal): Integração não oficial/limitada.
+
+## UMI-391 · ProcessForge
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/processforge/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 1 (secundário): Bibliotecas diversificadas e emergentes.
+
+## UMI-392 · difflow
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://kitchingroup.cheme.cmu.edu/difflow/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 1 (secundário): Bibliotecas diversificadas e emergentes.
+
+## UMI-393 · ThermoProp
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/thermoprop/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 2 (secundário): Base estabelecida para propriedades.
+
+## UMI-394 · PyForFluids
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/fedebenelli/PyForFluids (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 2 (secundário): Base estabelecida para propriedades.
+
+## UMI-395 · GlycoPy
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle Preditivo e Sistemas de Controle | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/eaglema/glycopy (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 5 (secundário): MPC, MHE e NMPC.
+
+## UMI-396 · minires
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Dinâmica de Fluidos e Reservatórios | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/minires/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 6 (secundário): Interface para JutulDarcy.jl e simulador bifásico.
+
+## UMI-397 · Rippl
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Aprendizado de Máquina e Modelagem Híbrida | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/rippl/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 7 (secundário): Gêmeos digitais com física + ML.
+
+## UMI-398 · Analysis3054
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise de Dados e Séries Temporais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/analysis3054/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 8 (principal): Energia e commodities.
+
+## UMI-399 · Lcpy
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise Econômica, LCA e Planejamento | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/spirdgk/lcpy (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 9 (secundário): TEA e LCA de processos químicos.
+
+## UMI-400 · ALCHEMIA
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise Econômica, LCA e Planejamento | Licença: A confirmar (só relatório) [a confirmar] | Link: https://gitlab.ethz.ch/epse/process-design-public/alchemia (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 9 (secundário): TEA e LCA de processos químicos.
+
+## UMI-401 · pyELDQM
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Segurança de Processos e Análise de Consequências | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/pyeldqm/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 10 (secundário): Dispersão, fogo, explosão e QRA.
+
+## UMI-402 · PHAST
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Segurança de Processos e Análise de Consequências | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.dnv.com/software/phast/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 10 (secundário): Dispersão, fogo, explosão e QRA.
+
+## UMI-403 · H2Integrate
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/NatLabRockies/H2Integrate (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 11 (principal): Eletrolisadores PEM/AEM e células a combustível.
+
+## UMI-404 · marapendi
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://git.persee.minesparis.psl.eu/matpro/marapendi (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 11 (secundário): Eletrolisadores PEM/AEM e células a combustível.
+
+## UMI-405 · MiGUEL
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/pdb-94/miguel (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 11 (secundário): Eletrolisadores PEM/AEM e células a combustível.
+
+## UMI-406 · digital_twinning
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://pypi.org/project/digital-twinning/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 12 (principal): Gêmeos digitais orientados a dados e incerteza.
+
+## UMI-407 · plugboard
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/plugboard-dev/plugboard (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 12 (secundário): Gêmeos digitais orientados a dados e incerteza.
+
+## UMI-408 · QUEENS
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/queens-py/queens (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 12 (secundário): Gêmeos digitais orientados a dados e incerteza.
+
+## UMI-409 · AmsterCHEM
+Eixo: Padrões, Formatos e Validação | Tipo: ferramenta | Técnica: Interoperabilidade e Integração | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.amsterchem.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Python, cat. 14 (principal): Forte suporte CAPE-OPEN; MATLAB/Simulink, cat. 14 (secundário): CAPE-OPEN e integração nativa.
+
+## UMI-410 · MultiPhaseMixture
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/modelica-3rdparty/MultiPhaseMixtureMedia (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Modelica, cat. 2 (principal): Fluidos multifásicos e multicomponentes; Modelica, cat. 14 (secundário): Integração com Aspen e propriedades.
+
+## UMI-411 · eCherry
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética Química e Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Citado na matriz de linguagens como Modelica, cat. 3 (secundário): Cinética, equilíbrio e eletroquímica; Modelica, cat. 11 (principal): Forte para eletroquímica.
+
+## UMI-412 · JModelica.org / Optimica
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://jmodelica.org/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Modelica, cat. 4 (principal): Otimização sobre modelos acausais; Modelica, cat. 5 (secundário): Co-simulação para MPC.
+
+## UMI-413 · OMMatlab
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle Preditivo e Sistemas de Controle | Licença: A confirmar (só relatório) [a confirmar] | Link: https://openmodelica.org/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Modelica, cat. 5 (principal): Co-simulação para MPC.
+
+## UMI-414 · ThermoSysPro
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Dinâmica de Fluidos e Reservatórios | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/ThermoSysPro/ThermoSysPro (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Modelica, cat. 6 (secundário): Termo-hidráulica de processos.
+
+## UMI-415 · NGM
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://forum.ngics-ngm.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Modelica, cat. 12 (principal): Uma das aplicações mais fortes.
+
+## UMI-416 · aspenToModelica
+Eixo: Padrões, Formatos e Validação | Tipo: ferramenta | Técnica: Interoperabilidade e Integração | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/modelscript/aspen (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Modelica, cat. 14 (secundário): Integração com Aspen e propriedades.
+
+## UMI-417 · ThermoFluid
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/modelica-3rdparty/ThermofluidStream (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Modelica, cat. 1 (secundário): Simulação dinâmica rigorosa; Modelica, cat. 6 (principal): Termo-hidráulica de processos.
+
+## UMI-418 · FMI
+Eixo: Padrões, Formatos e Validação | Tipo: norma | Técnica: Aprendizado de Máquina e Modelagem Híbrida | Licença: A confirmar (só relatório) [a confirmar] | Link: https://fmi-standard.org/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Julia, cat. 13 (secundário): Controle do OpenModelica a partir de Julia; R, cat. 13 (secundário): Integração não oficial/limitada; Modelica, cat. 7 (principal): ML geralmente externo; modelo físico em Modelica; +6 ocorrência
+
+## UMI-419 · JavaFMI
+Eixo: Padrões, Formatos e Validação | Tipo: ferramenta | Técnica: Interoperabilidade com Modelica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://bitbucket.org/siani/javafmi (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Java, cat. 13 (principal): Orquestração FMI.
+
+## UMI-420 · DACCOSIM
+Eixo: Padrões, Formatos e Validação | Tipo: ferramenta | Técnica: Interoperabilidade com Modelica | Licença: A confirmar (só relatório) [a confirmar] | Link: https://bitbucket.org/simulage/daccosim (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Java, cat. 13 (secundário): Orquestração FMI.
+
+## UMI-421 · NeqSimLive
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: https://equinor.github.io/neqsimlive/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Java, cat. 12 (secundário): Ciclo de vida e versionamento.
+
+## UMI-422 · Thermolib
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.thermolib.de/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como MATLAB/Simulink, cat. 1 (secundário): Camada de controle e análise sobre simuladores; MATLAB/Simulink, cat. 2 (principal): Blocos e funções termodinâmicas; MATLAB/Simulink, cat. 11 (secundário): Células a combustível e eletr
+
+## UMI-423 · TILMedia
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/ClaRaLibrary/TILMedia (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como MATLAB/Simulink, cat. 2 (secundário): Blocos e funções termodinâmicas.
+
+## UMI-424 · neqsim-matlab
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/equinor/neqsimmatlab (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como MATLAB/Simulink, cat. 2 (secundário): Blocos e funções termodinâmicas.
+
+## UMI-425 · FlowMat
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética Química e Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/SKenb/FlowMat (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como MATLAB/Simulink, cat. 3 (principal): Reatores ideais/não ideais e PINNs; MATLAB/Simulink, cat. 7 (secundário): Forte em ML e modelos híbridos.
+
+## UMI-426 · MPC Toolbox
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle Preditivo e Sistemas de Controle | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.mathworks.com/products/model-predictive-control.html (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como MATLAB/Simulink, cat. 5 (principal): Referência industrial; oxidação de etileno e destilação.
+
+## UMI-427 · SeReM
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Dinâmica de Fluidos e Reservatórios | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/seismicreservoirmodeling/SeReM (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como MATLAB/Simulink, cat. 6 (secundário): Simulação black-oil e composicional.
+
+## UMI-428 · Simscape
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.mathworks.com/products/simscape.html (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como MATLAB/Simulink, cat. 11 (principal): Células a combustível e eletrolisadores.
+
+## UMI-429 · PROII
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.aveva.com/en/products/pro-ii-simulation/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 1 (principal): Extensão de simuladores e flowsheets; C++/Fortran, cat. 9 (principal): Acoplamento com simuladores.
+
+## UMI-430 · Dyssol-open
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/FlowsheetSimulation/Dyssol-open (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 1 (secundário): Extensão de simuladores e flowsheets.
+
+## UMI-431 · LIBPF
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: http://www.libpf.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 1 (secundário): Extensão de simuladores e flowsheets.
+
+## UMI-432 · Ansys AFP
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.ansys.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 2 (secundário): Base de alto desempenho.
+
+## UMI-433 · CHEMKIN
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Cinética Química e Reatores | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.ansys.com/products/fluids/ansys-chemkin-pro (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 3 (secundário): Cinética e transporte.
+
+## UMI-434 · GROMS
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.gams.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 4 (principal): MINLP e otimização industrial.
+
+## UMI-435 · IMPL
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Citado na matriz de linguagens como C++/Fortran, cat. 4 (secundário): MINLP e otimização industrial; IMPL, cat. 4 (principal): Otimização e estimativa em larga escala; IMPL, cat. 9 (principal): Otimização econômica; +1 ocorrências.
+
+## UMI-436 · MIDACO
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.midaco-solver.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 4 (secundário): MINLP e otimização industrial.
+
+## UMI-437 · PolyMPC
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle Preditivo e Sistemas de Controle | Licença: A confirmar (só relatório) [a confirmar] | Link: https://polympc.readthedocs.io/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 5 (principal): NMPC e otimização dinâmica.
+
+## UMI-438 · BzzMath
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Controle Preditivo e Sistemas de Controle | Licença: A confirmar (só relatório) [a confirmar] | Link: https://super.chem.polimi.it/bzzmath/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 5 (secundário): NMPC e otimização dinâmica.
+
+## UMI-439 · MeLOn
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Aprendizado de Máquina e Modelagem Híbrida | Licença: A confirmar (só relatório) [a confirmar] | Link: https://git.rwth-aachen.de/avt.svt/public/MeLOn (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 7 (principal): Surrogates e inferência embutida em HPC.
+
+## UMI-440 · dalotia
+Eixo: Fusão, Incerteza & ML | Tipo: ferramenta | Técnica: Aprendizado de Máquina e Modelagem Híbrida | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/RIKEN-RCCS/dalotia (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 7 (secundário): Surrogates e inferência embutida em HPC.
+
+## UMI-441 · G13
+Eixo: Economia | Tipo: ferramenta | Técnica: Análise de Dados e Séries Temporais | Licença: A confirmar (só relatório) [a confirmar] | Link: https://support.nag.com/nagware/np/r82_desc.html#G13 (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 8 (secundário): Previsão de commodities e séries clássicas.
+
+## UMI-442 · CPR 2.0
+Eixo: Compliance e segurança | Tipo: ferramenta | Técnica: Segurança de Processos e Análise de Consequências | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Citado na matriz de linguagens como C++/Fortran, cat. 10 (principal): Análise 3D de consequências.
+
+## UMI-443 · openFuelCell2
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/openFuelCell2/openFuelCell2 (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 11 (principal): Células a combustível e eletrolisadores.
+
+## UMI-444 · OpenFOAM
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Hidrogênio e Transição Energética | Licença: A confirmar (só relatório) [a confirmar] | Link: https://github.com/OpenFOAM/OpenFOAM-dev (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como C++/Fortran, cat. 11 (secundário): Células a combustível e eletrolisadores.
+
+## UMI-445 · DHDT
+Eixo: Digital Twin & Processo | Tipo: ferramenta | Técnica: Gêmeos Digitais (Digital Twins) | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Citado na matriz de linguagens como C++/Fortran, cat. 12 (principal): Modelos de alta fidelidade.
+
+## UMI-446 · AMPL
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://ampl.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como GAMS/AMPL, cat. 4 (secundário): Linguagens de modelagem algébrica para otimização de refino; GAMS/AMPL, cat. 9 (secundário): Otimização econômica e planejamento estratégico.
+
+## UMI-447 · ORION
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Citado na matriz de linguagens como GAMS/AMPL, cat. 4 (secundário): Linguagens de modelagem algébrica para otimização de refino.
+
+## UMI-448 · Fawley Refinery
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Otimização e Planejamento de Refino | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_fawley.html (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como GAMS/AMPL, cat. 4 (secundário): Linguagens de modelagem algébrica para otimização de refino.
+
+## UMI-449 · Scilab / Xcos
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.scilab.org/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Scilab/Xcos, cat. 1 (principal): Simulação dinâmica de processos (ex: reator CSTR); Scilab/Xcos, cat. 3 (principal): Simulação de reatores dinâmicos (CSTR não-linear); Scilab/Xcos, cat. 5 (principal): Alternativa gratuita ao
+
+## UMI-450 · SPYRO
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.psenterprise.com/products/spyro (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como gPROMS, cat. 1 (secundário): Modelagem baseada em equações acausal.
+
+## UMI-451 · EcosimPro
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.ecosimpro.com/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como EcosimPro, cat. 1 (principal): Simulação de processos petroquímicos; EcosimPro, cat. 2 (principal): Propriedades de fluidos; EcosimPro, cat. 3 (principal): Cinética e reatores; +9 ocorrências.
+
+## UMI-452 · ACSL
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: — (sem página própria (proposta))
+Citado na matriz de linguagens como ACSL, cat. 1 (principal): Simulação contínua de processos; ACSL, cat. 3 (principal): Reatores e cinética; ACSL, cat. 5 (principal): Controle de processos; +1 ocorrências.
+
+## UMI-453 · NAPCon ProsDS
+Eixo: Simulação de Processo | Tipo: ferramenta | Técnica: Simulação de Processos e Operações Unitárias | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.lispworks.com/success-stories/neste-engineering.html (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Common Lisp, cat. 1 (principal): Simulador dinâmico de fluxogramas; Common Lisp, cat. 2 (principal): Termodinâmica; Common Lisp, cat. 3 (principal): Reatores; +6 ocorrências.
+
+## UMI-454 · Maple
+Eixo: Termodinâmica e Propriedades | Tipo: ferramenta | Técnica: Termodinâmica e Propriedades de Fluidos | Licença: A confirmar (só relatório) [a confirmar] | Link: https://www.maplesoft.com/products/maple/ (endereço proposto por busca externa, ainda não aberto)
+Citado na matriz de linguagens como Maple, cat. 2 (principal): Cálculos simbólicos e numéricos; Maple, cat. 3 (principal): Modelagem de cinética e reatores; Maple, cat. 14 (principal): Prototipagem matemática.
+
+## UMI-455 · CBM Naval Propulsion Plants UCI
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://archive.ics.uci.edu/ml/datasets/condition+based+maintenance+of+naval+propulsion+plants (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-456 · DATED Centrifugal Compressors
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY 4.0 (Creative Commons Attribution), confirmado literalmente na página Zenodo oficial [triagem por outra IA] | Link: https://zenodo.org/records/8200792 (link conferido)
+Compressor (curva head-vazão)
+
+## UMI-457 · FABEST HCF Competition / Database
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Integridade | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://doi.org/10.5281/zenodo.20967342 (link conferido)
+Fadiga (curvas S-N/vida)
+
+## UMI-458 · DOE Gearbox Fault Diagnosis Data
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Vibracional | Licença: Aberto [triagem por outra IA] | Link: https://data.openei.org/submissions/623 (link conferido)
+Caixa de engrenagens
+
+## UMI-459 · causRCA Causal Discovery Root Cause
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Apache-2.0 [triagem por outra IA] | Link: https://doi.org/10.5281/zenodo.15876410 (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-460 · NREL Wind Turbine Gearbox Vibration
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Vibracional | Licença: Aberto no catálogo v11; CC BY 4.0 segundo verificação web (data.gov, 02/11/2026) [triagem por outra IA] | Link: https://catalog.data.gov/dataset/wind-turbine-gearbox-condition-monitoring-vibra (link conferido)
+Turbina
+
+## UMI-461 · MCC5-THU Motor Benchmark
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Aberto [triagem por outra IA] | Link: https://github.com/liuzy0708/MCC5-THU-Motor-Benchmark-Datasets (link conferido)
+Motor elétrico/servo
+
+## UMI-462 · APS Failure Scania Trucks
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY 4.0 — padrão da plataforma UCI Machine Learning Repository [triagem por outra IA] | Link: https://archive.ics.uci.edu/dataset/421/aps+failure+at+scania+trucks (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-463 · NIST Robot Arm Position Accuracy Degradation
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Domínio Público (US Gov, NIST) — data.gov declara 'Public: This dataset is intended for pu [triagem por outra IA] | Link: https://www.nist.gov/el/intelligent-systems-division-73500/degradation-meas (link conferido)
+Robô industrial (degradação/precisão)
+
+## UMI-464 · RCSD-1YD Refinery Compressor
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY — texto literal confirmado na página oficial Zenodo ("The Creative Commons Attributi [triagem por outra IA] | Link: https://zenodo.org/records/14866092 (link conferido)
+Compressor (curva head-vazão)
+
+## UMI-465 · Robot Execution Failures UCI
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: Creative Commons Attribution 4.0 International (CC BY 4.0) [triagem por outra IA] | Link: https://archive.ics.uci.edu/dataset/138/robot+execution+failures (link conferido)
+Robô industrial (degradação/precisão)
+
+## UMI-466 · EAHE-D earth-to-air heat exchanger
+Eixo: Verticais de processo | Tipo: base | Técnica: Processo | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://zenodo.org/records/12820831 (link conferido)
+Trocador de calor (NTU)
+
+## UMI-467 · Ultrasonic Flowmeter Diagnostics UCI
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://archive.ics.uci.edu/ml/datasets/Ultrasonic+flowmeter+diagnostics (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-468 · MetroPT-3 Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY 4.0 (UCI) [triagem por outra IA] | Link: https://archive.ics.uci.edu/dataset/791/metropt+3+dataset (link conferido)
+Compressor (curva head-vazão)
+
+## UMI-469 · Combined Cycle Power Plant UCI
+Eixo: Verticais de processo | Tipo: base | Técnica: Processo | Licença: CC BY 4.0 (UCI) [triagem por outra IA] | Link: https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant (link conferido)
+Turbina
+
+## UMI-470 · SECOM Semiconductor Manufacturing
+Eixo: Verticais de processo | Tipo: base | Técnica: Semicondutores | Licença: CC BY 4.0 (UCI) [triagem por outra IA] | Link: https://archive.ics.uci.edu/ml/datasets/SECOM (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-471 · Lab-Scale Vibration Analysis
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Vibracional | Licença: CC BY 4.0 (Zenodo) [triagem por outra IA] | Link: https://zenodo.org/record/7006575 (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-472 · Simulated boiler data for fault detection and classification (Shohet, Kandil, McArthur — Ryerson University)
+Eixo: Verticais de processo | Tipo: base | Técnica: Processo | Licença: CC BY (política padrão de todo dataset Open Access do IEEE DataPort, confirmada em dataman [triagem por outra IA] | Link: https://ieee-dataport.org/open-access/simulated-boiler-data-fault-detection-and-classification (link conferido)
+Trocador de calor (NTU)
+
+## UMI-473 · SCANIA Component X Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: aberta — CC BY 4.0 [triagem por outra IA] | Link: https://www.nature.com/articles/s41597-024-03548-5 (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-474 · COSTEP — Complete Open Simulink TEP
+Eixo: Verticais de processo | Tipo: ferramenta | Técnica: Processo | Licença: MIT License - confirmada no arquivo LICENSE do repositório oficial (texto completo lido) [triagem por outra IA] | Link: https://github.com/ElsevierSoftwareX/SOFTX-D-24-00664 (link conferido)
+Tennessee Eastman (processo benchmark)
+
+## UMI-475 · FEMTO-ST Bearing Dataset for RUL Prediction
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Vibracional | Licença: "License: MIT" (dataset card + README, Hugging Face) [triagem por outra IA] | Link: https://huggingface.co/datasets/amgharr/femto-st_dataset (link conferido)
+Degradação/RUL de rolamento
+
+## UMI-476 · DiTEC-WDN - Water Distribution Network Dataset
+Eixo: Verticais de processo | Tipo: base | Técnica: Processo | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://github.com/DiTEC-project/DiTEC_WDN_dataset (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-477 · NLN-EMP - Netherlands Navy E-motor Pump Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC0 1.0 Universal [triagem por outra IA] | Link: https://data.4tu.nl/datasets/2b61183e-c14f-4131-829b-cc4822c369d0/1 (link conferido)
+Bomba (curva H-Q, NPSH)
+
+## UMI-478 · Reinartz 2021 — Extended TEP Reference Data (DTU)
+Eixo: Verticais de processo | Tipo: base | Técnica: Processo | Licença: CC0 — declarado no repositório institucional data.dtu.dk (DTU Data), conforme registrado p [triagem por outra IA] | Link: https://data.dtu.dk/articles/dataset/Tennessee_Eastman_Reference_Data_for_Fault-Detection_and_Decision_Support_Systems/13385936 (link conferido)
+Tennessee Eastman (processo benchmark)
+
+## UMI-479 · VEGA Shrinkwrapper Run-to-Failure Data (inIT-OWL, Kaggle)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC BY-SA [triagem por outra IA] | Link: https://kaggle.com/inIT-OWL/vega-shrinkwrapper-runtofailure-data (link conferido)
+Falha/degradação de equipamento (dados)
+
+## UMI-480 · NAB — Numenta Anomaly Benchmark
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: MIT, confirmado literalmente em múltiplos arquivos-fonte do próprio repositório (headers d [restrita] | Link: https://github.com/numenta/NAB (link conferido)
+Anomalia em série temporal
+
+## UMI-481 · NASA C-MAPSS Turbofan Engine Degradation Simulation Dataset (clássico / FD001-FD004)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC0: Public Domain / U.S. Government Works [triagem por outra IA] | Link: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan (link conferido)
+RUL de turbomáquina
+
+## UMI-482 · NASA C-MAPSS Turbofan Engine Degradation Simulation Dataset (v2 / Turbofan-2)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: PHM | Licença: CC0: Public Domain / U.S. Government Works [triagem por outra IA] | Link: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan-2 (link conferido)
+RUL de turbomáquina
+
+## UMI-483 · IMS Bearings Dataset (NASA Open Data Portal / PCoE)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Vibracional | Licença: U.S. Government Works — domínio público (usa.gov/government-works) [triagem por outra IA] | Link: https://data.nasa.gov/dataset/ims-bearings (link conferido)
+Degradação/RUL de rolamento
+
+## UMI-484 · Heat Exchanger Dataset Parametric Study (Kaggle, DWSIM)
+Eixo: Verticais de processo | Tipo: base | Técnica: Processo | Licença: MIT [triagem por outra IA] | Link: https://www.kaggle.com/datasets/kuriangeorge/heat-exchanger-dataset-parametric-study (link conferido)
+Trocador de calor (NTU)
+
+## UMI-485 · Paper Machine Condition Monitoring Dataset
+Eixo: Sem eixo (a definir) | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: Acesso aberto (Research Data Sweden) [triagem por outra IA] | Link: https://doi.org/10.5878/hafd-ms27 (link conferido)
+Fonte do catálogo v11 (tipo: Artigo/Metodologia)
+
+## UMI-486 · ReliabilityCalc
+Eixo: Sem eixo (a definir) | Tipo: ferramenta | Técnica: Falha/degradação de equipamento (dados) | Licença: desconhecida — NAO_INFORMADO (Gratuito) [não localizada] | Link: https://reliabilitycalc.com/ (link conferido)
+Fonte do catálogo v11 (tipo: Software/Ferramenta)
+
+## UMI-487 · Valmet Machine and Product Manuals
+Eixo: Sem eixo (a definir) | Tipo: outro | Técnica: Válvula de controle (Cv/curva) | Licença: Aberto [triagem por outra IA] | Link: https://www.valmet.com/manuals/ (link conferido)
+Fonte do catálogo v11 (tipo: Artigo/Metodologia)
+
+## UMI-488 · Valmet Flow Control Valves Hub
+Eixo: Sem eixo (a definir) | Tipo: ferramenta | Técnica: Válvula de controle (Cv/curva) | Licença: Aberto [triagem por outra IA] | Link: https://www.valmet.com/flowcontrol/valves/ (link conferido)
+Fonte do catálogo v11 (tipo: Software/Ferramenta)
+
+## UMI-489 · Fisher CAD Configurator (Emerson)
+Eixo: Sem eixo (a definir) | Tipo: ferramenta | Técnica: Válvula de controle (Cv/curva) | Licença: Aberto (CAD); Restrito (manuais completos via MyAssets) [varia] | Link: https://fcvdrawingconfig.emerson.com/ (link conferido)
+Fonte do catálogo v11 (tipo: Software/Ferramenta)
+
+## UMI-490 · Chemotion Repository
+Eixo: Sem eixo (a definir) | Tipo: base | Técnica: Espectroscopia (FT-IR/Raman/NIR) | Licença: VARIA POR SUBMISSAO: cada depositante escolhe entre CC-BY-SA 4.0, CC-BY 4.0, CC0 ou 'publi [varia] | Link: https://chemotion-repository.net/home/welcome (link conferido)
+Fonte do catálogo v11 (tipo: Repositório agregador)
+
+## UMI-491 · FailureSensorIQ (IBM Research)
+Eixo: Sem eixo (a definir) | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: Apache License 2.0 (confirmada em texto literal no README do dataset) [triagem por outra IA] | Link: https://huggingface.co/datasets/ibm-research/FailureSensorIQ (link conferido)
+Fonte do catálogo v11 (tipo: Artigo/Metodologia)
+
+## UMI-492 · PHM Society Public Data Sets
+Eixo: Sem eixo (a definir) | Tipo: base | Técnica: Caixa de engrenagens | Licença: Aberto [triagem por outra IA] | Link: https://phmsociety.org/public-data-sets/ (link conferido)
+Fonte do catálogo v11 (tipo: Repositório agregador)
+
+## UMI-493 · Vibration Signals of Different Fault Conditions
+Eixo: Sem eixo (a definir) | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://zenodo.org/records/14388093 (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-494 · Hybrid Thermodynamic and Machine Learning Optimization of Plate Heat Exchanger Performance for Brewery Cooling Systems in Uganda
+Eixo: Sem eixo (a definir) | Tipo: artigo | Técnica: Trocador de calor (NTU) | Licença: CC BY 4.0 (via política editorial do periódico Open Research Africa — CC BY por regra edit [triagem por outra IA] | Link: https://doi.org/10.5281/zenodo.17154403 (link conferido)
+Fonte do catálogo v11 (tipo: Dataset operacional (dados reais))
+
+## UMI-495 · Dataset for publication: Heat Exchanger Design Framework for Particle-Contaminated Waste Heat
+Eixo: Sem eixo (a definir) | Tipo: base | Técnica: Trocador de calor (NTU) | Licença: não localizada [não localizada] | Link: https://zenodo.org/records/18755474 (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-496 · Large Industrial Pump Maintenance Dataset
+Eixo: Simulação de Processo | Tipo: base | Técnica: Bomba (curva H-Q, NPSH) | Licença: MIT [triagem por outra IA] | Link: https://www.kaggle.com/datasets/selonamaris/large-industrial-pump-maintenance-dataset (link conferido)
+Tabular 20k bombas; parece sintético; sem curvas H-Q
+
+## UMI-497 · Sensor-Based Monitoring Data - Centrifugal Pumps
+Eixo: Simulação de Processo | Tipo: base | Técnica: Bomba (curva H-Q, NPSH) | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://www.mdpi.com/2306-5729/10/6/91 (link conferido)
+3 bombas CIRA IoT real; vibração/pressão; sem H-Q/NPSH
+
+## UMI-498 · Motor Current and Vibration - Centrifugal Pump
+Eixo: Simulação de Processo | Tipo: base | Técnica: Bomba (curva H-Q, NPSH) | Licença: CC0 [triagem por outra IA] | Link: https://doi.org/10.4121/2b61183e-c14f-4131-829b-cc4822c369d0 (link conferido)
+NLN-EMP: muitas falhas + vibração/corrente; sem curvas H-Q
+
+## UMI-499 · Centrifugal Pump Multi-Fault Vibration Dataset (Long-Tailed)
+Eixo: Simulação de Processo | Tipo: base | Técnica: Bomba (curva H-Q, NPSH) | Licença: Aberto [triagem por outra IA] | Link: https://data.mendeley.com/datasets/63gjxpn7s6 (link conferido)
+Vibração multi-fault/compound; sem hidráulica H-Q
+
+## UMI-500 · Water Pump RUL
+Eixo: Simulação de Processo | Tipo: base | Técnica: Bomba (curva H-Q, NPSH) | Licença: CC0 [triagem por outra IA] | Link: https://www.kaggle.com/datasets/anseldsouza/water-pump-rul-predictive-maintenance (link conferido)
+52 sensores + RUL; clássico PdM; sem curvas características
+
+## UMI-501 · PHM 2009 Gearbox Fault Detection
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Caixa de engrenagens | Licença: Aberto [triagem por outra IA] | Link: https://c3.ndc.nasa.gov/dashlink/resources/997/ (link conferido)
+Benchmark clássico 560 runs; multi-componente
+
+## UMI-502 · PHM 2026 Gear Spall Damage Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Caixa de engrenagens | Licença: Aberto [triagem por outra IA] | Link: https://data.phmsociety.org/phm-north-america-2026-conference-data-challenge/ (link conferido)
+Challenge 2026: spall damage + imagens no treino; vida acelerada
+
+## UMI-503 · Baker Hughes - Reciprocating Compressors / Centrifugal & Axial Compressors
+Eixo: Simulação de Processo | Tipo: base | Técnica: Compressor (curva head-vazão) | Licença: RESTRITO típico [restrita] | Link: https://www.bakerhughes.com/reciprocating-compressors (link conferido)
+Página de produto/catálogo
+
+## UMI-504 · Data Driven Modelling of Centrifugal Compressor Maps (GitHub)
+Eixo: Simulação de Processo | Tipo: base | Técnica: Compressor (curva head-vazão) | Licença: não localizada [não localizada] | Link: https://github.com/buseskorkmaz/data-driven-modelling-of-centrifugal-compressor-maps (link conferido)
+Código + dados de exemplo de mapas
+
+## UMI-505 · Compressor Performance Data for Reciprocating Piston Compressors
+Eixo: Simulação de Processo | Tipo: base | Técnica: Compressor (curva head-vazão) | Licença: não localizada [não localizada] | Link: https://zenodo.org/records/17599603 (link conferido)
+Dados de performance de compressores de pistão
+
+## UMI-506 · Air Compressor Dataset Repository
+Eixo: Simulação de Processo | Tipo: base | Técnica: Compressor (curva head-vazão) | Licença: Aberto [triagem por outra IA] | Link: https://iitk.ac.in/iil/datasets/ (link conferido)
+Repositório; conteúdo específico a confirmar
+
+## UMI-507 · Ingersoll Rand - pagina de produto (ex. Sierra Oil-Free)
+Eixo: Simulação de Processo | Tipo: outro | Técnica: Compressor (curva head-vazão) | Licença: RESTRITO [restrita] | Link: https://www.ingersollrand.com (link conferido)
+Página de produto
+
+## UMI-508 · Ingersoll Rand - Technical Data Sheets / Product Documentation
+Eixo: Simulação de Processo | Tipo: outro | Técnica: Compressor (curva head-vazão) | Licença: RESTRITO [restrita] | Link: https://www.ingersollrand.com/en-us/products/air-compressors (link conferido)
+Data sheets comerciais
+
+## UMI-509 · Atlas Copco - Air Compressor Specification Sheets / Engineering Data
+Eixo: Simulação de Processo | Tipo: base | Técnica: Compressor (curva head-vazão) | Licença: RESTRITO [restrita] | Link: https://www.atlascopco.com/en-us/compressors/general/engineering-compressor-specification- (link conferido)
+Specification sheets comerciais
+
+## UMI-510 · NASA Prognostics Data Repository - IMS Bearing Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: Aberto [triagem por outra IA] | Link: https://data.phmsociety.org/nasa/ (link conferido)
+Fonte do catálogo v11 (tipo: Base de dados institucional/governamental)
+
+## UMI-511 · Bearing 6213 Norm/OR Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/fbf6y8m4mv/1 (link conferido)
+Mendeley 6213 normal/OR
+
+## UMI-512 · Vibração de rolamento sob velocidade de eixo constante
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/ryg9rrkgv8/1 (link conferido)
+Mendeley velocidade constante
+
+## UMI-513 · Vibração de rolamento sob velocidade de eixo moderadamente variável
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/j66x27t229/1 (link conferido)
+Mendeley velocidade moderada
+
+## UMI-514 · Vibração de rolamentos sob condições de velocidade amplamente variável
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/6k6fbzc6vv/1 (link conferido)
+Mendeley velocidade ampla
+
+## UMI-515 · XJTU-SY Bearing Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: Aberto [triagem por outra IA] | Link: https://www.indatlas.com/benchmarks/xjtu-sy-bearing-dataset/ (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-516 · Paderborn University Bearing Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://mb.uni-paderborn.de/kat/forschung/datacenter/bearing-datacenter/ (link conferido)
+Corrente+vibração; danos artificiais e reais; CC BY-NC
+
+## UMI-517 · KAIST Bearing Datasets
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: CC BY (artigo; confirmar no Mendeley) [triagem por outra IA] | Link: https://data.mendeley.com/datasets/5hcdd3tdvb/6 (link conferido)
+URL genérica Mendeley; ID específico a confirmar
+
+## UMI-518 · UNSW Bearing Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: Aberto [triagem por outra IA] | Link: https://data.mendeley.com/ (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-519 · Awesome Bearing Datasets (Curadoria)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://github.com/VictorBauler/awesome-bearing-dataset (link conferido)
+Índice/curadoria, não dataset próprio
+
+## UMI-520 · XJTU-SY Bearing Datasets
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: não verificado [a confirmar] | Link: https://github.com/WangBiaoXJTU/xjtu-sy-bearing-datasets (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-521 · KAIST Bearing Datasets (Run-to-Failure)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/j8d8pfkvj2/4 (link conferido)
+KAIST R2F
+
+## UMI-522 · KAIST AC Motor Testbed (Multi-fault)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/9r82jppsn7/1 (link conferido)
+KAIST multi-fault motor
+
+## UMI-523 · Paderborn University Bearing Dataset (KAt DataCenter)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://mb.uni-paderborn.de/kat/forschung/bearing-datacenter/data-sets-and-download (link conferido)
+Mesmo Paderborn (duplicata src_ind_023)
+
+## UMI-524 · UNSW Bearing Dataset (Run-to-Failure)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: Aberto [triagem por outra IA] | Link: https://data.mendeley.com/datasets/h4df4mgrfb/3 (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-525 · Acoustic Emission Bearing Fault Dataset (Kaggle)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://www.kaggle.com/datasets/ahuyng/bearingfault-dataset (link conferido)
+Acoustic emission Kaggle
+
+## UMI-526 · HUST Bearing Dataset (Hanoi University of Science and Technology)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/cbv7jyx4p9 (link conferido)
+Hanoi University
+
+## UMI-527 · MFPT Bearing Fault Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://www.mfpt.org/fault-data-sets/ (link conferido)
+MFPT clássico
+
+## UMI-528 · JNU Bearing Dataset (Jiangnan University)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://github.com/ClarkGableWang/JNU-Bearing-Dataset (link conferido)
+Jiangnan University
+
+## UMI-529 · HIT Inter-shaft Bearing Fault Dataset (Aero-engine)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://github.com/HouLeiHIT/HIT-dataset (link conferido)
+Inter-shaft aero-engine
+
+## UMI-530 · SCA Bearing Dataset (Pulp Mill - Industrial Real)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/tdn96mkkpt (link conferido)
+Industrial real pulp mill
+
+## UMI-531 · UdS Bearing Dataset (Saarland University)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://doi.org/10.3390/data10050077 (link conferido)
+Página genérica; confirmar dataset
+
+## UMI-532 · ZeMA Electromechanical Axis (EA) Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://doi.org/10.5281/zenodo.5185953 (link conferido)
+ZeMA EA Zenodo
+
+## UMI-533 · Open Guided Waves (OGW) Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://openguidedwaves.de/ (link conferido)
+Ondas guiadas (mais estrutural)
+
+## UMI-534 · NASA FEMTO/PRONOSTIA Bearing Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: Aberto (NASA) [triagem por outra IA] | Link: https://phm-datasets.s3.amazonaws.com/NASA/10.+FEMTO+Bearing.zip (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-535 · CWRU Bearing Dataset (Zenodo - Corrected & Cleaned)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://zenodo.org/records/10987113 (link conferido)
+CWRU versão limpa
+
+## UMI-536 · XJTU-SY Bearing Dataset (Run-to-Failure)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: Aberto [triagem por outra IA] | Link: https://github.com/WangBiaoXJTU/xjtu-sy-bearing-datasets (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-537 · Shaft Angular Misalignment Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/kf96jx9dzf/1 (link conferido)
+Desalinhamento angular (adjacente)
+
+## UMI-538 · Shaft Misalignment Data (Inter-component Phase Processing)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/pt9mjcvghd/1 (link conferido)
+Desalinhamento fase
+
+## UMI-539 · Shaft Orbits Dataset (desalinhamento paralelo e angular)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Degradação/RUL de rolamento | Licença: varia [varia] | Link: https://data.mendeley.com/datasets/8b33tx79wt/1 (link conferido)
+Órbitas de eixo
+
+## UMI-540 · NeqSim - Reliability Data Sources
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: aberta — MIT License [triagem por outra IA] | Link: https://equinor.github.io/neqsim/ (link conferido)
+Fontes de dados de confiabilidade (Equinor); não dataset único baixável
+
+## UMI-541 · GIDEP (Government-Industry Data Exchange Program)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: RESTRITO [restrita] | Link: https://www.gidep.org/dashboard/content/data (link conferido)
+Programa governo-indústria de troca de dados de falha; acesso restrito
+
+## UMI-542 · Exida SILSafe Data
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: RESTRITO [restrita] | Link: https://silsafedata.com/ (link conferido)
+Dados de segurança funcional SIL; acesso comercial
+
+## UMI-543 · BÔNUS: AIChE DIERS - alívio emergencial.
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: RESTRITO [restrita] | Link: https://www.aiche.org/ccps/design-institute-emergency-relief-systems-diers (link conferido)
+Instituto de alívio emergencial; não dataset aberto de falha de equipamento
+
+## UMI-544 · Sensor-Based Environmental Monitoring Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: não verificado [a confirmar] | Link: https://data.mendeley.com/datasets/pdsjz2wjw7/1 (link conferido)
+Monitoramento ambiental por sensores; fraco para falha de equipamento
+
+## UMI-545 · Edge-AI Sensor Dataset for Smart Manufacturing
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: não verificado (regra 9: IEEE DataPort força CC BY em bloco — confirmar quando verificar) [a confirmar] | Link: https://ieee-dataport.org/documents/edge-ai-sensor-dataset-real-time-fault-prediction (link conferido)
+Sensores Edge-AI para predição de falha em manufatura
+
+## UMI-546 · Industrial Sensor Time-Series with Operational Event Labels
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: Verificar [a confirmar] | Link: https://ieee-dataport.org/documents/industrial-sensor-time-series-operational-event-l (link conferido)
+Séries de sensores industriais com labels de eventos operacionais
+
+## UMI-547 · Rotating Electromechanical System Dataset (Nature Sci Data)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: Aberto [triagem por outra IA] | Link: https://www.nature.com/articles/s41597-026-07224-0 (link conferido)
+Sistema eletromecânico rotativo (Nature Sci Data)
+
+## UMI-548 · PRONTO Heterogeneous Benchmark Dataset
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: CC BY 4.0 [triagem por outra IA] | Link: https://doi.org/10.5281/zenodo.1341583 (link conferido)
+URL genérica Zenodo; PRONTO é benchmark conhecido de processo
+
+## UMI-549 · Intel Lab Data (Sensor Network)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: Aberto [triagem por outra IA] | Link: https://db.csail.mit.edu/labdata/labdata.html (link conferido)
+Rede de sensores de laboratório Intel; não falha de equipamento industrial
+
+## UMI-550 · Plant Fault Detection Dataset (70 Industrial Sites)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: Aberto [triagem por outra IA] | Link: https://phmsociety.org/conference/annual-conference-of-the-phm-society/ (link conferido)
+Menção PHM Society; confirmar dataset específico de 70 sites
+
+## UMI-551 · One Year Industrial Component Degradation (Cutting Blade / Vega Shrink-wrapper)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: CC BY-SA 3.0 — declarado na página Kaggle [triagem por outra IA] | Link: https://www.kaggle.com/datasets/inIT-OWL/one-year-industrial-component-degr (link conferido)
+1 ano degradação componente industrial (lâmina de corte) – inIT-OWL
+
+## UMI-552 · Industrial Equipment Maintenance Data
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: "Unknown" (campo License literal do Kaggle) — NÃO equivale a licença aberta [não localizada] | Link: https://kaggle.com/datasets/mayurgadekar5555/industrial-equipment-maintenan (link conferido)
+Dados de manutenção de equipamento industrial (Kaggle); qualidade a confirmar
+
+## UMI-553 · RUL Dataset from Continuous Casting Machine
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Falha/degradação de equipamento (dados) | Licença: não lida literalmente ainda [a confirmar] | Link: https://www.kaggle.com/datasets/yuriykatser/rul-dataset-from-continuous-cas (link conferido)
+RUL de máquina de lingotamento contínuo
+
+## UMI-554 · Control Loop Datasets (óleo e gás)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Malha de controle (oscilação/stiction) | Licença: Copyright ©2020 GIMSCOP - UFRGS (aviso padrão, sem licença aberta declarada) — confirmado  [restrita] | Link: https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/ (link conferido)
+Datasets reais de malhas de controle óleo&gás (GIMSCOP/UFRGS)
+
+## UMI-555 · SACAC — International Stiction/Control Loop DB
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Malha de controle (oscilação/stiction) | Licença: Copyright formal confirmado: "Copyright 2005 - The South African Council for Automation an [restrita] | Link: https://sacac.org.za/resources/ (link conferido)
+DB internacional de stiction / malhas de controle
+
+## UMI-556 · ODADS — Oscillation Detection Artificial Dataset (GIMSCOP/UFRGS)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Malha de controle (oscilação/stiction) | Licença: não localizada [não localizada] | Link: https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/ (link conferido)
+Dataset artificial SISO para detecção de oscilação (GIMSCOP)
+
+## UMI-557 · Oscillation Detection Artificial Dataset (GIMSCOP/UFRGS — SISO Viewer/ODADS)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Malha de controle (oscilação/stiction) | Licença: Proprietary/Restricted — confirmado por 2 fontes (curadoria GitHub jonathanwvd cita campo  [restrita] | Link: https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/ (link conferido)
+Página-fonte GIMSCOP/UFRGS (SISO Viewer): contém o software SISO Viewer e 2 datasets distintos, UMI-556 (ODADS, sintético) e UMI-558 (SISO-RAW/SEL/SAMP, real)
+
+## UMI-558 · SISO-RAW/SEL/SAMP — dados reais de malha de controle óleo&gás (GIMSCOP/UFRGS)
+Eixo: Estado de equipamento e integridade | Tipo: base | Técnica: Malha de controle (oscilação/stiction) | Licença: não localizada [não localizada] | Link: https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/ (link conferido)
+Dados reais SISO de malhas de controle óleo&gás
+
+## UMI-559 · Tennessee Eastman Process (TEP) Simulation Dataset
+Eixo: Digital Twin & Processo | Tipo: base | Técnica: Tennessee Eastman (processo benchmark) | Licença: Aberto [triagem por outra IA] | Link: https://github.com/camaramm/tennessee-eastman-profBraatz (link conferido)
+Fonte do catálogo v11 (tipo: Catálogo/Datasheet comercial)
+
+## UMI-560 · Energy Institute (Heat Exchangers)
+Eixo: Simulação de Processo | Tipo: base | Técnica: Trocador de calor (NTU) | Licença: RESTRITO típico [restrita] | Link: https://www.energyinst.org/ (link conferido)
+Instituto de energia; publicações/normas, não dataset baixável
+
+## UMI-561 · Heat Exchanger Fouling EIS Dataset
+Eixo: Simulação de Processo | Tipo: base | Técnica: Trocador de calor (NTU) | Licença: CC BY 4.0 (nao verificado no registro; acesso ao proprio dataset requer solicitacao) [triagem por outra IA] | Link: https://rodare.hzdr.de/record/3101 (link conferido)
+Incrustação de trocador via EIS (espectroscopia de impedância)
+
+## UMI-562 · Valve Plate Fault Prediction Dataset (Piston Pump)
+Eixo: Simulação de Processo | Tipo: base | Técnica: Trocador de calor (NTU) | Licença: não verificado [a confirmar] | Link: https://www.kaggle.com/datasets/mbjunior/valve-plate-failure-prediction-in-hydra (link conferido)
+Falha de placa de válvula em bomba de pistão; adjacente a trocador
+
+## UMI-563 · Heat Exchanger Fouling RUL Dataset (Ardsomang et al.)
+Eixo: Simulação de Processo | Tipo: base | Técnica: Trocador de calor (NTU) | Licença: Verificar [a confirmar] | Link: https://papers.phmsociety.org/index.php/phmconf/article/download/2773/1719 (link conferido)
+RUL de incrustação de trocador de calor (paper PHM)
+
+## UMI-564 · ML-Turbulence Modelling for Heat Exchangers Dataset
+Eixo: Simulação de Processo | Tipo: base | Técnica: Trocador de calor (NTU) | Licença: CC BY-NC-SA 4.0 (dados) — 'licensed by TOFFEEAM LIMITED under CC BY-NC-SA 4.0'; código sob [triagem por outra IA] | Link: https://github.com/TOffeeAM/ml-turbulence-modelling (link conferido)
+Modelagem de turbulência ML para trocadores; código/dados de exemplo
+
+## UMI-565 · Samson VDI 3805 Data Exchange
+Eixo: Simulação de Processo | Tipo: norma | Técnica: Válvula de controle (Cv/curva) | Licença: RESTRITO típico [restrita] | Link: https://www.samsongroup.com/en/downloads/software-drivers/vdi-3805/ (link conferido)
+Troca de dados VDI 3805 (Samson); formato de produto, não séries de operação
+
+## UMI-566 · KSB Digital Product Data (BIM/VDI)
+Eixo: Simulação de Processo | Tipo: outro | Técnica: Válvula de controle (Cv/curva) | Licença: RESTRITO [restrita] | Link: https://www.ksb.com/en-tw/tools/digital-product-data (link conferido)
+Dados digitais de produto KSB (BIM/VDI)
+
+## UMI-567 · Emerson - Valve Technical Data Sheets
+Eixo: Simulação de Processo | Tipo: outro | Técnica: Válvula de controle (Cv/curva) | Licença: RESTRITO [restrita] | Link: https://www.emerson.com/en-us/automation/valves (link conferido)
+Fichas técnicas de válvulas Emerson
+
+## UMI-568 · DAMADICS Actuator Benchmark (Lublin Sugar Factory)
+Eixo: Simulação de Processo | Tipo: base | Técnica: Válvula de controle (Cv/curva) | Licença: Open (benchmark) [triagem por outra IA] | Link: https://iair.mchtr.pw.edu.pl/Damadics (link conferido)
+Benchmark clássico de atuador/válvula (açúcar Lublin); falhas reais + simuladas
+
+## UMI-569 · SISO Viewer (GIMSCOP/UFRGS)
+Eixo: Estado de equipamento e integridade | Tipo: ferramenta | Técnica: Malha de controle (oscilação/stiction) | Licença: A confirmar (licença do software não lida; a página-fonte traz o aviso "Copyright ©2020 GI [a confirmar] | Link: https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/ (link conferido)
+Software SISO Viewer, citado na página-fonte GIMSCOP/UFRGS (UMI-557) junto de dois datasets (UMI-556 e UMI-558). A planilha não traz a função exata do software: confirmar na fonte.

@@ -1,0 +1,17 @@
+# Catálogo UMI
+
+> 569 itens em 20 eixos; licença verificada na fonte em 62. Ferramentas, bases de dados e normas de engenharia de processos, materiais e dados industriais.
+
+Observação: o app também mostra uma camada de 971 fontes de dados (inspeção heurística, não verificada); ela não consta desta versão em texto.
+
+## Páginas
+- [Itens por eixo](https://projetoindustrial.github.io/umi/catalogo/)
+- [Cadeias e receitas](https://projetoindustrial.github.io/umi/cadeias.html)
+
+## Dados
+- [CSV](https://projetoindustrial.github.io/umi/dados/catalogo.csv)
+- [JSONL](https://projetoindustrial.github.io/umi/dados/catalogo.jsonl)
+- [llms-full.txt](https://projetoindustrial.github.io/umi/llms-full.txt)
+
+## Aviso
+A licença só é firme se estiver "verificada na fonte" (62 itens). Dados de 06/11/2026.

@@ -1,3 +1,4 @@
+# Em subpasta o robots.txt é ignorado; vale o da raiz do domínio.
 User-agent: *
 Allow: /
 Sitemap: https://projetoindustrial.github.io/umi/sitemap.xml

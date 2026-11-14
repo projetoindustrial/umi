@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://projetoindustrial.github.io/umi/</loc></url>
+  <url><loc>https://projetoindustrial.github.io/umi/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/cadeias.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/compliance-e-seguranca.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/digital-twin-processo.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/economia.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/estado-de-equipamento-e-integridade.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/fair-proveniencia.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/fundacao-semantica.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/fusao-incerteza-ml.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/identificacao-bibliotecas.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/padroes-formatos-e-validacao.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/processamento-analise-espectral.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/runtime-do-digital-twin.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/sem-eixo-a-definir.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/simulacao-de-processo.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/simulacao-espectral-instrumental.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/stack-de-implementacao.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/supply-chain-e-footprint.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/termodinamica-e-propriedades.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/verticais-de-processo.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/visualizacao-ui.html</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://projetoindustrial.github.io/umi/catalogo/visao-industrial.html</loc><lastmod>2026-11-07</lastmod></url>
 </urlset>
