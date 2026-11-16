@@ -1,4 +1,4 @@
-# Catálogo UMI
+# Bancada Industrial
 
 > 569 itens em 20 eixos; licença verificada na fonte em 62. Ferramentas, bases de dados e normas de engenharia de processos, materiais e dados industriais.
 

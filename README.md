@@ -1,4 +1,4 @@
-# Catálogo UMI
+# Bancada Industrial
 
 Catálogo de consulta e triagem de ferramentas técnicas abertas, bases de dados e normas de engenharia de processos, materiais e dados industriais, feito para o celular.
 

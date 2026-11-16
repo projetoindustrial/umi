@@ -1,4 +1,4 @@
-# Dados abertos — Catálogo UMI
+# Dados abertos — Bancada Industrial
 
 - `catalogo.csv` — uma linha por item, colunas: i, n, e, t, tc, d, l, lc, ld, u, us, un, c, nc, a, r, al, cp, sc.
 - `catalogo.jsonl` — os mesmos itens, um objeto JSON por linha.
