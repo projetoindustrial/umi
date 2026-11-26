@@ -32,3 +32,7 @@ Abra uma [issue](https://github.com/projetoindustrial/umi/issues) com o ID do it
 ## Sobre este repositório
 
 Contém só os arquivos do site (`index.html`, `data.json`, `chains.json`, `sw.js`, manifesto e ícones). A documentação de trabalho fica em outro repositório.
+
+## Licença
+
+O código deste repositório está sob a licença [MIT](LICENSE). Dados, nomes, textos e marcas de terceiros citados ou reunidos aqui continuam sob as licenças e os direitos de cada fonte e não são cobertos por esta licença.
